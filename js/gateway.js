@@ -1253,7 +1253,7 @@ SharkGame.Gateway.Messages = {
             messages: [
                 "You are a traveller like any other.",
                 "I see you here more than ever. Can you see me?",
-                "Well met, shark friend.",
+                "What do you remember?",
                 "You remind me of myself, from a long, long time ago.",
                 "Welcome back to irregular irreality.",
             ],
@@ -1284,13 +1284,7 @@ SharkGame.Gateway.Messages = {
         },
     ],
     lastPlanetBased: {
-        start: [
-            "What brings you here, strange one?",
-            "Hello, newcomer.",
-            "Ah. Welcome, new one.",
-            "Your journey has only just begun.",
-            "Welcome to the end of the beginning.",
-        ],
+        start: ["What brings you here, strange one?", "Your journey has only just begun.", "Welcome to the end of the beginning."],
         marine: [
             "Did your last ocean feel all too familiar?",
             "Do you bring life, or do you bring death, worldbuilder?",
