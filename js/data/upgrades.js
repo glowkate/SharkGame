@@ -2766,7 +2766,7 @@ SharkGame.Upgrades = {
                     `crystal`,
                     false,
                     2,
-                    background
+                    background,
                 )} conversion effectiveness ×25`;
             },
         },
@@ -3189,7 +3189,7 @@ SharkGame.Upgrades = {
                     `crab`,
                     false,
                     2,
-                    background
+                    background,
                 )}`;
             },
         },
@@ -3212,7 +3212,7 @@ SharkGame.Upgrades = {
                     `algae`,
                     false,
                     2,
-                    background
+                    background,
                 )}`;
             },
         },
@@ -3303,7 +3303,7 @@ SharkGame.Upgrades = {
                     `shoveler`,
                     false,
                     2,
-                    background
+                    background,
                 )} impact ×2, ${sharktext.getResourceName(`researcher`, false, 2, background)} impact ×2`;
             },
         },
@@ -3383,12 +3383,12 @@ SharkGame.Upgrades = {
                     `shoveler`,
                     false,
                     2,
-                    background
+                    background,
                 )} and ${sharktext.getResourceName(`researcher`, false, 2, background)} cost 80% less ${sharktext.getResourceName(
                     `porite`,
                     false,
                     2,
-                    background
+                    background,
                 )}`;
             },
         },
@@ -3531,7 +3531,7 @@ SharkGame.Upgrades = {
                     `coralFarm`,
                     false,
                     2,
-                    background
+                    background,
                 )} cost 80% less ${sharktext.getResourceName(`sand`, false, 2, background)}`;
             },
         },
@@ -4042,7 +4042,7 @@ SharkGame.Upgrades = {
                     `sand`,
                     false,
                     2,
-                    background
+                    background,
                 )}`;
             },
         },
@@ -4133,7 +4133,7 @@ SharkGame.Upgrades = {
                     `crystal`,
                     false,
                     2,
-                    background
+                    background,
                 )}`;
             },
         },
@@ -4316,7 +4316,7 @@ SharkGame.Upgrades = {
                     `seagrass`,
                     false,
                     1,
-                    background
+                    background,
                 )} ×10`;
             },
         },

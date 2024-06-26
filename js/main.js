@@ -265,7 +265,7 @@ SharkGame.Main = {
         $("#gameName").html("- " + SharkGame.GAME_NAME + " -");
         $("#versionNumber").html(
             `New Frontiers v ${SharkGame.VERSION} - ${SharkGame.VERSION_NAME}<br/>\
-Mod of v ${SharkGame.ORIGINAL_VERSION}`
+Mod of v ${SharkGame.ORIGINAL_VERSION}`,
         );
         $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/dev", (data) => {
             SharkGame.COMMIT_SHA = data.sha;
@@ -711,7 +711,7 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`
                     .html(
                         `You see a new update swimming towards you.<br> On it you can just make out the words <br>"${
                             data.commit.message.split("\n")[0]
-                        }". <br>Click to update.`
+                        }". <br>Click to update.`,
                     )
                     .on("click", () => {
                         try {
@@ -756,8 +756,8 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`
                 $("<li>").append(
                     $("<button>")
                         .addClass("min" + (disableButton ? " disabled" : ""))
-                        .attr("id", "buy-" + amount)
-                )
+                        .attr("id", "buy-" + amount),
+                ),
             );
             let label = customLabel ? customLabel + " " : "buy ";
             if (amount < 0) {
@@ -801,8 +801,8 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`
                     .attr("id", "custom-input")
                     .attr("value", 1)
                     .attr("min", "1")
-                    .attr("disabled", SharkGame.Settings.current.buyAmount !== "custom")
-            )
+                    .attr("disabled", SharkGame.Settings.current.buyAmount !== "custom"),
+            ),
         );
         document.getElementById("custom-input").addEventListener("input", main.onCustomChange);
         if (SharkGame.Settings.current.customSetting) {
