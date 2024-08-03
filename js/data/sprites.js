@@ -1295,4 +1295,12 @@ SharkGame.Sprites = {
             h: 24,
         },
     },
+    "actions/prySponge2": {
+        frame: {
+            x: 500,
+            y: 0,
+            w: 50,
+            h: 50,
+        },
+    },
 };
