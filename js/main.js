@@ -905,6 +905,19 @@ SharkGame.Button = {
 };
 
 SharkGame.Changelog = {
+    "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20240803a": [
+        "Added a new upgrade to the starter world: Crystal Scoops, to increase the speed of that world dramatically and make for slightly more interesting crab-to-laser-ray competition.",
+        "Added 4 new home message images, courtesy of stormwalker.",
+        "This happened silently in January, but: fixed the negative world time bug.",
+        "Made a few changes to older ones.",
+        "Fixed the shrimp home message image not appearing.",
+        "Fixed the lobster home message image not appearing.",
+        "Fixed the sponge filter sprite not appearing.",
+        "Fixed the pry sponge sprite disappearing in Volcanic.",
+        "Edited some home message requirements.",
+        "Edited the home message text at the end of Shrouded and Abandoned.",
+        "Edited some of the random game tab names.",
+    ],
     "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20230618a": [
         "Added Tempestuous worldtype.",
         "Added home message history. You may now freely scroll back and forth between previously seen home messages while in a world.",
