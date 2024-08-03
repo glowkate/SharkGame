@@ -387,7 +387,7 @@ SharkGame.HomeMessages = {
             {
                 name: "abandoned-done",
                 unlock: { upgrade: ["artifactAssembly"] },
-                message: "The gate buzzes to life, an ethereal glow on the other side...and through it, faintly, you can see a blue ocean.",
+                message: "The gate buzzes to life, glowing ethereally. If you squint, you can barely make out a blue ocean on the other side.",
             },
             {
                 name: "abandoned-tar-one",
@@ -449,7 +449,7 @@ SharkGame.HomeMessages = {
                 name: "shrouded-truth",
                 unlock: { totalResource: { sacrifice: 9000000000000000 } },
                 message:
-                    "A team of eels get your attention. They have something from the caverns: it's a book. You can't read a thing inside it, but...that looks like arcana...and that looks like...a warning.",
+                    "A team of eels get your attention. They have something from the caverns: it's a book. You can't read a thing inside it, but... that looks like arcana... and this looks like a warning.",
             },
         ],
 
