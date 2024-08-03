@@ -348,7 +348,7 @@ SharkGame.HomeMessages = {
             },
             {
                 name: "abandoned-octopuses",
-                unlock: { totalResource: { octopus: 8 } },
+                unlock: { totalResource: { octopus: 16 } },
                 message: "More octopuses join. They work in perfect unison.",
             },
             {
@@ -397,7 +397,7 @@ SharkGame.HomeMessages = {
             },
             {
                 name: "abandoned-tar-two",
-                unlock: { resource: { tar: 200 } },
+                unlock: { resource: { tar: 500 } },
                 message: "Only machines will remain. All is lost. <span class='smallDesc'>All is lost.</span>",
                 transient: true,
             },
@@ -460,7 +460,7 @@ SharkGame.HomeMessages = {
             },
             {
                 name: "frigid-ice-one",
-                unlock: { resource: { ice: 100 } },
+                unlock: { resource: { ice: 20 } },
                 message: "You feel tired.",
             },
             {
