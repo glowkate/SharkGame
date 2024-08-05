@@ -907,7 +907,7 @@ SharkGame.Button = {
 SharkGame.Changelog = {
     "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20240805a": [
         "Added a new home message image, courtesy of <a href='https://x.com/stormwalker124'>stormwalker</a>.",
-        "Fixed a bug where a home message image in haven wasn't appearing.",
+        "Fixed a bug where a home message image in Haven wasn't appearing.",
     ],
     "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20240803a": [
         "Added a new upgrade to the starter world: Crystal Scoops, to increase the speed of that world dramatically and make for slightly more interesting crab-to-laser-ray competition.",
