@@ -102,9 +102,9 @@ $.extend(SharkGame, {
     ],
     GAME_NAME: null,
     ACTUAL_GAME_NAME: "Shark Game",
-    VERSION: "20240803a",
+    VERSION: "20240805a",
     ORIGINAL_VERSION: 0.71,
-    VERSION_NAME: "The Volcanic Update",
+    VERSION_NAME: "The Tempetuous Update",
     EPSILON: 1e-6, // floating point comparison is a joy
     BIGGEST_SAFE_NUMBER: 1000000000000,
     MAX: 1e300,
