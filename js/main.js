@@ -787,10 +787,10 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`,
                     thisButton.addClass("disabled");
                 })
                 .on("mouseenter", () => {
-                    $(`#tooltipbox`).html(`${label} amount of things`);
+                    $("#tooltipbox").html(`${label} amount of things`);
                 })
                 .on("mouseleave", () => {
-                    $(`#tooltipbox`).html(``);
+                    $("#tooltipbox").html("");
                 });
         });
         buttonList.append(
