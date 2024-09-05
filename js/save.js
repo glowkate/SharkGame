@@ -77,7 +77,7 @@ SharkGame.Save = {
         if (saveDataString.substring(0, 2) === "<~") {
             try {
                 saveDataString = ascii85.decode(saveDataString);
-            } catch (err) {
+            } catch {
                 throw new Error(
                     "Saved data looked like it was encoded in ascii85, but it couldn't be decoded. Can't load. Your save: " + saveDataString,
                 );
@@ -89,7 +89,7 @@ SharkGame.Save = {
             // decompress string
             try {
                 saveDataString = pako.inflate(saveDataString, { to: "string" });
-            } catch (err) {
+            } catch {
                 throw new Error("Saved data is compressed, but it can't be decompressed. Can't load. Your save: " + saveDataString);
             }
         }
@@ -98,9 +98,8 @@ SharkGame.Save = {
         if (saveDataString.charAt(0) === "{") {
             try {
                 return JSON.parse(saveDataString);
-            } catch (err) {
-                const errMessage = "Couldn't load save data. It didn't parse correctly. Your save: " + saveDataString;
-                throw new Error(errMessage);
+            } catch {
+                throw new Error("Couldn't load save data. It didn't parse correctly. Your save: " + saveDataString);
             }
         }
     },
