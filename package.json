@@ -8,15 +8,13 @@
     "scripts": {
         "postinstall": "yarn simple-git-hooks",
         "fix": "eslint . --fix",
-        "lint": "yarn lint:eslint",
-        "test": "yarn lint:eslint:strict",
+        "lint": "eslint .",
+        "test": "eslint . --max-warnings=0",
         "css": "yarn scss && yarn scss:big",
         "scss": "sass ./styles/style.scss:./css/style.min.css --style=compressed",
         "scss:big": "sass ./styles/style.scss:./css/style.css",
         "scss:w": "yarn scss --watch",
-        "scss:w:big": "yarn scss:big --watch",
-        "lint:eslint": "eslint .",
-        "lint:eslint:strict": "yarn lint:eslint --max-warnings=0"
+        "scss:w:big": "yarn scss:big --watch"
     },
     "devDependencies": {
         "@eslint/js": "^9.9.1",
