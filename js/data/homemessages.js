@@ -448,8 +448,7 @@ SharkGame.HomeMessages = {
             {
                 name: "shrouded-truth",
                 unlock: { totalResource: { sacrifice: 9000000000000000 } },
-                message:
-                    "A team of eels get your attention. They have something from the caverns: it's a book. You can't read a thing inside it, but... that looks like arcana... and this looks like a warning.",
+                message: "A team of eels get your attention. They have something from the caverns: it's a book, filled with images of pink crystals.",
             },
         ],
 
