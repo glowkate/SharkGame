@@ -91,7 +91,6 @@ $.extend(SharkGame, {
         "DUNGEONS",
         "The Adventure Continues",
         "To Be Continued",
-        "#TeamSeas",
         "Sharks of Rage",
         "Bedrock? Edition",
         "Java(script) Edition",
