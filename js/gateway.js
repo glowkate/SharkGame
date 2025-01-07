@@ -33,6 +33,9 @@ SharkGame.Gateway = {
     },
 
     enterGate(loadingFromSave) {
+        // To help diagnose negative time bug
+        // Can remove if/when that gets fixed
+        SharkGame.Save.createTaggedSave("preGateway");
         SharkGame.PaneHandler.wipeStack();
 
         SharkGame.OverlayHandler.enterGateway();
