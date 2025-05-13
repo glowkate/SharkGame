@@ -325,7 +325,7 @@ SharkGame.HomeMessages = {
             {
                 name: "volcanic-hope",
                 unlock: { upgrade: ["apologeticAmnesty"] },
-                message: `"Perhaps not all sharks are so vile," says the king of shrimps. "Perhaps, you will be different."`,
+                message: "\"Perhaps not all sharks are so vile,\" says the king of shrimps. \"Perhaps, you will be different.\"",
             },
         ],
 
