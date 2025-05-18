@@ -269,6 +269,10 @@ SharkGame.FunFacts = {
         ],
         investigator: ["We are not sure where the octopuses get their funny hats. Presumably they just find them."],
         eggBrooder: ["This is gross."],
+        collectorCrab: [
+            "The Dromia personata is a species of crab that take sponges and attach them to their backs as a method of camouflage.",
+            "Don't touch the sponge on their backs. They're very protective about it.",
+        ],
         delphinium: [
             "To a person, delphinium is glitter on blue gold. To a shark, it's headache-inducing.",
             "The dolphin recipe for delphinium is ancient. It took them many generations to perfect the process, or so they say.",
@@ -277,6 +281,7 @@ SharkGame.FunFacts = {
         ],
         ice: ["In the original shark game, ice used to eat away your resources instead of slowing their production."],
         tar: ["In the original shark game, tar was gained passively. Machines produced basically none of it."],
+        
 
     },
 
