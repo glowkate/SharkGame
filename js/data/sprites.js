@@ -815,6 +815,14 @@ SharkGame.Sprites = {
             h: 50,
         },
     },
+    "technologies/assistedExtraction": {
+        frame: {
+            x: 700,
+            y: 450,
+            w: 50,
+            h: 50,
+        },
+    },
     "technologies/automation": {
         frame: {
             x: 550,
@@ -835,6 +843,14 @@ SharkGame.Sprites = {
         frame: {
             x: 550,
             y: 500,
+            w: 50,
+            h: 50,
+        },
+    },
+    "technologies/cavernousContact": {
+        frame: {
+            x: 700,
+            y: 400,
             w: 50,
             h: 50,
         },
@@ -883,6 +899,14 @@ SharkGame.Sprites = {
         frame: {
             x: 250,
             y: 550,
+            w: 50,
+            h: 50,
+        },
+    },
+    "technologies/crystalSpear": {
+        frame: {
+            x: 700,
+            y: 350,
             w: 50,
             h: 50,
         },
@@ -1007,6 +1031,22 @@ SharkGame.Sprites = {
             h: 50,
         },
     },
+    "techologies/highEnergyFusion": {
+        frame: {
+            x: 700,
+            y: 50,
+            w: 50,
+            h: 50,
+        },
+    },
+    "technologies/investigatetions": {
+        frame: {
+            x: 700,
+            y: 150,
+            w: 50,
+            h: 50,
+        },
+    },
     "technologies/iterativeDesign": {
         frame: {
             x: 600,
@@ -1047,6 +1087,22 @@ SharkGame.Sprites = {
             h: 50,
         },
     },
+    "technologies/octalEfficiency": {
+        frame: {
+            x: 700,
+            y: 200,
+            w: 50,
+            h: 50,
+        },
+    },
+    "technologies/octopusMethodology": {
+        frame: {
+            x: 700,
+            y: 250,
+            w: 50,
+            h: 50,
+        },
+    },
     "technologies/pearlConversion": {
         frame: {
             x: 50,
@@ -1079,6 +1135,14 @@ SharkGame.Sprites = {
             h: 50,
         },
     },
+    "technologies/sandbagging": {
+        frame: {
+            x: 700,
+            y: 300,
+            w: 50,
+            h: 50,
+        },
+    },
     "technologies/seabedGeology": {
         frame: {
             x: 250,
@@ -1091,6 +1155,14 @@ SharkGame.Sprites = {
         frame: {
             x: 300,
             y: 600,
+            w: 50,
+            h: 50,
+        },
+    },
+    "techologies/sociology": {
+        frame: {
+            x: 700,
+            y: 100,
             w: 50,
             h: 50,
         },
@@ -1287,6 +1359,14 @@ SharkGame.Sprites = {
             h: 32,
         },
     },
+    "aspects/destinyGamble": {
+        frame: {
+            x: 718,
+            y: 650,
+            w: 32,
+            h: 32,
+        },
+    },
     "aspects/doubleTime": {
         frame: {
             x: 128,
@@ -1306,6 +1386,14 @@ SharkGame.Sprites = {
     "aspects/internalCalculator": {
         frame: {
             x: 192,
+            y: 650,
+            w: 32,
+            h: 32,
+        },
+    },
+    "aspects/overtime": {
+        frame: {
+            x: 686,
             y: 650,
             w: 32,
             h: 32,
