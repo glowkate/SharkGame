@@ -887,6 +887,14 @@ SharkGame.Sprites = {
             h: 50,
         },
     },
+    "technologies/creviceContemplation":{
+        frame:{
+            x: 700,
+            y: 0,
+            w: 50,
+            h: 50,
+        },
+    },
     "technologies/crustaceanBiology": {
         frame: {
             x: 300,
