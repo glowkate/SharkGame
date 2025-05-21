@@ -66,8 +66,7 @@ SharkGame.FunFacts = {
 
     worldBased: {
         frigid: {
-            messages: [
-                "When water freezes, it expands a little bit. That's why full bottles of water break or explode when put in the freezer.",
+            messages: ["When water freezes, it expands a little bit. That's why full bottles of water break or explode when put in the freezer."]
         },
         volcanic: {
             messages: [
@@ -194,10 +193,10 @@ SharkGame.FunFacts = {
             // "Sharks would definitely not have a way of acquiring most kinds of jellyfish in real life.",
             "Jellyfish can be extremely dangerous. Some kinds of box jellyfish have fatal stings.",
             "Turritopsis dohrnii is a species of jellyfish that can restart its lifecycle at will. In theory, this grants it an infinite lifespan.",
-            "Jellyfishes are very old, evolutionarily speaking. A few jellyfish fossils have been dated to approximately 500 million years ago.",
-            "The gastric system of jellyfishes has only one hole, which means that food comes out from the same place as it goes in. Ewwww.",
-            "Jellyfishes are from the 'cnidaria' phylum, the same phylum of sea anemones.",
-            "Despite its name and looking like jellyfishes, comb jellies are not related to jellyfishes. They are a ctenophore.",
+            "Jellyfish are very old, evolutionarily speaking. A few jellyfish fossils have been dated to approximately 500 million years ago.",
+            "The gastric system of jellyfish has only one hole, which means that food comes out from the same place as it goes in. Ewwww.",
+            "Jellyfish are from the 'cnidaria' phylum, the same phylum of sea anemones.",
+            "Despite its name and looking like a jellyfish, comb jellies are not related to jellyfish. They are ctenophores.",
             // do more research into jellies
             // On it, boss -Biggest Brian
         ],
@@ -207,6 +206,7 @@ SharkGame.FunFacts = {
             "Sharkonium would remind a person of steel tinted purple. To a shark, it looks like shiny nothing.",
             "Sharkonium has a ",
         ],
+        // was the "Sharkonium has a " supposed to be like that?
         porite: [
             "The idea for porite comes from the structure of bones, which have spongey insides that reduce their weight while retaining their strength.",
             "Porite is stronger than glass, but brittle under pressure, so it's only appropriate to make tools, not machines.",
@@ -238,8 +238,8 @@ SharkGame.FunFacts = {
             "Sponge is not a plant, it is an animal. A weird, amorphous animal.",
             "The pores in sponges are designed to help them filter water for food at maximum efficiency.",
             "Many species of sponge have a mualistic realitionship with species of algae. The algaes use photosynthesis to produce food for the sponges.",
-            "Sponges have bacteria inside their own cells that help with the metabolism of many substances. This is called 'endosynbiosis'.",
-            "The first animal formed, the urmetazoa, was something akin to a sponge.",
+            "Sponges have bacteria inside their own cells that help with the metabolism of many substances. This is called 'endosymbiosis'.",
+            "The first animal formed, the 'urmetazoa', was something akin to a sponge.",
         ],
         algae: [
             "Algae comes in many different shapes, sizes, and forms. A very notable one is 'valonia ventricosa,' a species where every individual cell can grow larger than a grape.",
