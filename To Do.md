@@ -56,7 +56,7 @@ Clean Slate        unlocks refund buttons,
 ~~Destiny Gamble        unlock reroll button for worlds,~~ 
 ~~Overtime        gain minute hand time while actively playing,~~
 ~~The Plan        reduce frenzy costs,~~ (courtesy of Glowkate)
-Mechanical Manifestation        cheaper artificial materials from auto-transmuters and similar things,
+~~Mechanical Manifestation        cheaper artificial materials from auto-transmuters and similar things,~~
 Collective Cooperation        multiplies token effect, non-core
 
 ## Technologies
@@ -95,7 +95,7 @@ Crystalline Construction        learn even more about the dolphin machines or wh
 ### MARINE
 ~~Calcinium Studies        lobsters teach you about calcinium,
 Calcinium Robotics        unlock calcinium cyborg stuff,~~
-Calcinium Cybernetics        control robotic tools manually by integrating them,
+~~Calcinium Cybernetics        control robotic tools manually by integrating them,~~
 Bioengineering        put cybernetics into everyone,
 ~~High-Energy Fusion        more efficient conversion,~~
 Mobius Shells        something horrifying
