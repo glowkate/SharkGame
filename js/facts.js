@@ -204,13 +204,14 @@ SharkGame.FunFacts = {
             "There is nothing suspicious about the machines.",
             "Small and medium-scale sharkonium machines do not require a power source. This is because sharkonium is made with crystals, which contain latent magic.",
             "Sharkonium would remind a person of steel tinted purple. To a shark, it looks like shiny nothing.",
-            "Sharkonium has a ",
+            "Sharkonium does not taste like grapes. No, I will not let you taste it for yourself.",
         ],
-        // was the "Sharkonium has a " supposed to be like that?
+        // I just decided to put something in to complete the sentence, it was driving me nuts -Biggest Brian
         porite: [
             "The idea for porite comes from the structure of bones, which have spongey insides that reduce their weight while retaining their strength.",
             "Porite is stronger than glass, but brittle under pressure, so it's only appropriate to make tools, not machines.",
             "Porite is a kind of glass. It melts at a low temperature and sets nicely, so broken tools are easily recycled.",
+            "No, you can't eat it.",
         ],
         calcinium: [
             "Calcinium was inspired by the appearance and texture of limestone and seashells.",
@@ -281,6 +282,11 @@ SharkGame.FunFacts = {
         ],
         ice: ["In the original shark game, ice used to eat away your resources instead of slowing their production."],
         tar: ["In the original shark game, tar was gained passively. Machines produced basically none of it."],
+        calciniumConverter: [
+            "Machine-brain interfaces, such as the ones used by lobsters, actually already exist.",
+            "While the first machine-brain interface was created by the science shark team, in the real world, it was developed by brazilian scientist 'Miguel Niconelis'.",
+            "Machine-brain interfaces are normally done without any surgery, but the lobsters thought it looked cooler to jam the wires in their skulls.",
+                            ]
         
 
     },
