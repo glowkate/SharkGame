@@ -96,7 +96,7 @@ Crystalline Construction        learn even more about the dolphin machines or wh
 ~~Calcinium Studies        lobsters teach you about calcinium,
 Calcinium Robotics        unlock calcinium cyborg stuff,~~
 ~~Calcinium Cybernetics        control robotic tools manually by integrating them,~~
-Bioengineering        put cybernetics into everyone,
+~~Bioengineering        put cybernetics into everyone,~~
 ~~High-Energy Fusion        more efficient conversion,~~
 Mobius Shells        something horrifying
 
@@ -135,7 +135,7 @@ Cumulus Control        fix the generator, turn back on the machine, save the wor
 
 ### VOLCANIC
 Pack Hunting        rays hunt in packs,
-~~Curious Collection        understand coral, kinda,~~
+~~Curious Collection        understand coral, kinda,~~ (better version made by Glowkate, is the one found in the sprite sheet)
 Consistent Communication        let shrimps know you wont steal from them,
 ~~Sociology        what are social structures???,~~
 Proper Practices        grow sponges in rows,
