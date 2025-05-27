@@ -799,7 +799,7 @@ SharkGame.Upgrades = {
                 ancientPart: 88,
             },
             required: {
-                upgrades: ["farAbandonedExploration", "octalEfficiency"],
+                upgrades: ["farExploration", "octalEfficiency"],
                 seen: ["ancientPart"],
             },
             effect: {
@@ -819,7 +819,7 @@ SharkGame.Upgrades = {
                 ancientPart: 350,
             },
             required: {
-                upgrades: ["farAbandonedExploration", "engineering"],
+                upgrades: ["farExploration", "engineering"],
                 seen: ["ancientPart"],
             },
             effect: {
@@ -1281,7 +1281,7 @@ SharkGame.Upgrades = {
                 science: 2000000000,
             },
             required: {
-                upgrades: ["whaleSong", "retroactiveRecordkeeping", "farHavenExploration"],
+                upgrades: ["whaleSong", "retroactiveRecordkeeping", "farExploration"],
             },
             effect: {
                 incomeMultiplier: {
