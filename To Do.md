@@ -92,13 +92,13 @@ Imperial Designs        employ the original designs for dolphin machines,
 Ancient Agriculture        use our records to understand how the dolphins used to farm,
 Crystalline Construction        learn even more about the dolphin machines or whatever
 
-### MARINE
-~~Calcinium Studies        lobsters teach you about calcinium,
-Calcinium Robotics        unlock calcinium cyborg stuff,~~
+### ~~MARINE~~
+~~Calcinium Studies        lobsters teach you about calcinium,~~
+~~Calcinium Robotics        unlock calcinium cyborg stuff,~~
 ~~Calcinium Cybernetics        control robotic tools manually by integrating them,~~
 ~~Bioengineering        put cybernetics into everyone,~~
 ~~High-Energy Fusion        more efficient conversion,~~
-Mobius Shells        something horrifying
+~~Mobius Shells        something horrifying~~
 
 ### SHROUDED
 ~~Crevice Contemplation        understand what eel pits actually are,~~
