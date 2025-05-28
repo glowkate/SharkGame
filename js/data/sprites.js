@@ -1095,7 +1095,7 @@ SharkGame.Sprites = {
         h: 50
       },
     },
-    "technologies/high-EnergyFusion": {
+    "technologies/highEnergyFusion": {
       frame: {
         x: 100,
         y: 450,
@@ -1103,7 +1103,7 @@ SharkGame.Sprites = {
         h: 50
       },
     },
-    "technologies/investi-gate-tions": {
+    "technologies/investigatetions": {
       frame: {
         x: 150,
         y: 450,
