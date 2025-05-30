@@ -98,13 +98,13 @@ Crystalline Construction        learn even more about the dolphin machines or wh
 ~~Calcinium Cybernetics        control robotic tools manually by integrating them,~~
 ~~Bioengineering        put cybernetics into everyone,~~
 ~~High-Energy Fusion        more efficient conversion,~~
-~~Mobius Shells        something horrifying~~
+~~Mobius Shells        something horrifying~~ (courtesy of Glowkate)
 
 ### SHROUDED
 ~~Crevice Contemplation        understand what eel pits actually are,~~
 Arcane Sifting        sift for arcana,
 Arcane Study        elect scholars to study the arcana,
-Arcane Sacrifice        shatter arcana to harness its energy,
+~~Arcane Sacrifice        shatter arcana to harness its energy,~~ (courtesy of Glowkate)
 Ancestral Recall        discover the roots between sharks, rays, and chimaera,
 Arcane Heart        motivate the eels into bravery,
 Arcane Activation        open the gate
