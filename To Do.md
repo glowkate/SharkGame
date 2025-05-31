@@ -102,10 +102,10 @@ Crystalline Construction        learn even more about the dolphin machines or wh
 
 ### SHROUDED
 ~~Crevice Contemplation        understand what eel pits actually are,~~
-Arcane Sifting        sift for arcana,
+~~Arcane Sifting        sift for arcana,~~
 Arcane Study        elect scholars to study the arcana,
 ~~Arcane Sacrifice        shatter arcana to harness its energy,~~ (courtesy of Glowkate)
-Ancestral Recall        discover the roots between sharks, rays, and chimaera,
+~~Ancestral Recall        discover the roots between sharks, rays, and chimaera,~~
 Arcane Heart        motivate the eels into bravery,
 Arcane Activation        open the gate
 
