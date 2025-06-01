@@ -45,19 +45,19 @@
 ## Actions
 I don't actually think there are any missing anymore. Glowkate has made Squid Collective and Dolphin Historian sprites.
 
-## Aspects
-Token of Industry,
-Coordinated Cooperation        multiplies token effect, core,
+## ~~Aspects~~
+~~Token of Industry,~~
+~~Coordinated Cooperation        multiplies token effect, core,~~
 ~~Meditation        unlocks pause,~~ (courtesy of Glowkate)
-Gumption        increase essence gain based on how much you have unspent,
-The Dial,
+~~Gumption        increase essence gain based on how much you have unspent,~~
+~~The Dial,~~
 ~~Distant Foresight        see additional world info ahead of time,~~ (courtesy of Glowkate)
-Clean Slate        unlocks refund buttons,
+~~Clean Slate        unlocks refund buttons,~~
 ~~Destiny Gamble        unlock reroll button for worlds,~~ 
 ~~Overtime        gain minute hand time while actively playing,~~
 ~~The Plan        reduce frenzy costs,~~ (courtesy of Glowkate)
 ~~Mechanical Manifestation        cheaper artificial materials from auto-transmuters and similar things,~~
-Collective Cooperation        multiplies token effect, non-core
+~~Collective Cooperation        multiplies token effect, non-core~~
 
 ## Technologies
 
