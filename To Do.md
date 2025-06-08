@@ -88,7 +88,7 @@ Rapid Recharging        reverse-engineer an old battery to make a new one!
 Dolphin Technology        learn to build dolphin tech,
 ~~Retroactive Recordkeeping        organize the papyrus, unlock historians,~~ (courtesy of Glowkate)
 The Whale Song        piece together the whale's portion of the song,
-Imperial Designs        employ the original designs for dolphin machines,
+~~Imperial Designs        employ the original designs for dolphin machines,~~
 Ancient Agriculture        use our records to understand how the dolphins used to farm,
 Crystalline Construction        learn even more about the dolphin machines or whatever
 
@@ -134,9 +134,9 @@ Supernatural Harvest        magic grass b like,
 Cumulus Control        fix the generator, turn back on the machine, save the world
 
 ### VOLCANIC
-Pack Hunting        rays hunt in packs,
+~~Pack Hunting        rays hunt in packs,~~
 ~~Curious Collection        understand coral, kinda,~~ (better version made by Glowkate, is the one found in the sprite sheet)
-Consistent Communication        let shrimps know you wont steal from them,
+~~Consistent Communication        let shrimps know you wont steal from them,~~
 ~~Sociology        what are social structures???,~~
 Proper Practices        grow sponges in rows,
 Worm Warriors        fight shrimp parasites,
