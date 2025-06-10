@@ -89,8 +89,8 @@ Dolphin Technology        learn to build dolphin tech,
 ~~Retroactive Recordkeeping        organize the papyrus, unlock historians,~~ (courtesy of Glowkate)
 The Whale Song        piece together the whale's portion of the song,
 ~~Imperial Designs        employ the original designs for dolphin machines,~~
-Ancient Agriculture        use our records to understand how the dolphins used to farm,
-Crystalline Construction        learn even more about the dolphin machines or whatever
+~~Ancient Agriculture        use our records to understand how the dolphins used to farm,~~
+~~Crystalline Construction        learn even more about the dolphin machines or whatever~~
 
 ### ~~MARINE~~
 ~~Calcinium Studies        lobsters teach you about calcinium,~~
@@ -108,6 +108,7 @@ Arcane Study        elect scholars to study the arcana,
 ~~Ancestral Recall        discover the roots between sharks, rays, and chimaera,~~
 Arcane Heart        motivate the eels into bravery,
 Arcane Activation        open the gate
+Chasm Exploration 
 
 ### TEMPESTUOUS
 ~~Cavernous Contact        check out the dark backside of the cave,
