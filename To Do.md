@@ -69,9 +69,9 @@ Superior Search Algorithms        learn how to search better,
 High-Energy Fusion        learn to fuse ancient parts (somewhat shared with marine),
 ~~Investi-gate-tions        dedicate an investigation team to understanding the gate,~~
 Mechanised Alchemy         refine the machines,
-~~Eightfold Optimisation        optimize. improve.,~~
+Eightfold Optimisation        optimize. improve.,
 Artifact Assembly        assemble a thing that opens the gate
-Reverse Engineering (kind of)        there's already a sprite in the "old" folder, but it's not implemented.
+~~Reverse Engineering~~ (kind of)        there's already a sprite in the "old" folder, but it's not implemented.
 
 ### FRIGID
 Civil Contact        discover the squid village,
