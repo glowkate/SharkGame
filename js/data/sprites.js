@@ -1111,7 +1111,7 @@ SharkGame.Sprites = {
         h: 50
       },
     },
-    "technologies/enviromentalism": {
+    "technologies/environmentalism": {
       frame: {
         x: 500,
         y: 600,
