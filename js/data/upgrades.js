@@ -772,7 +772,7 @@ SharkGame.Upgrades = {
                 },
             },
         },
-        farAbandonedExploration: {
+        farExploration: {
             name: "Far Exploration",
             desc: "In the distance lies a bunch of weird structures that sharks have dared not enter...so what happens if we do?",
             researchedMessage:
@@ -799,7 +799,7 @@ SharkGame.Upgrades = {
                 ancientPart: 88,
             },
             required: {
-                upgrades: ["farAbandonedExploration", "octalEfficiency"],
+                upgrades: ["farExploration", "octalEfficiency"],
                 seen: ["ancientPart"],
             },
             effect: {
@@ -819,7 +819,7 @@ SharkGame.Upgrades = {
                 ancientPart: 350,
             },
             required: {
-                upgrades: ["farAbandonedExploration", "engineering"],
+                upgrades: ["farExploration", "engineering"],
                 seen: ["ancientPart"],
             },
             effect: {
@@ -1137,7 +1137,7 @@ SharkGame.Upgrades = {
             },
         },
         /* Equivalent of farExploration.. named differently for unlocks or smth I think? */
-        farHavenExploration: {
+        farExploration: {
             name: "Far Exploration",
             desc: "Explore the vast reaches beyond the home ocean, and look for that portal that keeps popping up in dolphin texts.",
             researchedMessage: "Crystal-rich deposits were found, as well as what appears to be the portal of dolphin legend.",
@@ -1281,7 +1281,7 @@ SharkGame.Upgrades = {
                 science: 2000000000,
             },
             required: {
-                upgrades: ["whaleSong", "retroactiveRecordkeeping", "farHavenExploration"],
+                upgrades: ["whaleSong", "retroactiveRecordkeeping", "farExploration"],
             },
             effect: {
                 incomeMultiplier: {
