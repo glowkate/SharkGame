@@ -910,6 +910,9 @@ SharkGame.Button = {
 };
 
 SharkGame.Changelog = {
+    "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20250629a": [
+        "Added a lot of missing sprites courtesy of <a href='https://github.com/glowkate'>Glowkate</a> and <a href='https://www.youtube.com/@biggestbrian'>BiggestBrian</a>",
+    ],
     "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20250127a": [
         "Added a new home message sprite courtesy of <a href='https://github.com/glowkate'>Glowkate</a>.",
     ],
