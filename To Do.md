@@ -139,7 +139,7 @@ Cumulus Control        fix the generator, turn back on the machine, save the wor
 ~~Curious Collection        understand coral, kinda,~~ (better version made by Glowkate, is the one found in the sprite sheet)
 ~~Consistent Communication        let shrimps know you wont steal from them,~~
 ~~Sociology        what are social structures???,~~
-Proper Practices        grow sponges in rows,
+~~Proper Practices        grow sponges in rows,~~
 Worm Warriors        fight shrimp parasites,
 Coral Cloning        discover coral farming,
 Sustainable Solutions        completely stop gathering: only farming now,
