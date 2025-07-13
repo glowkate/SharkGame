@@ -43,7 +43,7 @@
 "No More Curiosity"        Sort of just off to the side, the researchers are compiling their work and filing it away. Looks like that's it! No more things to figure out.
 
 ## Actions
-I don't actually think there are any missing anymore. Glowkate has made Squid Collective and Dolphin Historian sprites.
+
 
 ## ~~Aspects~~
 ~~Token of Industry,~~
@@ -74,7 +74,7 @@ Artifact Assembly        assemble a thing that opens the gate
 ~~Reverse Engineering~~ (kind of)        there's already a sprite in the "old" folder, but it's not implemented.
 
 ### FRIGID
-Civil Contact        discover the squid village,
+~~Civil Contact        discover the squid village,~~
 ~~Assissted Extraction        unlock extraction teams, 1 squid + 1 crab,~~
 Glacial Navigation        extraction teams explore icy areas outside the heat dome,
 Team Spirit        squid lecture us on team spirit,
@@ -85,7 +85,7 @@ Creature Coalition        we have to work together to make progress...,
 Rapid Recharging        reverse-engineer an old battery to make a new one!
 
 ### HAVEN
-Dolphin Technology        learn to build dolphin tech,
+~~Dolphin Technology        learn to build dolphin tech,~~
 ~~Retroactive Recordkeeping        organize the papyrus, unlock historians,~~ (courtesy of Glowkate)
 The Whale Song        piece together the whale's portion of the song,
 ~~Imperial Designs        employ the original designs for dolphin machines,~~
@@ -115,7 +115,7 @@ Chasm Exploration
 Crystal Spear        tool for billfish to catch fish,
 Sandbagging        unlock crab stormgoers,
 Billfish Biology        unlock billfish pairs,~~
-Heavy Sifting        seperate light and heavier sand to make all uses of sand cheaper,
+~~Heavy Sifting        seperate light and heavier sand to make all uses of sand cheaper,~~ (courtesy of Glowkate)
 Sense of Direction        actually navigate the storm properly,
 ~~Laser Lenses        use glass bottles to focus lasers to make laser rays cheaper,~~
 Crystal Clippers        tool for stormgoers,
