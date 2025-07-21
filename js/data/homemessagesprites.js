@@ -1,5 +1,5 @@
 SharkGame.Sprites = {
-    "events/home/abandoned-default.png": {
+    "home/abandoned-default": {
       frame: {
         x: 0,
         y: 0,
@@ -7,7 +7,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-exploration.png": {
+    "home/abandoned-exploration": {
       frame: {
         x: 0,
         y: 200,
@@ -15,7 +15,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-gate.png": {
+    "home/abandoned-gate": {
       frame: {
         x: 400,
         y: 0,
@@ -23,7 +23,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-high-energy-fusion.png": {
+    "home/abandoned-high-energy-fusion": {
       frame: {
         x: 400,
         y: 200,
@@ -31,7 +31,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-octopus-scrutinizes.png": {
+    "home/abandoned-octopus-scrutinizes": {
       frame: {
         x: 0,
         y: 400,
@@ -39,7 +39,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-octopus.png": {
+    "home/abandoned-octopus": {
       frame: {
         x: 400,
         y: 400,
@@ -47,7 +47,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-octopuses.png": {
+    "home/abandoned-octopuses": {
       frame: {
         x: 0,
         y: 600,
@@ -55,7 +55,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-production.png": {
+    "home/abandoned-production": {
       frame: {
         x: 400,
         y: 600,
@@ -63,7 +63,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-spronge.png": {
+    "home/abandoned-spronge": {
       frame: {
         x: 800,
         y: 0,
@@ -71,7 +71,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-tar-one.png": {
+    "home/abandoned-tar-one": {
       frame: {
         x: 800,
         y: 200,
@@ -79,7 +79,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/abandoned-tar-two.png": {
+    "home/abandoned-tar-two": {
       frame: {
         x: 800,
         y: 400,
@@ -87,7 +87,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/essence.png": {
+    "home/essence": {
       frame: {
         x: 800,
         y: 600,
@@ -95,7 +95,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-default.png": {
+    "home/frigid-default": {
       frame: {
         x: 0,
         y: 800,
@@ -103,7 +103,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-distant-village.png": {
+    "home/frigid-distant-village": {
       frame: {
         x: 400,
         y: 800,
@@ -111,7 +111,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-ice-one.png": {
+    "home/frigid-ice-one": {
       frame: {
         x: 800,
         y: 800,
@@ -119,7 +119,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-icy-doom.png": {
+    "home/frigid-icy-doom": {
       frame: {
         x: 0,
         y: 1000,
@@ -127,7 +127,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-machine.png": {
+    "home/frigid-machine": {
       frame: {
         x: 400,
         y: 1000,
@@ -135,7 +135,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-urchins.png": {
+    "home/frigid-urchins": {
       frame: {
         x: 800,
         y: 1000,
@@ -143,7 +143,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/frigid-village.png": {
+    "home/frigid-village": {
       frame: {
         x: 1200,
         y: 0,
@@ -151,7 +151,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-default.png": {
+    "home/haven-default": {
       frame: {
         x: 1200,
         y: 200,
@@ -159,7 +159,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-dolphin-empire.png": {
+    "home/haven-dolphin-empire": {
       frame: {
         x: 1200,
         y: 400,
@@ -167,7 +167,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-dolphin-observes.png": {
+    "home/haven-dolphin-observes": {
       frame: {
         x: 1200,
         y: 600,
@@ -175,7 +175,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-dolphins.png": {
+    "home/haven-dolphins": {
       frame: {
         x: 1200,
         y: 800,
@@ -183,7 +183,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-history.png": {
+    "home/haven-history": {
       frame: {
         x: 1200,
         y: 1000,
@@ -191,7 +191,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-papyrus.png": {
+    "home/haven-papyrus": {
       frame: {
         x: 0,
         y: 1200,
@@ -199,7 +199,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-song.png": {
+    "home/haven-song": {
       frame: {
         x: 400,
         y: 1200,
@@ -207,7 +207,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-stories.png": {
+    "home/haven-stories": {
       frame: {
         x: 800,
         y: 1200,
@@ -215,7 +215,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/haven-whales.png": {
+    "home/haven-whales": {
       frame: {
         x: 1200,
         y: 1200,
@@ -223,7 +223,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-abandoned.png": {
+    "home/marine-abandoned": {
       frame: {
         x: 0,
         y: 1400,
@@ -231,7 +231,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-bioengineering.png": {
+    "home/marine-bioengineering": {
       frame: {
         x: 400,
         y: 1400,
@@ -239,7 +239,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-calcinium.png": {
+    "home/marine-calcinium": {
       frame: {
         x: 800,
         y: 1400,
@@ -247,7 +247,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-default.png": {
+    "home/marine-default": {
       frame: {
         x: 1200,
         y: 1400,
@@ -255,7 +255,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-lobsters-talk.png": {
+    "home/marine-lobsters-talk": {
       frame: {
         x: 1600,
         y: 0,
@@ -263,7 +263,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-lobsters.png": {
+    "home/marine-lobsters": {
       frame: {
         x: 1600,
         y: 200,
@@ -271,7 +271,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-noticed-lobsters-2.png": {
+    "home/marine-noticed-lobsters-2": {
       frame: {
         x: 1600,
         y: 400,
@@ -279,7 +279,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-noticed-lobsters.png": {
+    "home/marine-noticed-lobsters": {
       frame: {
         x: 1600,
         y: 600,
@@ -287,7 +287,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/marine-robotics.png": {
+    "home/marine-robotics": {
       frame: {
         x: 1600,
         y: 800,
@@ -295,7 +295,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/missing.png": {
+    "home/missing": {
       frame: {
         x: 1600,
         y: 1000,
@@ -303,7 +303,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/shrouded-arcana.png": {
+    "home/shrouded-arcana": {
       frame: {
         x: 1600,
         y: 1200,
@@ -311,7 +311,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/shrouded-chimaeras.png": {
+    "home/shrouded-chimaeras": {
       frame: {
         x: 1600,
         y: 1400,
@@ -319,7 +319,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/shrouded-default.png": {
+    "home/shrouded-default": {
       frame: {
         x: 0,
         y: 1600,
@@ -327,7 +327,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/shrouded-distant-chimaeras.png": {
+    "home/shrouded-distant-chimaeras": {
       frame: {
         x: 400,
         y: 1600,
@@ -335,7 +335,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/shrouded-eels.png": {
+    "home/shrouded-eels": {
       frame: {
         x: 800,
         y: 1600,
@@ -343,7 +343,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-chasm.png": {
+    "home/start-chasm": {
       frame: {
         x: 1200,
         y: 1600,
@@ -351,7 +351,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-crab.png": {
+    "home/start-crab": {
       frame: {
         x: 1600,
         y: 1600,
@@ -359,7 +359,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-crystals.png": {
+    "home/start-crystals": {
       frame: {
         x: 0,
         y: 1800,
@@ -367,7 +367,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-discoveries.png": {
+    "home/start-discoveries": {
       frame: {
         x: 400,
         y: 1800,
@@ -375,7 +375,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-exploration.png": {
+    "home/start-exploration": {
       frame: {
         x: 800,
         y: 1800,
@@ -383,7 +383,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-gate.png": {
+    "home/start-gate": {
       frame: {
         x: 1200,
         y: 1800,
@@ -391,7 +391,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-machines.png": {
+    "home/start-machines": {
       frame: {
         x: 1600,
         y: 1800,
@@ -399,7 +399,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-nurse.png": {
+    "home/start-nurse": {
       frame: {
         x: 2000,
         y: 0,
@@ -407,7 +407,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-quite-the-group.png": {
+    "home/start-quite-the-group": {
       frame: {
         x: 2000,
         y: 200,
@@ -415,7 +415,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-ray.png": {
+    "home/start-ray": {
       frame: {
         x: 2000,
         y: 400,
@@ -423,7 +423,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-science.png": {
+    "home/start-science": {
       frame: {
         x: 2000,
         y: 600,
@@ -431,7 +431,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-shark.png": {
+    "home/start-shark": {
       frame: {
         x: 2000,
         y: 800,
@@ -439,7 +439,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-sharks.png": {
+    "home/start-sharks": {
       frame: {
         x: 2000,
         y: 1000,
@@ -447,7 +447,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-tribe.png": {
+    "home/start-tribe": {
       frame: {
         x: 2000,
         y: 1200,
@@ -455,7 +455,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/start-you-are-a-shark.png": {
+    "home/start-you-are-a-shark": {
       frame: {
         x: 2000,
         y: 1400,
@@ -463,7 +463,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/tempestuous-bottles.png": {
+    "home/tempestuous-bottles": {
       frame: {
         x: 2000,
         y: 1600,
@@ -471,7 +471,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/tempestuous-cave-rustling.png": {
+    "home/tempestuous-cave-rustling": {
       frame: {
         x: 2000,
         y: 1800,
@@ -479,7 +479,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/tempestuous-cave.png": {
+    "home/tempestuous-cave": {
       frame: {
         x: 0,
         y: 2000,
@@ -487,7 +487,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/tempestuous-default.png": {
+    "home/tempestuous-default": {
       frame: {
         x: 400,
         y: 2000,
@@ -495,7 +495,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-acolytes.png": {
+    "home/volcanic-acolytes": {
       frame: {
         x: 800,
         y: 2000,
@@ -503,7 +503,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-beauty.png": {
+    "home/volcanic-beauty": {
       frame: {
         x: 1200,
         y: 2000,
@@ -511,7 +511,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-default.png": {
+    "home/volcanic-default": {
       frame: {
         x: 1600,
         y: 2000,
@@ -519,7 +519,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-hope.png": {
+    "home/volcanic-hope": {
       frame: {
         x: 2000,
         y: 2000,
@@ -527,7 +527,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-monarchy.png": {
+    "home/volcanic-monarchy": {
       frame: {
         x: 0,
         y: 2200,
@@ -535,7 +535,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-noticed.png": {
+    "home/volcanic-noticed": {
       frame: {
         x: 400,
         y: 2200,
@@ -543,7 +543,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-shrimp-communication.png": {
+    "home/volcanic-shrimp-communication": {
       frame: {
         x: 800,
         y: 2200,
@@ -551,7 +551,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-shrimp-contact.png": {
+    "home/volcanic-shrimp-contact": {
       frame: {
         x: 1200,
         y: 2200,
@@ -559,7 +559,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-shrimp-threat.png": {
+    "home/volcanic-shrimp-threat": {
       frame: {
         x: 1600,
         y: 2200,
@@ -567,7 +567,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-shrimps.png": {
+    "home/volcanic-shrimps": {
       frame: {
         x: 2000,
         y: 2200,
@@ -575,7 +575,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/home/volcanic-smithing.png": {
+    "home/volcanic-smithing": {
       frame: {
         x: 2400,
         y: 0,
@@ -583,7 +583,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-gate-closed-but-filled.png": {
+    "misc/scene-gate-closed-but-filled": {
       frame: {
         x: 2400,
         y: 200,
@@ -591,7 +591,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-gate-closed.png": {
+    "misc/scene-gate-closed": {
       frame: {
         x: 2400,
         y: 400,
@@ -599,7 +599,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-gate-one-slot.png": {
+    "misc/scene-gate-one-slot": {
       frame: {
         x: 2400,
         y: 600,
@@ -607,7 +607,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-gate-open.png": {
+    "misc/scene-gate-open": {
       frame: {
         x: 2400,
         y: 800,
@@ -615,7 +615,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-grotto.png": {
+    "misc/scene-grotto": {
       frame: {
         x: 2400,
         y: 1000,
@@ -623,7 +623,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-lab-done.png": {
+    "misc/scene-lab-done": {
       frame: {
         x: 2400,
         y: 1200,
@@ -631,7 +631,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-lab.png": {
+    "misc/scene-lab": {
       frame: {
         x: 2400,
         y: 1400,
@@ -639,7 +639,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-recycler.png": {
+    "misc/scene-recycler": {
       frame: {
         x: 2400,
         y: 1600,
@@ -647,7 +647,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/scene-reflection.png": {
+    "misc/scene-reflection": {
       frame: {
         x: 2400,
         y: 1800,
@@ -655,7 +655,7 @@ SharkGame.Sprites = {
         h: 200
       },
     },
-    "events/misc/missing.png": {
+    "misc/missing": {
       frame: {
         x: 1600,
         y: 1000,
