@@ -1,666 +1,666 @@
 SharkGame.HomeMessageSprites = {
     "home/abandoned-default": {
-      frame: {
+        frame: {
             x: 0,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-exploration": {
-      frame: {
+        frame: {
             x: 0,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-gate": {
-      frame: {
+        frame: {
             x: 400,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-high-energy-fusion": {
-      frame: {
+        frame: {
             x: 400,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-octopus-scrutinizes": {
-      frame: {
+        frame: {
             x: 0,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-octopus": {
-      frame: {
+        frame: {
             x: 400,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-octopuses": {
-      frame: {
+        frame: {
             x: 0,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-production": {
-      frame: {
+        frame: {
             x: 400,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-spronge": {
-      frame: {
+        frame: {
             x: 800,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-tar-one": {
-      frame: {
+        frame: {
             x: 800,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/abandoned-tar-two": {
-      frame: {
+        frame: {
             x: 800,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/essence": {
-      frame: {
+        frame: {
             x: 800,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-default": {
-      frame: {
+        frame: {
             x: 0,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-distant-village": {
-      frame: {
+        frame: {
             x: 400,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-ice-one": {
-      frame: {
+        frame: {
             x: 800,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-icy-doom": {
-      frame: {
+        frame: {
             x: 0,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-machine": {
-      frame: {
+        frame: {
             x: 400,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-urchins": {
-      frame: {
+        frame: {
             x: 800,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/frigid-village": {
-      frame: {
+        frame: {
             x: 1200,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-default": {
-      frame: {
+        frame: {
             x: 1200,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-dolphin-empire": {
-      frame: {
+        frame: {
             x: 1200,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-dolphin-observes": {
-      frame: {
+        frame: {
             x: 1200,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-dolphins": {
-      frame: {
+        frame: {
             x: 1200,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-history": {
-      frame: {
+        frame: {
             x: 1200,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-papyrus": {
-      frame: {
+        frame: {
             x: 0,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-song": {
-      frame: {
+        frame: {
             x: 400,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-stories": {
-      frame: {
+        frame: {
             x: 800,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/haven-whales": {
-      frame: {
+        frame: {
             x: 1200,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-abandoned": {
-      frame: {
+        frame: {
             x: 0,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-bioengineering": {
-      frame: {
+        frame: {
             x: 400,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-calcinium": {
-      frame: {
+        frame: {
             x: 800,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-default": {
-      frame: {
+        frame: {
             x: 1200,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-lobsters-talk": {
-      frame: {
+        frame: {
             x: 1600,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-lobsters": {
-      frame: {
+        frame: {
             x: 1600,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-noticed-lobsters-2": {
-      frame: {
+        frame: {
             x: 1600,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-noticed-lobsters": {
-      frame: {
+        frame: {
             x: 1600,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/marine-robotics": {
-      frame: {
+        frame: {
             x: 1600,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/missing": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/shrouded-arcana": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/shrouded-chimaeras": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/shrouded-default": {
-      frame: {
+        frame: {
             x: 0,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/shrouded-distant-chimaeras": {
-      frame: {
+        frame: {
             x: 400,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/shrouded-eels": {
-      frame: {
+        frame: {
             x: 800,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-chasm": {
-      frame: {
+        frame: {
             x: 1200,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-crab": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-crystals": {
-      frame: {
+        frame: {
             x: 0,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-discoveries": {
-      frame: {
+        frame: {
             x: 400,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-exploration": {
-      frame: {
+        frame: {
             x: 800,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-gate": {
-      frame: {
+        frame: {
             x: 1200,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-machines": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-nurse": {
-      frame: {
+        frame: {
             x: 2000,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-quite-the-group": {
-      frame: {
+        frame: {
             x: 2000,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-ray": {
-      frame: {
+        frame: {
             x: 2000,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-science": {
-      frame: {
+        frame: {
             x: 2000,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-shark": {
-      frame: {
+        frame: {
             x: 2000,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-sharks": {
-      frame: {
+        frame: {
             x: 2000,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-tribe": {
-      frame: {
+        frame: {
             x: 2000,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/start-you-are-a-shark": {
-      frame: {
+        frame: {
             x: 2000,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/tempestuous-bottles": {
-      frame: {
+        frame: {
             x: 2000,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/tempestuous-cave-rustling": {
-      frame: {
+        frame: {
             x: 2000,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/tempestuous-cave": {
-      frame: {
+        frame: {
             x: 0,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/tempestuous-default": {
-      frame: {
+        frame: {
             x: 400,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-acolytes": {
-      frame: {
+        frame: {
             x: 800,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-beauty": {
-      frame: {
+        frame: {
             x: 1200,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-default": {
-      frame: {
+        frame: {
             x: 1600,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-hope": {
-      frame: {
+        frame: {
             x: 2000,
             y: 2000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-monarchy": {
-      frame: {
+        frame: {
             x: 0,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-noticed": {
-      frame: {
+        frame: {
             x: 400,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-shrimp-communication": {
-      frame: {
+        frame: {
             x: 800,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-shrimp-contact": {
-      frame: {
+        frame: {
             x: 1200,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-shrimp-threat": {
-      frame: {
+        frame: {
             x: 1600,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-shrimps": {
-      frame: {
+        frame: {
             x: 2000,
             y: 2200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "home/volcanic-smithing": {
-      frame: {
+        frame: {
             x: 2400,
             y: 0,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-gate-closed-but-filled": {
-      frame: {
+        frame: {
             x: 2400,
             y: 200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-gate-closed": {
-      frame: {
+        frame: {
             x: 2400,
             y: 400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-gate-one-slot": {
-      frame: {
+        frame: {
             x: 2400,
             y: 600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-gate-open": {
-      frame: {
+        frame: {
             x: 2400,
             y: 800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-grotto": {
-      frame: {
+        frame: {
             x: 2400,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-lab-done": {
-      frame: {
+        frame: {
             x: 2400,
             y: 1200,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-lab": {
-      frame: {
+        frame: {
             x: 2400,
             y: 1400,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-recycler": {
-      frame: {
+        frame: {
             x: 2400,
             y: 1600,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/scene-reflection": {
-      frame: {
+        frame: {
             x: 2400,
             y: 1800,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
     "misc/missing": {
-      frame: {
+        frame: {
             x: 1600,
             y: 1000,
             w: 400,
-            h: 200
+            h: 200,
       },
     },
 }
