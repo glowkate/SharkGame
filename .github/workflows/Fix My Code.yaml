@@ -1,6 +1,6 @@
 name: Please Fix My Code
 on:
-    - worflow_dispatch
+    - workflow_dispatch
 jobs:
     build:
         runs-on: ubuntu-latest
