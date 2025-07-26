@@ -5,7 +5,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-exploration": {
         frame: {
@@ -13,7 +13,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-gate": {
         frame: {
@@ -21,7 +21,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-high-energy-fusion": {
         frame: {
@@ -29,7 +29,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-octopus-scrutinizes": {
         frame: {
@@ -37,7 +37,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-octopus": {
         frame: {
@@ -45,7 +45,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-octopuses": {
         frame: {
@@ -53,7 +53,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-production": {
         frame: {
@@ -61,7 +61,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-spronge": {
         frame: {
@@ -69,7 +69,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-tar-one": {
         frame: {
@@ -77,7 +77,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/abandoned-tar-two": {
         frame: {
@@ -85,7 +85,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/essence": {
         frame: {
@@ -93,7 +93,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-default": {
         frame: {
@@ -101,7 +101,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-distant-village": {
         frame: {
@@ -109,7 +109,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-ice-one": {
         frame: {
@@ -117,7 +117,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-icy-doom": {
         frame: {
@@ -125,7 +125,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-machine": {
         frame: {
@@ -133,7 +133,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-urchins": {
         frame: {
@@ -141,7 +141,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/frigid-village": {
         frame: {
@@ -149,7 +149,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-default": {
         frame: {
@@ -157,7 +157,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-dolphin-empire": {
         frame: {
@@ -165,7 +165,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-dolphin-observes": {
         frame: {
@@ -173,7 +173,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-dolphins": {
         frame: {
@@ -181,7 +181,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-history": {
         frame: {
@@ -189,7 +189,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-papyrus": {
         frame: {
@@ -197,7 +197,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-song": {
         frame: {
@@ -205,7 +205,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-stories": {
         frame: {
@@ -213,7 +213,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/haven-whales": {
         frame: {
@@ -221,7 +221,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-abandoned": {
         frame: {
@@ -229,7 +229,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-bioengineering": {
         frame: {
@@ -237,7 +237,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-calcinium": {
         frame: {
@@ -245,7 +245,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-default": {
         frame: {
@@ -253,7 +253,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-lobsters-talk": {
         frame: {
@@ -261,7 +261,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-lobsters": {
         frame: {
@@ -269,7 +269,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-noticed-lobsters-2": {
         frame: {
@@ -277,7 +277,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-noticed-lobsters": {
         frame: {
@@ -285,7 +285,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/marine-robotics": {
         frame: {
@@ -293,7 +293,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/missing": {
         frame: {
@@ -301,7 +301,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/shrouded-arcana": {
         frame: {
@@ -309,7 +309,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/shrouded-chimaeras": {
         frame: {
@@ -317,7 +317,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/shrouded-default": {
         frame: {
@@ -325,7 +325,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/shrouded-distant-chimaeras": {
         frame: {
@@ -333,7 +333,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/shrouded-eels": {
         frame: {
@@ -341,7 +341,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-chasm": {
         frame: {
@@ -349,7 +349,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-crab": {
         frame: {
@@ -357,7 +357,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-crystals": {
         frame: {
@@ -365,7 +365,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-discoveries": {
         frame: {
@@ -373,7 +373,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-exploration": {
         frame: {
@@ -381,7 +381,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-gate": {
         frame: {
@@ -389,7 +389,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-machines": {
         frame: {
@@ -397,7 +397,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-nurse": {
         frame: {
@@ -405,7 +405,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-quite-the-group": {
         frame: {
@@ -413,7 +413,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-ray": {
         frame: {
@@ -421,7 +421,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-science": {
         frame: {
@@ -429,7 +429,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-shark": {
         frame: {
@@ -437,7 +437,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-sharks": {
         frame: {
@@ -445,7 +445,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-tribe": {
         frame: {
@@ -453,7 +453,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/start-you-are-a-shark": {
         frame: {
@@ -461,7 +461,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/tempestuous-bottles": {
         frame: {
@@ -469,7 +469,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/tempestuous-cave-rustling": {
         frame: {
@@ -477,7 +477,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/tempestuous-cave": {
         frame: {
@@ -485,7 +485,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/tempestuous-default": {
         frame: {
@@ -493,7 +493,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-acolytes": {
         frame: {
@@ -501,7 +501,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-beauty": {
         frame: {
@@ -509,7 +509,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-default": {
         frame: {
@@ -517,7 +517,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-hope": {
         frame: {
@@ -525,7 +525,7 @@ SharkGame.HomeMessageSprites = {
             y: 2000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-monarchy": {
         frame: {
@@ -533,7 +533,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-noticed": {
         frame: {
@@ -541,7 +541,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-shrimp-communication": {
         frame: {
@@ -549,7 +549,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-shrimp-contact": {
         frame: {
@@ -557,7 +557,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-shrimp-threat": {
         frame: {
@@ -565,7 +565,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-shrimps": {
         frame: {
@@ -573,7 +573,7 @@ SharkGame.HomeMessageSprites = {
             y: 2200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "home/volcanic-smithing": {
         frame: {
@@ -581,7 +581,7 @@ SharkGame.HomeMessageSprites = {
             y: 0,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-gate-closed-but-filled": {
         frame: {
@@ -589,7 +589,7 @@ SharkGame.HomeMessageSprites = {
             y: 200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-gate-closed": {
         frame: {
@@ -597,7 +597,7 @@ SharkGame.HomeMessageSprites = {
             y: 400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-gate-one-slot": {
         frame: {
@@ -605,7 +605,7 @@ SharkGame.HomeMessageSprites = {
             y: 600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-gate-open": {
         frame: {
@@ -613,7 +613,7 @@ SharkGame.HomeMessageSprites = {
             y: 800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-grotto": {
         frame: {
@@ -621,7 +621,7 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-lab-done": {
         frame: {
@@ -629,7 +629,7 @@ SharkGame.HomeMessageSprites = {
             y: 1200,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-lab": {
         frame: {
@@ -637,7 +637,7 @@ SharkGame.HomeMessageSprites = {
             y: 1400,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-recycler": {
         frame: {
@@ -645,7 +645,7 @@ SharkGame.HomeMessageSprites = {
             y: 1600,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/scene-reflection": {
         frame: {
@@ -653,7 +653,7 @@ SharkGame.HomeMessageSprites = {
             y: 1800,
             w: 400,
             h: 200,
-      },
+        },
     },
     "misc/missing": {
         frame: {
@@ -661,6 +661,6 @@ SharkGame.HomeMessageSprites = {
             y: 1000,
             w: 400,
             h: 200,
-      },
+        },
     },
-}
+};
