@@ -140,11 +140,11 @@ Cumulus Control        fix the generator, turn back on the machine, save the wor
 ~~Consistent Communication        let shrimps know you wont steal from them,~~
 ~~Sociology        what are social structures???,~~
 ~~Proper Practices        grow sponges in rows,~~
-Worm Warriors        fight shrimp parasites,
+~~Worm Warriors        fight shrimp parasites,~~
 Coral Cloning        discover coral farming,
 Sustainable Solutions        completely stop gathering: only farming now,
-Brooding Biology        make crab breeding more efficient,
-Feeding Techniques        understand how sponge eat algae,
+~~Brooding Biology        make crab breeding more efficient,~~
+~~Feeding Techniques        understand how sponge eat algae,~~
 Secret Smelting        unlock porite,
 Antipest Patrols        take care of coral pests,
 Medically Assisted Reproduction        increase survival rate of children,
