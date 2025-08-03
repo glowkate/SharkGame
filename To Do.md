@@ -8,7 +8,7 @@
 "Teamwork"        The squid champion the value of teamwork and the necessity of cooperation. They say they follow by example.,
 "Squid"        The squid speak of an ancient visitor who saved their world. They ask if you too, have seen this visitor.,
 "Suspicion"        The squid describe the machine with fascination. They ask if we feel the same. They see something we do not.,
-"Battery"        Buried deep within the complex lies a massive, dimly glowing battery. The squid say replacing it will get the machine running at full power.,
+~~"Battery"        Buried deep within the complex lies a massive, dimly glowing battery. The squid say replacing it will get the machine running at full power.,~~
 "Heat Returns"        A wave of heat washes over you, and the dingy complex comes back to life. The gate turns on.
 
 ### HAVEN
@@ -33,7 +33,7 @@
 "Legends"        "As the storm draws its final breath, you overhear two billfish talking. One asks the other why the visitor never returned."
 
 ### Volcanic
-"Shrimp Threat"        You are approached by an army of shrimp. They relay a very clear message to you: cooperate, or be destroyed. You decide to stop harvesting sponges.,
+~~"Shrimp Threat"        You are approached by an army of shrimp. They relay a very clear message to you: cooperate, or be destroyed. You decide to stop harvesting sponges.,~~
 "Shrimp Communication"         The homes (sponges) left behind by shrimp joining the frenzy may now be taken for ourselves.,
 ~~"Monarchy"        The shrimps follow a caste system with the king of shrimps on top. They ask who your king is.,~~
 "Smithing"        Porite: glassy hunks sealed on the outside but porous on the inside: it's lightweight, yet it stays strong.,
