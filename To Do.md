@@ -8,7 +8,7 @@
 "Teamwork"        The squid champion the value of teamwork and the necessity of cooperation. They say they follow by example.,
 "Squid"        The squid speak of an ancient visitor who saved their world. They ask if you too, have seen this visitor.,
 "Suspicion"        The squid describe the machine with fascination. They ask if we feel the same. They see something we do not.,
-~~"Battery"        Buried deep within the complex lies a massive, dimly glowing battery. The squid say replacing it will get the machine running at full power.,~~
+~~"Battery"        Buried deep within the complex lies a massive, dimly glowing battery. The squid say replacing it will get the machine running at full power.,~~ (courtesy of Glowkate)
 "Heat Returns"        A wave of heat washes over you, and the dingy complex comes back to life. The gate turns on.
 
 ### HAVEN
