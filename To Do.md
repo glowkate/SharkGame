@@ -18,6 +18,7 @@
 "Sentience"        All of us have boards now. Children are born half-machine. The lobsters call it effective.
 
 ### SHROUDED
+"Eel Onlookers"        Divers have reported sightings of wiggly things on the ocean floor. They dart into their holes when approached.
 "Power"        Every broken shard disintegrates in a blinding flash of light. That familiar feeling washes over you with every sacrifice. The sharp snap of broken arcana echoes in your mind.,
 "City"        The sounds of explorers echo endlessly through the tunnels of the broken city. The eels say they are filled with hope.,
 "Truth"        A team of eels get your attention. They have something from the caverns: it's a book. You can't read a thing inside it, but...that looks like arcana...and that looks like...a warning.
