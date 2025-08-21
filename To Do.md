@@ -45,6 +45,7 @@
 
 ## Actions
 breakDownAncientPart          Break down ancient parts to advance science.
+~~getHeater~~ (Made by Glowkate)
 
 ## ~~Aspects~~
 ~~Token of Industry,~~
@@ -63,7 +64,7 @@ breakDownAncientPart          Break down ancient parts to advance science.
 ## Technologies
 
 ### ABANDONED
-Inudstrial-Grade Sponge        understand how to make spronge,
+~~Inudstrial-Grade Sponge        understand how to make spronge,~~
 ~~Environmentalism        unlock filters,~~
 ~~Octal Efficieny        increase octal productivity,~~
 Superior Search Algorithms        learn how to search better,
