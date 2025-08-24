@@ -19,7 +19,7 @@
 
 ### SHROUDED
 "Eel Onlookers"        Divers have reported sightings of wiggly things on the ocean floor. They dart into their holes when approached.
-"Power"        Every broken shard disintegrates in a blinding flash of light. That familiar feeling washes over you with every sacrifice. The sharp snap of broken arcana echoes in your mind.,
+~~"Power"        Every broken shard disintegrates in a blinding flash of light. That familiar feeling washes over you with every sacrifice. The sharp snap of broken arcana echoes in your mind.,~~
 "City"        The sounds of explorers echo endlessly through the tunnels of the broken city. The eels say they are filled with hope.,
 "Truth"        A team of eels get your attention. They have something from the caverns: it's a book. You can't read a thing inside it, but...that looks like arcana...and that looks like...a warning.
 
@@ -71,7 +71,7 @@ Superior Search Algorithms        learn how to search better,
 High-Energy Fusion        learn to fuse ancient parts (somewhat shared with marine),
 ~~Investi-gate-tions        dedicate an investigation team to understanding the gate,~~
 Mechanised Alchemy         refine the machines,
-Eightfold Optimisation        optimize. improve.,
+~~Eightfold Optimisation        optimize. improve.,~~
 Artifact Assembly        assemble a thing that opens the gate
 ~~Reverse Engineering~~ (kind of)        there's already a sprite in the "old" folder, but it's not implemented.
 
@@ -79,7 +79,7 @@ Artifact Assembly        assemble a thing that opens the gate
 ~~Civil Contact        discover the squid village,~~
 ~~Assissted Extraction        unlock extraction teams, 1 squid + 1 crab,~~
 Glacial Navigation        extraction teams explore icy areas outside the heat dome,
-Team Spirit        squid lecture us on team spirit,
+~~Team Spirit        squid lecture us on team spirit,~~ (courtesy of Glowkate)
 Internal Investigation        uncover the inside of the great machine,
 Internal Expedition        explore the complex inside of the great machine,
 Internal Inquiry        explain to the squid why we went behind their backs,
@@ -153,7 +153,7 @@ Medically Assisted Reproduction        increase survival rate of children,
 Glass Tempering        improve the durability of porite tools,
 Super Smelting        smelt porite directly at the vents,
 First Draft        draft a letter to try to get the shrimp king not to kill us,
-Super Shovels        big shovel,
+~~Super Shovels        big shovel,~~
 Mass Production        mass produce porite parts to cheapen their creation,
 Second Draft        draft another letter,
 Algae Acolytes        cult of algae,
