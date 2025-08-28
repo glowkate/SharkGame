@@ -144,7 +144,7 @@ Cumulus Control        fix the generator, turn back on the machine, save the wor
 ~~Proper Practices        grow sponges in rows,~~
 ~~Worm Warriors        fight shrimp parasites,~~
 Coral Cloning        discover coral farming,
-Sustainable Solutions        completely stop gathering: only farming now,
+~~Sustainable Solutions        completely stop gathering: only farming now,~~
 ~~Brooding Biology        make crab breeding more efficient,~~
 ~~Feeding Techniques        understand how sponge eat algae,~~
 Secret Smelting        unlock porite,
