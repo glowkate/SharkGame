@@ -4,7 +4,7 @@ SharkGame.Sprites = {
             x: 0,
             y: 0,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/chaotic": {
@@ -12,7 +12,7 @@ SharkGame.Sprites = {
             x: 100,
             y: 0,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/frigid": {
@@ -20,7 +20,7 @@ SharkGame.Sprites = {
             x: 0,
             y: 100,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/haven": {
@@ -28,7 +28,7 @@ SharkGame.Sprites = {
             x: 100,
             y: 100,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/marine": {
@@ -36,7 +36,7 @@ SharkGame.Sprites = {
             x: 200,
             y: 0,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/missing": {
@@ -44,7 +44,7 @@ SharkGame.Sprites = {
             x: 200,
             y: 100,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/shrouded": {
@@ -52,7 +52,7 @@ SharkGame.Sprites = {
             x: 0,
             y: 200,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/tempestuous": {
@@ -60,7 +60,7 @@ SharkGame.Sprites = {
             x: 100,
             y: 200,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "planets/volcanic": {
@@ -68,7 +68,7 @@ SharkGame.Sprites = {
             x: 200,
             y: 200,
             w: 100,
-            h: 100
+            h: 100,
         },
     },
     "actions/catchFish": {
@@ -1852,7 +1852,7 @@ SharkGame.Sprites = {
             x: 318,
             y: 750,
             w: 30,
-            h: 30
+            h: 30,
         },
     },
     "aspects/static/zoom": {
