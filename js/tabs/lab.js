@@ -14,7 +14,7 @@ SharkGame.Lab = {
                 }
                 return "img/events/misc/scene-lab.png";
             case "volcanic":
-                return "img/events/misc/volcanic-lab.png";
+                return "img/events/misc/scene-volcanic-lab.png";
             default:
                 return "img/events/misc/scene-lab.png";
         }
