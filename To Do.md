@@ -41,7 +41,7 @@
 "Acolytes"        The acolytes gather. They pray for their king. They pray for their world. They pray for you.,
 "Beauty"        The king is speechless. As he views the great industrial city, his subjects gather and cheer, celebrating his arrival.,
 ~~"Curious Crabs"        Sort of just off to the side, a group of curious crabs congregate and discuss stuff that we don't understand.,~~
-"No More Curiosity"        Sort of just off to the side, the researchers are compiling their work and filing it away. Looks like that's it! No more things to figure out.
+~~"No More Curiosity"        Sort of just off to the side, the researchers are compiling their work and filing it away. Looks like that's it! No more things to figure out.~~
 
 ## Actions
 ~~breakDownAncientPart          Break down ancient parts to advance science.~~
