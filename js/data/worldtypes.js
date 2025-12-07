@@ -355,6 +355,26 @@ SharkGame.WorldTypes = {
             sharkonium: 1,
         },
     },
+	chaotic: {
+        name: "Chaotic",
+        vagueDesc: "Feels overwhelming.",
+        desc: "A planet filled with ethereal, everchanging sealife.",
+        shortDesc: "swirling green.",
+        foresight: {
+            vagueLongDesc: "Waves of bizzare energy radiate from this world.",
+            longDesc: "The currents make most sealife phase in and out of reality. Plants and shelled creatures appear to be immune to this effect.",
+            missing: ["fish"],
+            present: ["snail", "turtle", "echo"],
+            tip: "Harnessing the energy plauging this world could be the key to fixing it. Flexability is your greatest asset.",
+        },
+		entry: "You awake in a bizzare place, the last traces of your memories washed away by an oddly familiar force.",
+        style: "default",
+        includedResources: [""],
+		absentResources: ["fish", "knowledge", "tar", "ice", "heater", "chimaera"],
+        gateRequirements: {
+            upgrades: ["recontainChaos"],
+        },
+    },
     stone: {
         name: "Stone",
         desc: "A world unweathered by ocean currents. It has no natural sand.",

@@ -4527,4 +4527,17 @@ SharkGame.Upgrades = {
             },
         },
     },
+	chaotic: {
+		recontainChaos: {
+			name: "Recontain Chaos",
+            desc: "PLACEHOLDER",
+            researchedMessage: "PLACEHOLDER",
+            effectDesc: "PLACEHOLDER",
+            cost: {
+                wisp: 8e12,
+            },
+            required: {
+            },
+		},
+	},
 };
