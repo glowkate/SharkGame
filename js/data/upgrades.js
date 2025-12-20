@@ -4581,7 +4581,7 @@ SharkGame.Upgrades = {
             },
         },
 	
-        statsDiscovery: { required: {upgrades: ["kelpCuriosity"]]} },
+        statsDiscovery: { required: {upgrades: ["kelpCuriosity"]} },
 
         notekeeping: {
             name: "Notekeeping",
