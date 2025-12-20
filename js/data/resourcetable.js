@@ -1244,136 +1244,136 @@ SharkGame.ResourceTable = {
     }, */
 	
 	//chaotic
-	
-	snail: {
-		name: "sea snails",
-		singleName: "sea snail",
-		color: "#F6E7A7",
-		desc: "Shy, yet full of potential.",
-		income: {
-			clam: 1,
-		},
-		jobs: [
-			"snailBotanist",
-			"snailGeologist",
-			"snailMalacologst"
-		],
-		value: 1000,
-	},
-	
-	snailBotanist: {
-		name: "snail botanists",
-		singleName: "snail botanist",
-		color: "#BED8A7", //change when art's done
-		desc: "Dedicated to the science of plants.",
-		income: {
-			science: 0.25,
-			kelp: 0.2,
-		},
-		value: 5000,
-	},
-	
-	snailGeologist: {
-		name: "snail geologists",
-		singleName: "snail geologist",
-		color: "#A3CAE4", //change when art's done
-		desc: "Endlessly fascinated by rocks.",
-		income: {
-			science: 0.25,
-			crystal: 0.5,
-		},
-		value: 5000,
-	},
-	
-	snailMalacologist: {
-		name: "snail malacologists",
-		singleName: "snail malacologist",
-		color: "#E1B167", //change when art's done
-		desc: "The introspective sort.",
-		income: {
-			science: 0.25,
-			snail: 0.05,
-		},
-		value: 5000,
-	},
-	
-	turtle: {
-		name: "turtles",
-		singleName: "turtle",
-		color: "#6CB46E", //change when art's done
-		desc: "Travelers along the flow.",
-		income: {
-			kelp: 1,
-			sand: 2,
-		},
-		jobs: [
-		],
-		value: 4000,
-	},
-	
-	turtleLocator: {
-		name: "turtle locators",
-		singleName: "turtle locator",
-		color: "#82DB48", //change when art's done
-		desc: "Taking responsibility.",
-		income: {
-			turtle: 0.1,
-		},
-		value: 8000,
-	},
-	
-	turtleSweeper: {
-		name: "turtle sweepers",
-		singleName: "turtle sweeper",
-		color: "#73BA9D", //change when art's done
-		desc: "Taking a cursory interest in the seafloor.",
-		income: {
-			sand: 0.75
-			crystal: 0.75
-		},
-		value: 6000,
-	},
-	
-	echo: { //gains production from toggles
-		name: "echos",
-		singleName: "echo",
-		color: "#9CC6A5", //change when art's done
-		desc: "Many, yet one.",
-		value: 5000,
-	},
-	
-	wisp: {
-		name: "wisps",
-		singleName: "wisp",
-		color: "#66DEAF",
-		desc: "A heavily diluted form of essence.",
-		value: 2,
-	},
-	
-	wispCumulator: {
-		name: "wisp cumulators",
-		singleName: "wisp cumulator",
-		color: "#3EBD6C", //change when art's done
-		desc: "Filters wisps from the ocean currents.",
-		income: {
-			wisp: 400,
-			get crystal() {
+
+    snail: {
+        name: "sea snails",
+        singleName: "sea snail",
+        color: "#F6E7A7",
+        desc: "Shy, yet full of potential.",
+        income: {
+            clam: 1,
+        },
+        jobs: [
+            "snailBotanist",
+            "snailGeologist",
+            "snailMalacologst"
+        ],
+        value: 1000,
+    },
+
+    snailBotanist: {
+        name: "snail botanists",
+        singleName: "snail botanist",
+        color: "#BED8A7", //change when art's done
+        desc: "Dedicated to the science of plants.",
+        income: {
+            science: 0.25,
+            kelp: 0.2,
+        },
+        value: 5000,
+    },
+
+    snailGeologist: {
+        name: "snail geologists",
+        singleName: "snail geologist",
+        color: "#A3CAE4", //change when art's done
+        desc: "Endlessly fascinated by rocks.",
+        income: {
+            science: 0.25,
+            crystal: 0.5,
+        },
+        value: 5000,
+    },
+
+    snailMalacologist: {
+        name: "snail malacologists",
+        singleName: "snail malacologist",
+        color: "#E1B167", //change when art's done
+        desc: "The introspective sort.",
+        income: {
+            science: 0.25,
+            snail: 0.05,
+        },
+        value: 5000,
+    },
+
+    turtle: {
+        name: "turtles",
+        singleName: "turtle",
+        color: "#6CB46E", //change when art's done
+        desc: "Travelers along the flow.",
+        income: {
+            kelp: 1,
+            sand: 2,
+        },
+        jobs: [
+        ],
+        value: 4000,
+    },
+
+    turtleLocator: {
+        name: "turtle locators",
+        singleName: "turtle locator",
+        color: "#82DB48", //change when art's done
+        desc: "Taking responsibility.",
+        income: {
+            turtle: 0.1,
+        },
+        value: 8000,
+    },
+
+    turtleSweeper: {
+        name: "turtle sweepers",
+        singleName: "turtle sweeper",
+        color: "#73BA9D", //change when art's done
+        desc: "Taking a cursory interest in the seafloor.",
+        income: {
+            sand: 0.75,
+            crystal: 0.75,
+        },
+        value: 6000,
+    },
+
+    echo: { //gains production from toggles
+        name: "echos",
+        singleName: "echo",
+        color: "#9CC6A5", //change when art's done
+        desc: "Many, yet one.",
+        value: 5000,
+    },
+
+    wisp: {
+        name: "wisps",
+        singleName: "wisp",
+        color: "#66DEAF",
+        desc: "A heavily diluted form of essence.",
+        value: 2,
+    },
+
+    wispCumulator: {
+        name: "wisp cumulators",
+        singleName: "wisp cumulator",
+        color: "#3EBD6C", //change when art's done
+        desc: "Filters wisps from the ocean currents.",
+        income: {
+            wisp: 400,
+            get crystal() {
                 return -30 + 15 * SharkGame.Aspects.mechanicalManifestation.level;
             },
-		},
-		value: 70000,
-	},
-	
-	echoBeacon: {
-		name: "echo beacons",
-		singleName: "echo beacon",
-		color: "#8CBDBC", //change when art's done
-		desc: "Singing a song out towards infinity.",
-		income: {
-			echo: 1,
-		},
-		value: 70000,
-	},
+        },
+        value: 70000,
+    },
+
+    echoBeacon: {
+        name: "echo beacons",
+        singleName: "echo beacon",
+        color: "#8CBDBC", //change when art's done
+        desc: "Singing a song out towards infinity.",
+        income: {
+            echo: 1,
+        },
+        value: 70000,
+    },
 };
 
 SharkGame.GeneratorIncomeAffectorsOriginal = {
