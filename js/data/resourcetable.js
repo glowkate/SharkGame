@@ -1242,7 +1242,7 @@ SharkGame.ResourceTable = {
         },
         value: 180000, // 250 sharkonium, 250 gravel (18000)
     }, */
-    
+  
     // chaotic
 
     snail: {
