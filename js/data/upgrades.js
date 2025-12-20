@@ -511,8 +511,7 @@ SharkGame.Upgrades = {
         crystalContainer: {},
         statsDiscovery: { cost: { science: 75 } },
         underwaterChemistry: {},
-        seabedGeology: {effect: {incomeMultiplier: {ray: 2,},
-            },},
+        seabedGeology: { effect: { incomeMultiplier: { ray: 2 }, }, },
         thermalVents: {
             cost: {
                 science: 500,
@@ -4580,8 +4579,8 @@ SharkGame.Upgrades = {
                 seen: ["snail"],
             },
         },
-	
-        statsDiscovery: { required: {upgrades: ["kelpCuriosity"]} },
+
+        statsDiscovery: { required: { upgrades: ["kelpCuriosity"] } },
 
         notekeeping: {
             name: "Notekeeping",
@@ -4597,7 +4596,7 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["kelpCuriosity"],
             },
-        },		
+        },
 
         currentContact: {
             name: "Current Contact",
@@ -4613,7 +4612,7 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["kelpCuriosity"],
             },
-        },	
+        },
 
         placeholder: {
             name: "placeholder",
@@ -4627,7 +4626,7 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: [],
             },
-        },			
+        },
 
         seabedGeology: {},
 
@@ -4637,7 +4636,7 @@ SharkGame.Upgrades = {
                 sand: 1000,
             },
         },
-	
+
         placeholder: {
             name: "placeholder",
             desc: "placeholder",
