@@ -511,7 +511,8 @@ SharkGame.Upgrades = {
         crystalContainer: {},
         statsDiscovery: { cost: { science: 75 } },
         underwaterChemistry: {},
-        seabedGeology: {},
+        seabedGeology: {effect: {incomeMultiplier: {ray: 2,},
+            },},
         thermalVents: {
             cost: {
                 science: 500,
@@ -4527,9 +4528,132 @@ SharkGame.Upgrades = {
             },
         },
     },
-	chaotic: {
-		recontainChaos: {
-			name: "Recontain Chaos",
+    chaotic: {
+        molluskIdentification: {
+            name: "Mollusk Identification",
+            desc: "Some of these weird moving rocks are more vocal than others. What’s up with that?",
+            researchedMessage:
+                "Looks like we inadvertently kidnapped a bunch of “snails”. On the bright side, they don’t seem too upset about it.",
+            effectDesc:
+                "We can now recruit snails. They're a little shy, but enjoy clams.",
+            cost: {
+                clam: 5,
+            },
+            required: {
+                seen: ["clam"],
+            },
+        },
+
+        snailAquatences: {
+            name: "Snail Aquatences",
+            desc: "Our first meeting with the snails was a bit awkward… maybe we should try to reconcile?",
+            researchedMessage:
+                "We hardly said a word before the snails began relentlessly reassuring us that they were happy and didn’t mind what we did. At least it seems to have motivated them.",
+            effectDesc:
+                "The snails seem to want to prove themselves to us. They’ve been working twice as hard.",
+            cost: {
+                clam: 100,
+            },
+            required: {
+                upgrades: ["molluskIdentification"],
+                seen: ["snail"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snail: 2,
+                },
+            },
+        },
+
+        kelpCuriosity: {
+            name: "Kelp Curiosity",
+            desc: "placeholder",
+            researchedMessage:
+                "placeholder",
+            effectDesc:
+                "placeholder",
+            cost: {
+                clam: 300,
+            },
+            required: {
+                upgrades: ["molluskIdentification"],
+                seen: ["snail"],
+            },
+        },
+	
+        statsDiscovery: { required: {upgrades: ["kelpCuriosity"]]} },
+
+        notekeeping: {
+            name: "Notekeeping",
+            desc: "Our snails have a lot of passion, but are often too shy to share their discoveries with one another. Maybe we can find a solution?",
+            researchedMessage:
+                "Now our snails don’t have to talk to each other to share information! Finally, we can stop re-discovering the same things over and over!",
+            effectDesc:
+                "We’re now carving clam shells with our discoveries. Our scientific efforts are now more effective!",
+            cost: {
+                clam: 500,
+                science: 100,
+            },
+            required: {
+                upgrades: ["kelpCuriosity"],
+            },
+        },		
+
+        currentContact: {
+            name: "Current Contact",
+            desc: "Our botanists insist that there are other physical creatures besides us. Apparently they live high above the seabed.",
+            researchedMessage:
+                "The creatures were exceptionally friendly. They call themselves turtles. They have shells like the snails, but also have fins. Weird, bumpy fins.",
+            effectDesc:
+                "After giving them a hefty amount of kelp as a greeting gift, turtles are now willing to join our frenzy.",
+            cost: {
+                kelp: 250,
+                science: 500,
+            },
+            required: {
+                upgrades: ["kelpCuriosity"],
+            },
+        },	
+
+        placeholder: {
+            name: "placeholder",
+            desc: "placeholder",
+            researchedMessage:
+                "placeholder",
+            effectDesc:
+                "placeholder",
+            cost: {
+            },
+            required: {
+                upgrades: [],
+            },
+        },			
+
+        seabedGeology: {},
+
+        thermalVents: {
+            cost: {
+                science: 500,
+                sand: 1000,
+            },
+        },
+	
+        placeholder: {
+            name: "placeholder",
+            desc: "placeholder",
+            researchedMessage:
+                "placeholder",
+            effectDesc:
+                "placeholder",
+            cost: {
+            },
+            required: {
+                upgrades: [],
+            },
+        },	
+	
+        recontainChaos: {
+            name: "Recontain Chaos",
             desc: "PLACEHOLDER",
             researchedMessage: "PLACEHOLDER",
             effectDesc: "PLACEHOLDER",
@@ -4538,6 +4662,6 @@ SharkGame.Upgrades = {
             },
             required: {
             },
-		},
-	},
+        },
+    },
 };
