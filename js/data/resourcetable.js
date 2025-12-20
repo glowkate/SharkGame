@@ -1242,8 +1242,8 @@ SharkGame.ResourceTable = {
         },
         value: 180000, // 250 sharkonium, 250 gravel (18000)
     }, */
-	
-	//chaotic
+    
+    // chaotic
 
     snail: {
         name: "sea snails",
@@ -1256,7 +1256,7 @@ SharkGame.ResourceTable = {
         jobs: [
             "snailBotanist",
             "snailGeologist",
-            "snailMalacologst"
+            "snailMalacologst",
         ],
         value: 1000,
     },
@@ -1264,7 +1264,7 @@ SharkGame.ResourceTable = {
     snailBotanist: {
         name: "snail botanists",
         singleName: "snail botanist",
-        color: "#BED8A7", //change when art's done
+        color: "#BED8A7", // change when art's done
         desc: "Dedicated to the science of plants.",
         income: {
             science: 0.25,
@@ -1276,7 +1276,7 @@ SharkGame.ResourceTable = {
     snailGeologist: {
         name: "snail geologists",
         singleName: "snail geologist",
-        color: "#A3CAE4", //change when art's done
+        color: "#A3CAE4", // change when art's done
         desc: "Endlessly fascinated by rocks.",
         income: {
             science: 0.25,
@@ -1288,7 +1288,7 @@ SharkGame.ResourceTable = {
     snailMalacologist: {
         name: "snail malacologists",
         singleName: "snail malacologist",
-        color: "#E1B167", //change when art's done
+        color: "#E1B167", // change when art's done
         desc: "The introspective sort.",
         income: {
             science: 0.25,
@@ -1300,7 +1300,7 @@ SharkGame.ResourceTable = {
     turtle: {
         name: "turtles",
         singleName: "turtle",
-        color: "#6CB46E", //change when art's done
+        color: "#6CB46E", // change when art's done
         desc: "Travelers along the flow.",
         income: {
             kelp: 1,
@@ -1314,7 +1314,7 @@ SharkGame.ResourceTable = {
     turtleLocator: {
         name: "turtle locators",
         singleName: "turtle locator",
-        color: "#82DB48", //change when art's done
+        color: "#82DB48", // change when art's done
         desc: "Taking responsibility.",
         income: {
             turtle: 0.1,
@@ -1325,7 +1325,7 @@ SharkGame.ResourceTable = {
     turtleSweeper: {
         name: "turtle sweepers",
         singleName: "turtle sweeper",
-        color: "#73BA9D", //change when art's done
+        color: "#73BA9D", // change when art's done
         desc: "Taking a cursory interest in the seafloor.",
         income: {
             sand: 0.75,
@@ -1334,10 +1334,10 @@ SharkGame.ResourceTable = {
         value: 6000,
     },
 
-    echo: { //gains production from toggles
+    echo: { // gains production from toggles
         name: "echos",
         singleName: "echo",
-        color: "#9CC6A5", //change when art's done
+        color: "#9CC6A5", // change when art's done
         desc: "Many, yet one.",
         value: 5000,
     },
@@ -1353,7 +1353,7 @@ SharkGame.ResourceTable = {
     wispCumulator: {
         name: "wisp cumulators",
         singleName: "wisp cumulator",
-        color: "#3EBD6C", //change when art's done
+        color: "#3EBD6C", // change when art's done
         desc: "Filters wisps from the ocean currents.",
         income: {
             wisp: 400,
@@ -1367,7 +1367,7 @@ SharkGame.ResourceTable = {
     echoBeacon: {
         name: "echo beacons",
         singleName: "echo beacon",
-        color: "#8CBDBC", //change when art's done
+        color: "#8CBDBC", // change when art's done
         desc: "Singing a song out towards infinity.",
         income: {
             echo: 1,
