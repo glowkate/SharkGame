@@ -511,7 +511,7 @@ SharkGame.Upgrades = {
         crystalContainer: {},
         statsDiscovery: { cost: { science: 75 } },
         underwaterChemistry: {},
-        seabedGeology: { effect: { incomeMultiplier: { ray: 2 }, }, },
+        seabedGeology: { effect: { incomeMultiplier: { ray: 2 } } },
         thermalVents: {
             cost: {
                 science: 500,
@@ -4637,20 +4637,20 @@ SharkGame.Upgrades = {
             },
         },
 
-        placeholder: {
-            name: "placeholder",
-            desc: "placeholder",
+        placeholder2: {
+            name: "placeholder2",
+            desc: "placeholder2",
             researchedMessage:
-                "placeholder",
+                "placeholder2",
             effectDesc:
-                "placeholder",
+                "placeholder2",
             cost: {
             },
             required: {
                 upgrades: [],
             },
         },	
-	
+
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",
