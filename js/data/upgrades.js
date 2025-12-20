@@ -4649,7 +4649,7 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: [],
             },
-        },	
+        },
 
         recontainChaos: {
             name: "Recontain Chaos",
