@@ -294,68 +294,6 @@ SharkGame.HomeActions = {
             helpText: "Take a great risk in catching a jellyfish without being stung.",
         },
 
-        fakeCatchFish: {
-            name: "Catch fish",
-            effect: {
-            },
-            cost: {},
-            prereq: {},
-            outcomes: [
-                "Caught a fis- nevermind.",
-                "You fail to catch a fish.",
-                "The fish slips through your jaws.",
-                "The fish slips past you.",
-                "You catch a fish. Then it escapes from your maw.",
-                "Fishn't",
-                "The fish here feel intangible.",
-            ],
-            helpText: "Use your natural shark prowess to find and catch a fish.",
-        },
-
-        catchEcho: {
-            name: "Catch echo",
-            effect: {
-                get echo() {
-                    return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
-                },
-            },
-            cost: {},
-            prereq: {},
-            outcomes: [
-                "Caught what used to be a fish.",
-                "Caught a fish shaped thing.",
-                "It's so nice to be able to finally catch these!",
-                "They're tasteless, but they're still fish... kinda?",
-                "Caught a fragment of potential.",
-                "This feels familiar somehow...",
-                "No escape this time, bud!",
-                "Caught the imprint of a fish.",
-                "Caught a fish.",
-                "These fish are kinda fishy...",
-                "Nothing can escape your maws now!",
-                "More fish-things for the snails to study!",
-                "Caught the memory of a fish.",
-                "Caught an echo.",
-                "Caught the absence of a fish.",
-                "Caught the concept of a fish.",
-                "Caught the fish of a fish.",
-                "Caught the shark of a fish.",
-                "Caught the desire for a fish.",
-                "Caught the potential for a fish.",
-                "Caught the catching of a fish.",
-                "Caught the hunger of a fish.",
-                "Caught the wisp of a fish.",
-                "Caught the         of a fish",
-                "Caught the mind of a fish.",
-                "Caught the soul of a fish.",
-                "Caught the body of a fis- nope nevermind.",
-                "Caught the light of a fish.",
-                "Caught the chance of a fish.",
-                "Caught the silhouette of a fish.",
-            ],
-            helpText: "Catch an abstract component of a fish.",
-        },
-
         // CONVERSIONS ////////////////////////////////////////////////////////////////////////////////
 
         seaApplesToScience: {
@@ -4651,6 +4589,71 @@ SharkGame.HomeActions = {
             },
         },
     },
+	chaotic: {
+	    fakeCatchFish: {
+            name: "Catch fish",
+            effect: {
+            },
+            cost: {},
+            prereq: {},
+            outcomes: [
+                "Caught a fis- nevermind.",
+                "You fail to catch a fish.",
+                "The fish slips through your jaws.",
+                "The fish slips past you.",
+                "You catch a fish. Then it escapes from your maw.",
+                "Fishn't",
+                "The fish here feel intangible.",
+            ],
+            helpText: "Use your natural shark prowess to find and catch a fish.",
+        },
+
+        catchWisp: {
+            name: "Catch wisp",
+            effect: {
+				resource: {
+					get wisp() {
+						return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
+					},
+				},
+            },
+            cost: {},
+            prereq: {},
+            outcomes: [
+                "Caught what used to be a fish.",
+                "Caught a fish shaped thing.",
+                "It's so nice to be able to finally catch these!",
+                "They're tasteless, but they're still fish... kinda?",
+                "Caught a fragment of potential.",
+                "This feels familiar somehow...",
+                "No escape this time, bud!",
+                "Caught the imprint of a fish.",
+                "Caught a fish.",
+                "These fish are kinda fishy...",
+                "Nothing can escape your maws now!",
+                "More fish-things for the snails to study!",
+                "Caught the memory of a fish.",
+                "Caught an echo.",
+                "Caught the absence of a fish.",
+                "Caught the concept of a fish.",
+                "Caught the fish of a fish.",
+                "Caught the shark of a fish.",
+                "Caught the desire for a fish.",
+                "Caught the potential for a fish.",
+                "Caught the catching of a fish.",
+                "Caught the hunger of a fish.",
+                "Caught the wisp of a fish.",
+                "Caught the         of a fish",
+                "Caught the mind of a fish.",
+                "Caught the soul of a fish.",
+                "Caught the body of a fis- nope nevermind.",
+                "Caught the light of a fish.",
+                "Caught the chance of a fish.",
+                "Caught the silhouette of a fish.",
+            ],
+            helpText: "Catch an abstract component of a fish.",
+        },
+	},
 };
 
 SharkGame.HomeActionCategories = {
@@ -4662,7 +4665,7 @@ SharkGame.HomeActionCategories = {
 
     basic: {
         name: "Basic",
-        actions: ["catchFish", "debugbutton", "prySponge", "prySponge2", "getClam", "getJellyfish"],
+        actions: ["catchFish", "debugbutton", "prySponge", "prySponge2", "getClam", "getJellyfish", "fakeCatchFish", "catchWisp"],
     },
 
     frenzy: {

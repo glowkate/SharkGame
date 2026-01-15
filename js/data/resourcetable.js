@@ -1256,7 +1256,7 @@ SharkGame.ResourceTable = {
         jobs: [
             "snailBotanist",
             "snailGeologist",
-            "snailMalacologst",
+            "snailMalacologist",
         ],
         value: 1000,
     },
@@ -1354,7 +1354,7 @@ SharkGame.ResourceTable = {
         name: "wisp cumulators",
         singleName: "wisp cumulator",
         color: "#3EBD6C", // change when art's done
-        desc: "Filters wisps from the ocean currents.",
+        desc: "Filters wisps from the ocean currents using crystals.",
         income: {
             wisp: 400,
             get crystal() {
@@ -1573,7 +1573,7 @@ SharkGame.ResourceCategories = {
             "Was it something they said?",
             "Are you happy with what you've done?",
         ],
-        resources: ["shark", "ray", "crab", "shrimp", "lobster", "dolphin", "whale", "chimaera", "octopus", "eel", "squid", "urchin", "billfish"],
+        resources: ["shark", "ray", "crab", "shrimp", "lobster", "dolphin", "whale", "chimaera", "octopus", "eel", "squid", "urchin", "billfish", "echo", "snail", "turtle"],
     },
     animals: {
         name: "Animals",
@@ -1586,7 +1586,7 @@ SharkGame.ResourceCategories = {
             "Do you think the aim of the game is to make the numbers go DOWN?!",
             "Sure hope you know what you're doing here.",
         ],
-        resources: ["fish", "seaApple", "sponge", "jellyfish", "clam"],
+        resources: ["fish", "seaApple", "sponge", "jellyfish", "clam", "wisp"],
     },
     stuff: {
         name: "Materials",
@@ -1631,7 +1631,7 @@ SharkGame.ResourceCategories = {
             "You sure you want to disrupt this accelerated growth curve?",
             "Back to a simpler life, maybe.",
         ],
-        resources: ["nurse", "maker", "brood", "queen", "berrier", "biologist", "pit", "collective", "spawner", "billfishPair"],
+        resources: ["nurse", "maker", "brood", "queen", "berrier", "biologist", "pit", "collective", "spawner", "billfishPair", "snailMalacologist", "turtleLocator"],
     },
     specialists: {
         name: "Specialists",
@@ -1667,6 +1667,9 @@ SharkGame.ResourceCategories = {
             "billfishExplorer",
             "billfishMechanic",
             "stormgoer",
+			"snailBotanist",
+			"snailGeologist",
+			"turtleSweeper",
             // "prospector",
             // "shoveler",
             // "miller",
@@ -1699,6 +1702,8 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
+			"echoBeacon",
+			"wispCumulator",
             // "coalescer",
             // "crusher",
             // "pulverizer",
@@ -1781,7 +1786,7 @@ SharkGame.InternalCategories = {
     },
     sharkmachines: {
         name: "Shark Machines",
-        resources: ["sharkonium", "fishMachine", "sandDigger", "crystalMiner", "skimmer", "autoTransmuter"],
+        resources: ["sharkonium", "fishMachine", "sandDigger", "crystalMiner", "skimmer", "autoTransmuter", "echoBeacon", "wispCumulator"],
     },
     dolphinmachines: {
         name: "Dolphin Machines",
@@ -1796,11 +1801,17 @@ SharkGame.InternalCategories = {
         resources: ["calcinium", "seabedStripper", "calciniumConverter", "clamScavenger"],
     },
     basicmaterials: {
-        resources: ["fish", "sand", "crystal", "science", "junk"],
+        resources: ["fish", "sand", "crystal", "science", "junk", "wisp"],
     },
     kelpstuff: {
         resources: ["kelp", "seaApple"],
     },
+	snails: {
+		resources: ["snail", "snailBotanist", "snailMalacologist", "snailGeologist"],
+	},
+	turtles: {
+		resources: ["turtle", "turtleLocator", "turtleSweeper"],
+	},
     basics: {
         resources: ["essence", "world", "aspectAffect", "specialResourceOne", "specialResourceTwo"],
     },
