@@ -6,7 +6,7 @@ SharkGame.Gateway = {
     transitioning: false,
     selectedWorld: "",
 
-    allowedWorlds: ["abandoned", "haven", "frigid", "shrouded", "marine", "volcanic", "tempestuous"],
+    allowedWorlds: ["abandoned", "haven", "frigid", "shrouded", "marine", "volcanic", "tempestuous", "chaotic"],
 
     completedWorlds: [],
 

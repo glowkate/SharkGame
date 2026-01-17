@@ -4589,10 +4589,18 @@ SharkGame.HomeActions = {
             },
         },
     },
-	chaotic: {
-	    fakeCatchFish: {
+    chaotic: {
+        fakeCatchFish: {
             name: "Catch fish",
             effect: {
+                resource: {
+                    get fakeFish(){
+                        return 1;
+                    },
+                },
+            },
+            removedBy: {
+                otherActions: ["getClam"],
             },
             cost: {},
             prereq: {},
@@ -4607,18 +4615,59 @@ SharkGame.HomeActions = {
             ],
             helpText: "Use your natural shark prowess to find and catch a fish.",
         },
+        getClam: {
+            name: "Get clam",
+            effect: {
+                resource: {
+                    get clam() {
+                        return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
+                    },
+                },
+            },
+            cost: {},
+            prereq: {
+                resource: {
+                    fakeFish: 3,
+                },
+            },
+            outcomes: [
+                "Got a grooved carpet shell.",
+                "Got a hard clam.",
+                "Got a manila clam.",
+                "Got a soft clam.",
+                "Got an atlantic surf clam.",
+                "Got an ocean quahog.",
+                "Got a pacific razor clam.",
+                "Got a pismo clam.",
+                "Got a geoduck.",
+                "Got an atlantic jackknife clam.",
+                "Got a lyrate asiatic hard clam.",
+                "Got an ark clam.",
+                "Got a nut clam.",
+                "Got a duck clam.",
+                "Got a marsh clam.",
+                "Got a file clam.",
+                "Got a giant clam.",
+                "Got an asiatic clam.",
+                "Got a peppery furrow shell.",
+                "Got a pearl oyster.",
+            ],
+            helpText: "Fetch a clam. Why do we need clams now? Who knows.",
+        },
 
         catchWisp: {
             name: "Catch wisp",
             effect: {
-				resource: {
-					get wisp() {
-						return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
-					},
-				},
+                resource: {
+                    get wisp() {
+                        return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
+                    },
+                },
             },
             cost: {},
-            prereq: {},
+            prereq: {
+                upgrade: ["sharkoniumBiteGear"]
+            },
             outcomes: [
                 "Caught what used to be a fish.",
                 "Caught a fish shaped thing.",
@@ -4653,7 +4702,7 @@ SharkGame.HomeActions = {
             ],
             helpText: "Catch an abstract component of a fish.",
         },
-	},
+    },
 };
 
 SharkGame.HomeActionCategories = {

@@ -363,17 +363,32 @@ SharkGame.WorldTypes = {
         foresight: {
             vagueLongDesc: "Waves of bizzare energy radiate from this world.",
             longDesc: "The currents make most sealife phase in and out of reality. Plants and shelled creatures appear to be immune to this effect.",
-            missing: ["fish"],
-            present: ["snail", "turtle", "echo"],
+            missing: ["fish","shark","ray","crab"],
+            present: ["snail", "turtle", "echo", "wisp"],
             tip: "Harnessing the energy plaguing this world could be the key to fixing it. Flexibility is your greatest asset.",
         },
         entry: "You awake in a bizzare place, the last traces of your memories washed away by an oddly familiar force.",
-        style: "default",
-        includedResources: [""],
-        absentResources: ["fish", "knowledge", "tar", "ice", "heater", "chimaera"],
+        style: "haven", //to be changed
+        includedResources: [
+            "wisp",
+            "echo",
+            "snails",
+            "turtles",
+            "clam",
+            "sharkmachines",
+            "essence",
+            "echoBeacon",
+            "wispCumulator",
+            "basicmaterials",
+            "fakeFish",
+            "world",
+            "aspectAffect",
+        ],
+        absentResources: ["fish"],
         gateRequirements: {
             upgrades: ["recontainChaos"],
         },
+        par: 50, //Adjust later
     },
     stone: {
         name: "Stone",

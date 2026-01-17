@@ -1245,6 +1245,14 @@ SharkGame.ResourceTable = {
 
     // chaotic
 
+    fakeFish: {
+        name: "fish",
+        singleName: "fish",
+        desc: "The hunted.",
+        color: "#E3D85B",
+        value: 2,
+    },
+
     snail: {
         name: "sea snails",
         singleName: "sea snail",
@@ -1667,9 +1675,9 @@ SharkGame.ResourceCategories = {
             "billfishExplorer",
             "billfishMechanic",
             "stormgoer",
-			"snailBotanist",
-			"snailGeologist",
-			"turtleSweeper",
+            "snailBotanist",
+            "snailGeologist",
+            "turtleSweeper",
             // "prospector",
             // "shoveler",
             // "miller",
@@ -1702,8 +1710,8 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
-			"echoBeacon",
-			"wispCumulator",
+            "echoBeacon",
+            "wispCumulator",
             // "coalescer",
             // "crusher",
             // "pulverizer",
@@ -1786,7 +1794,7 @@ SharkGame.InternalCategories = {
     },
     sharkmachines: {
         name: "Shark Machines",
-        resources: ["sharkonium", "fishMachine", "sandDigger", "crystalMiner", "skimmer", "autoTransmuter", "echoBeacon", "wispCumulator"],
+        resources: ["sharkonium", "fishMachine", "sandDigger", "crystalMiner", "skimmer", "autoTransmuter"],
     },
     dolphinmachines: {
         name: "Dolphin Machines",
@@ -1801,17 +1809,17 @@ SharkGame.InternalCategories = {
         resources: ["calcinium", "seabedStripper", "calciniumConverter", "clamScavenger"],
     },
     basicmaterials: {
-        resources: ["fish", "sand", "crystal", "science", "junk", "wisp"],
+        resources: ["fish", "sand", "crystal", "science", "junk"],
     },
     kelpstuff: {
         resources: ["kelp", "seaApple"],
     },
-	snails: {
-		resources: ["snail", "snailBotanist", "snailMalacologist", "snailGeologist"],
-	},
-	turtles: {
-		resources: ["turtle", "turtleLocator", "turtleSweeper"],
-	},
+    snails: {
+        resources: ["snail", "snailBotanist", "snailMalacologist", "snailGeologist"],
+    },
+    turtles: {
+        resources: ["turtle", "turtleLocator", "turtleSweeper"],
+    },
     basics: {
         resources: ["essence", "world", "aspectAffect", "specialResourceOne", "specialResourceTwo"],
     },

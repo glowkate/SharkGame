@@ -4637,13 +4637,13 @@ SharkGame.Upgrades = {
             },
         },
 
-        placeholder2: {
-            name: "placeholder2",
-            desc: "placeholder2",
+        sharkoniumBiteGear: {
+            name: "Sharkonium Bite-Gear",
+            desc: "The snails eagerly discuss the idea of collecting the faded fish swimming around. They say they just need some time and materials.",
             researchedMessage:
-                "placeholder2",
+                "We were given some kind of bite implant and told to go try and catch fish. We’re unsure how this is supposed to help, but we might as well try.",
             effectDesc:
-                "placeholder2",
+                "We’re able to catch the fish floating around! We can’t eat them yet, but it’s a start!",
             cost: {
             },
             required: {

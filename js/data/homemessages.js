@@ -515,6 +515,22 @@ SharkGame.HomeMessages = {
                 message: "A wave of heat washes over you, and the dingy complex comes back to life. The gate turns on.",
             },
         ],
+        chaotic: [
+            {
+                name: "chaotic-default",
+                message: "The fish here don’t even notice your presence. They appear to phase in and out of existence periodically.",
+            },
+            {
+                name: "chaotic-fishfail",
+                unlock: { totalResource: { fakeFish: 1 } },
+                message: "You attempt to catch a fish, but your jaws harmlessly phase through its body.",
+            },
+            {
+                name: "chaotic-findclam",
+                unlock: { totalResource: { fakeFish: 3 } },
+                message: "You spot some weird rock things moving in the distance. If you can’t catch any fish, maybe you can at least catch… those.",
+            },
+        ],
         /*
         {
             message:
