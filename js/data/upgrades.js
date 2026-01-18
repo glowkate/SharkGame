@@ -4546,10 +4546,8 @@ SharkGame.Upgrades = {
         snailAquatences: {
             name: "Snail Aquatences",
             desc: "Our first meeting with the snails was a bit awkward… maybe we should try to reconcile?",
-            researchedMessage:
-                "We hardly said a word before the snails began relentlessly reassuring us that they were happy and didn’t mind what we did. At least it seems to have motivated them.",
-            effectDesc:
-                "The snails seem to want to prove themselves to us. They’ve been working twice as hard.",
+            researchedMessage: "We hardly said a word before the snails began relentlessly reassuring us that they were happy and didn’t mind what we did. At least it seems to have motivated them.",
+            effectDesc: "The snails seem to want to prove themselves to us. They’ve been working twice as hard.",
             cost: {
                 clam: 100,
             },
@@ -4566,13 +4564,13 @@ SharkGame.Upgrades = {
 
         kelpCuriosity: {
             name: "Kelp Curiosity",
-            desc: "placeholder",
+            desc: "We’ve noticed that some snails stare at the green stuff on the floor in fascination. We should support our new friends' interests.",
             researchedMessage:
-                "placeholder",
+                "It seemed that the snails were worried that we’d make fun of them for wanting to study the green things. Now that we’ve shown our support, they’re jumping at the opportunity!",
             effectDesc:
-                "placeholder",
+                "Snails can now specialise in something they call botany. We don’t understand what it is, but are happy to see them happy.",
             cost: {
-                clam: 300,
+                clam: 200,
             },
             required: {
                 upgrades: ["molluskIdentification"],
@@ -4580,63 +4578,255 @@ SharkGame.Upgrades = {
             },
         },
 
-        statsDiscovery: { required: { upgrades: ["kelpCuriosity"] } },
+        statsDiscovery: { required: { upgrades: ["kelpCuriosity"], } },
 
         notekeeping: {
             name: "Notekeeping",
             desc: "Our snails have a lot of passion, but are often too shy to share their discoveries with one another. Maybe we can find a solution?",
-            researchedMessage:
-                "Now our snails don’t have to talk to each other to share information! Finally, we can stop re-discovering the same things over and over!",
-            effectDesc:
-                "We’re now carving clam shells with our discoveries. Our scientific efforts are now more effective!",
+            researchedMessage: "Now our snails don’t have to talk to each other to share information! Finally, we can stop re-discovering the same things over and over!",
+            effectDesc: "We’re now carving clam shells with our discoveries. Our scientific efforts are now more effective!",
             cost: {
-                clam: 500,
-                science: 100,
+                clam: 450,
+                science: 50,
             },
             required: {
                 upgrades: ["kelpCuriosity"],
             },
+			effect: {
+                resourceBoost: {
+                    science: 2,
+                },
+            },
         },
-
+		
         currentContact: {
             name: "Current Contact",
             desc: "Our botanists insist that there are other physical creatures besides us. Apparently they live high above the seabed.",
-            researchedMessage:
-                "The creatures were exceptionally friendly. They call themselves turtles. They have shells like the snails, but also have fins. Weird, bumpy fins.",
-            effectDesc:
-                "After giving them a hefty amount of kelp as a greeting gift, turtles are now willing to join our frenzy.",
+            researchedMessage: "The creatures were exceptionally friendly. They call themselves turtles. They have shells like the snails, but also have fins. Weird, bumpy fins.",
+            effectDesc: "After giving them a hefty amount of kelp as a greeting gift, turtles are now willing to join our frenzy.",
             cost: {
-                kelp: 250,
-                science: 500,
+                kelp: 100,
             },
             required: {
                 upgrades: ["kelpCuriosity"],
+				seen: ["kelp"],
             },
         },
-
-        placeholder: {
-            name: "placeholder",
-            desc: "placeholder",
-            researchedMessage:
-                "placeholder",
-            effectDesc:
-                "placeholder",
-            cost: {
+		
+        seabedGeology: {
+			name: "Seabed Geology",
+			desc: "Some snails stand in awe as the turtles kick up things from the seabed. Maybe we could encourage those snails like we did with the botanists?",
+			reserchedMessage: "Turns out that some snails are, like, REALLY into rocks. They were even able to find some shiny rocks. Good for them.",
+			effectDesc: "Our new understanding of the seabed helps our turtle friends kick up more stuff. Also, some snails have expressed interest in geology.",
+			cost: {
+				sand: 400,
+			},
+			required: { 
+				upgrades: ["currentContact"],
+				seen: ["turtle"],
+			},
+			effect: {
+                incomeMultiplier: {
+					turtle: 2,
+				},
             },
-            required: {
-                upgrades: [],
-            },
-        },
-
-        seabedGeology: {},
-
+		},
+		
         thermalVents: {
+			name: "Thermal Vents",
+			desc: "Our geologists are excited about an area where the rocks are hotter. They want supplies to go out and investigate.",
+			reserchedMessage: "The snails found an endless well of heat! Also, the turtles told us that \"faded\" creatures tend to congregate towards heat.",
+			effectDesc: "Well we can’t really do much with it at the moment, but we found a large well of heat. Surely it’ll be helpful later.",
             cost: {
-                science: 500,
+                science: 750,
                 sand: 1000,
             },
+			required: {
+				upgrades: ["seabedGeology"],
+			},
         },
-
+		
+		pearlConversion: {
+            name: "Pearl Conversion",
+            desc: "We somtimes find these shiny things inside of clams. The lobsters say they can use them?",
+            researchedMessage:
+                "Well, we can transmute what are called 'pearls' into crystals now, though we also need the rest of the clam, too. (yes, the entire clam)",
+            effectDesc:
+                "We can turn clams into crystals using the 'pearls' inside them as a focus. Maybe one day we won't need to use the whole clam.",
+            cost: {
+                science: 1000,
+                clam: 500,
+                crystal: 100,
+            },
+            required: {
+                upgrades: ["thermalVents"],
+            },
+        },
+		
+		crystalContainer: {
+            name: "Crystal Containers",
+            desc: "Make weird bottle things from the crystals we have. Maybe useful??",
+            researchedMessage: "Well, things can go into these containers that aren't water. This makes science easier!",
+            effectDesc: "Scientists are twice as effective at making with the science.",
+            cost: {
+                science: 350,
+                crystal: 100,
+            },
+            effect: {
+                resourceBoost: {
+                    science: 2,
+                },
+            },
+			required: {
+                seen: ["crystal"],
+            },
+        },
+		
+        underwaterChemistry: {
+            name: "Underwater Chemistry",
+            desc: "With the weird bottles, we can now put things and other things into them and see what happens.",
+            researchedMessage: "Well, nothing useful was determined, but if we keep on doing it we make tremendous leaps for science!",
+            effectDesc: "Scientists are twice as effective with their new chemical insights.",
+            cost: {
+                science: 800,
+                crystal: 500,
+            },
+            required: {
+                upgrades: ["crystalContainer"],
+            },
+            effect: {
+                resourceBoost: {
+                    science: 2,
+                },
+            },
+        },
+		
+		transmutation: {
+            name: "Transmutation",
+            desc: "By heating things up and doing science things to them, maybe new things can be made!",
+            researchedMessage: "A new form of material has been discovered! Our geologists named it sharkonium in honour of those who inspired them.",
+            effectDesc: "Enables transmutation of some random junk we have lying around into sharkonium, material of the future.",
+            cost: {
+                science: 4000,
+                crystal: 1500,
+                sand: 15000,
+            },
+            required: {
+                upgrades: ["thermalVents", "underwaterChemistry"],
+            },
+		},
+		
+		automation: {
+            name: "Automation",
+            desc: "Using sharkonium, we can make things to do things so we don't have to do the things!",
+            researchedMessage: "Now we don't have to do all the work, machines can do it for us! Future!!",
+            effectDesc: "Machines can be built to supplement population duties. This is efficient.",
+            cost: {
+                science: 3500,
+                sharkonium: 250,
+            },
+            required: {
+                upgrades: ["transmutation"],
+            },
+        },
+		
+		agriculture: {},
+		
+		sunObservation: {
+            name: "Sun Observation",
+            desc: "Our turtles periodiclly disappear near the surface of the water. Why? Is it due to that weird glare?",
+            researchedMessage: "Snail science has discovered the sun! Apparently it has nothing to do with the turtle's disappearences, but our botanists are thrilled!",
+            effectDesc:
+                "Our methods of gaining kelp are twice as effective. What is a sun? We can see a sun, but where is it really? And what is it made of?",
+            cost: {
+                science: 7500,
+            },
+            required: {
+                upgrades: ["agriculture"],
+            },
+            effect: {
+                resourceBoost {
+					kelp: 2,
+				},
+            },
+        },
+		
+		biology: {
+            name: "Biology",
+            desc: "What are we? What makes us different from the snails and turtles?",
+            researchedMessage: "While the turtles were dismissive of our findings regarding our shark-ness, some snails seem to now be interested in their own biology.",
+            effectDesc:
+                "Snails can now partake in the science of… snails? We're not entirely sure what the end goal is.",
+            cost: {
+                science: 1000,
+            },
+            required: {
+                upgrades: ["underwaterChemistry", "agriculture"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snail: 2,
+					turtle: 2,
+                },
+            },
+        },
+		
+		snailBiology: {
+            name: "Snail Biology",
+            desc: "Our snail studying snails want to learn even more about snails. Might as well help them.",
+            researchedMessage: "The malacologists eagerly reported their findings regarding the inner working of snails. We didn't understand any of it, but their research seems to be producing more snails.",
+            effectDesc: "The science of snails now results in more snails. Hurrah!",
+            cost: {
+                science: 2500,
+                clam: 500,
+            },
+            required: {
+                upgrades: ["biology"],
+                seen: ["snailMalacologist"],
+            },
+            effect: {
+				incomeMultiplier: {
+                    snail: 2,
+                },
+                addSnailIncome: {
+                    snailMalacologist: 0.4,
+                },
+            },
+        },
+		
+		turtleBiology: {
+            name: "Turtle Biology",
+            desc: "Where do turtles come from anyways? It seems as if they just appear out of thin air!",
+            researchedMessage: "Apparently when turtles just abandon their eggs somewhere near the surface of the water! How can they be that carefree about their young?",
+            effectDesc: "We can now assign turtles to go rally up any baby turtles that managed to make it into the ocean.",
+            cost: {
+                science: 5000,
+                kelp: 2500,
+            },
+            required: {
+                upgrades: ["biology", "sunObservation"],
+            },
+            effect: {
+				incomeMultiplier: {
+                    turtle: 2,
+                },
+            },
+        },
+		hyperfixationCommunication: {
+			name: "Hyperfixation Communication",
+            desc: "Sometimes, our snails will blab to us about their ‘special interest’ for hours at a time. Maybe they could teach the turtles something new?",
+            researchedMessage: "We’d secretly hoped that our turtles would be motivated by the snails, but they’re as carefree as ever. At least some turtles seem to have picked up new hobbies.",
+            effectDesc: "Turtles can now specialise in seabed sweeping to find rocky things like crystals or clams.",
+            cost: {
+                science: 5000,
+                kelp: 2500,
+            },
+            required: {
+                upgrades: ["sunObservation"],
+            },
+            effect: {},
+		}
+		
         sharkoniumBiteGear: {
             name: "Sharkonium Bite-Gear",
             desc: "The snails eagerly discuss the idea of collecting the faded fish swimming around. They say they just need some time and materials.",
@@ -4645,12 +4835,14 @@ SharkGame.Upgrades = {
             effectDesc:
                 "We’re able to catch the fish floating around! We can’t eat them yet, but it’s a start!",
             cost: {
+				science: 7500,
+				sharkonium: 1000
             },
             required: {
                 upgrades: [],
             },
         },
-
+		
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",

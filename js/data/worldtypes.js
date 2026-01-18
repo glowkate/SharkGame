@@ -368,13 +368,14 @@ SharkGame.WorldTypes = {
             tip: "Harnessing the energy plaguing this world could be the key to fixing it. Flexibility is your greatest asset.",
         },
         entry: "You awake in a bizzare place, the last traces of your memories washed away by an oddly familiar force.",
-        style: "haven", //to be changed
+        style: "chaotic",
         includedResources: [
             "wisp",
             "echo",
             "snails",
             "turtles",
             "clam",
+			"kelp",
             "sharkmachines",
             "essence",
             "echoBeacon",

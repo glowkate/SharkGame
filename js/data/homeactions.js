@@ -4654,7 +4654,9 @@ SharkGame.HomeActions = {
             ],
             helpText: "Fetch a clam. Why do we need clams now? Who knows.",
         },
-
+		
+		pearlConversion: { cost: [ { resource: "clam", costFunction: "constant", priceIncrease: 5 }, ], },
+		
         catchWisp: {
             name: "Catch wisp",
             effect: {
@@ -4702,6 +4704,188 @@ SharkGame.HomeActions = {
             ],
             helpText: "Catch an abstract component of a fish.",
         },
+		getSnail: {
+			name: "Recruit sea snail",
+			effect: {
+				resource: {
+					snail: 1,
+				},
+			},
+			cost: [{ resource: "clam", costFunction: "linear", priceIncrease: 5 },],
+			max: "snail",
+			prereq: { upgrade: ["molluskIdentification"], },
+			outcomes: [
+                "A sea snail joins you.",
+            ],
+			multiOutcomes: [
+                "Some sea snails join you.",
+            ],
+            helpText: "Figure out which of these shells are actually snails.",
+		},
+		getTurtle: {
+			name: "Recruit sea turtle",
+			effect: {
+				resource: {
+					turtle: 1,
+				},
+			},
+			cost: [{ resource: "kelp", costFunction: "linear", priceIncrease: 15 },],
+			max: "turtle",
+			prereq: { upgrade: ["currentContact"], },
+			outcomes: [
+                "A sea turtle joins you.",
+				"Recruited a tortoise.",
+            ],
+			multiOutcomes: [
+                "Some sea turtles join you.",
+            ],
+            helpText: "Convince a turtle to do something other then aimless wandering.",
+		},
+		
+		//snail jobs
+		getSnailBotanist: {
+			name: "Encourage snail botanist",
+			effect: {
+				resource: {
+					snailBotanist: 1,
+				},
+			},
+			cost: [
+				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
+				{ resource: "clam", costFunction: "linear", priceIncrease: 15 },
+			],
+			max: "snailBotanist",
+			prereq: { upgrade: ["kelpCuriosity"], },
+			outcomes: [
+                "A snail discovers a new obsession. For kelp.",
+				"Surely kelp can't be THIS interesting, right?",
+				"Once you get them talking, they just don't stop...",
+				"What do the snails get out of this?",
+				"Surely there's science in this.",
+				"The mysteries of the kelp shall be untangled!",
+				"You don't understand what's so interesting about kelp, but you're happy for the snails.",
+				"Their passion for kelp never fails to impress you.",
+            ],
+			multiOutcomes: [
+                "Kelp kelp kelp kelp.",
+				"How do so many snails care about this stuff?",
+				"An army of snails descends upon the kelp.",
+				"Trails of snail slime cover our piles of kelp.",
+				"They shall march upon the kelp with gusto.",
+				"Our snails shall blot out the kelp!",
+            ],
+            helpText: "Encourage a snail to explore their interest in kelp.",
+		},
+		
+		getSnailGeologist: {
+			name: "Encourage snail geologist",
+			effect: {
+				resource: {
+					snailGeologist: 1,
+				},
+			},
+			cost: [
+				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
+				{ resource: "sand", costFunction: "linear", priceIncrease: 10 },
+			],
+			max: "snailGeologist",
+			prereq: { upgrade: ["seabedGeology"], },
+			outcomes: [
+                "A snail discovers a new obsession. For kelp.",
+            ],
+			multiOutcomes: [
+                "Kelp kelp kelp kelp.",
+				"How do so many snails care about this stuff?",
+            ],
+            helpText: "Help a snail express themselves through the science of rocks.",
+		},
+		
+		getSnailMalacologist: {
+			name: "Encourage snail malacologist",
+			effect: {
+				resource: {
+					snailMalacologist: 1,
+				},
+			},
+			cost: [
+				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
+				{ resource: "crystal", costFunction: "linear", priceIncrease: 10 },
+			],
+			max: "snailMalacologist",
+			prereq: { upgrade: ["biology"], },
+			outcomes: [
+                "Placeholder.",
+            ],
+			multiOutcomes: [
+                "Placeholders.",
+            ],
+            helpText: "Help a snail find their inner self.",
+		},
+		
+		//turtle jobs
+		getTurtleLocator: {
+			name: "Assign turtle locator",
+			effect: {
+				resource: {
+					turtleLocator: 1,
+				},
+			},
+			cost: [
+				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
+				{ resource: "kelp", costFunction: "linear", priceIncrease: 40 },
+			],
+			max: "turtleLocator",
+			prereq: { upgrade: ["biology"], },
+			outcomes: [
+                "Placeholder.",
+            ],
+			multiOutcomes: [
+                "Placeholders.",
+            ],
+            helpText: "Convince a turtle to care about their children.",
+		},
+		getTurtleSweeper: {
+			name: "Convince turtle locator",
+			effect: {
+				resource: {
+					turtleLocator: 1,
+				},
+			},
+			cost: [
+				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
+				{ resource: "kelp", costFunction: "linear", princeIncrease: 20 ),
+				{ resource: "crystal", costFunction: "linear", priceIncrease: 20 },
+			],
+			max: "turtleLocator",
+			prereq: { upgrade: ["biology"], },
+			outcomes: [
+                "Placeholder.",
+            ],
+			multiOutcomes: [
+                "Placeholders.",
+            ],
+            helpText: "Convince a turtle to pick up a new hobby regarding things on the seafloor.",
+		},
+		
+		transmuteSharkonium: {
+            outcomes: [
+                "Transmutation destination!",
+                "Transmutation rejuvenation!",
+                "Transmogrification revelation!",
+                "Transformation libation!",
+                "Transfiguration nation! ...wait.",
+                "Sharkonium arise!",
+                "Arise, sharkonium!",
+                "More sharkonium!",
+                "The substance that knows no name! Except the name sharkonium!",
+                "The substance that knows no description! It's weird to look at.",
+                "The foundation of a modern sh- uh... snail frenzy!",
+            ],
+        },
+		
+		getCrystalMiner: {},
+		
+		getSandDigger: {},
     },
 };
 
@@ -4733,6 +4917,8 @@ SharkGame.HomeActionCategories = {
             "getSquid",
             "getUrchin",
             "getBillfish",
+			"getSnail",
+			"getTurtle",
         ],
     },
 
@@ -4767,6 +4953,9 @@ SharkGame.HomeActionCategories = {
             "getBillfishExplorer",
             "getBillfishMechanic",
             "getStormgoer",
+			"getSnailBotanist",
+			"getSnailGeologist",
+			"getSnailMalacologist",
         ],
     },
 

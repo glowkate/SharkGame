@@ -1275,7 +1275,7 @@ SharkGame.ResourceTable = {
         color: "#BED8A7", // change when art's done
         desc: "Dedicated to the science of plants.",
         income: {
-            science: 0.25,
+            science: 0.05,
             kelp: 0.2,
         },
         value: 5000,
@@ -1287,7 +1287,7 @@ SharkGame.ResourceTable = {
         color: "#A3CAE4", // change when art's done
         desc: "Endlessly fascinated by rocks.",
         income: {
-            science: 0.25,
+            science: 0.05,
             crystal: 0.5,
         },
         value: 5000,
@@ -1299,8 +1299,7 @@ SharkGame.ResourceTable = {
         color: "#E1B167", // change when art's done
         desc: "The introspective sort.",
         income: {
-            science: 0.25,
-            snail: 0.05,
+            science: 0.05,
         },
         value: 5000,
     },
@@ -1336,8 +1335,8 @@ SharkGame.ResourceTable = {
         color: "#73BA9D", // change when art's done
         desc: "Taking a cursory interest in the seafloor.",
         income: {
-            sand: 0.75,
-            crystal: 0.75,
+            clam: 3,
+            crystal: 3,
         },
         value: 6000,
     },
@@ -1639,7 +1638,7 @@ SharkGame.ResourceCategories = {
             "You sure you want to disrupt this accelerated growth curve?",
             "Back to a simpler life, maybe.",
         ],
-        resources: ["nurse", "maker", "brood", "queen", "berrier", "biologist", "pit", "collective", "spawner", "billfishPair", "snailMalacologist", "turtleLocator"],
+        resources: ["nurse", "maker", "brood", "queen", "berrier", "biologist", "pit", "collective", "spawner", "billfishPair", "turtleLocator"],
     },
     specialists: {
         name: "Specialists",
@@ -1677,6 +1676,7 @@ SharkGame.ResourceCategories = {
             "stormgoer",
             "snailBotanist",
             "snailGeologist",
+			"snailMalacologist",
             "turtleSweeper",
             // "prospector",
             // "shoveler",

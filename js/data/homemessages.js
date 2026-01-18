@@ -530,6 +530,21 @@ SharkGame.HomeMessages = {
                 unlock: { totalResource: { fakeFish: 3 } },
                 message: "You spot some weird rock things moving in the distance. If you can’t catch any fish, maybe you can at least catch… those.",
             },
+			{
+                name: "chaotic-snail",
+                unlock: { totalResource: { snail: 1 } },
+                message: "The snails are eager to please, but retreat into their shells at the slightest hint of danger. They do their best to smile.",
+            },
+			{
+                name: "chaotic-snailbotanist",
+                unlock: { totalResource: { snailBotanist: 1 } },
+                message: "The botanists eagerly chatter about all things kelp. They talk about sightings of non-snail creatures eating kelp.",
+            },
+			{
+				name: "chaotic-turtle",
+				unlock: { totalResource: { turtle: 1 } },
+				message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t “faded”. Their words, not ours.",
+			},
         ],
         /*
         {
