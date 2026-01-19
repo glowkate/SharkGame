@@ -4835,7 +4835,7 @@ SharkGame.HomeActions = {
 				{ resource: "kelp", costFunction: "linear", priceIncrease: 40 },
 			],
 			max: "turtleLocator",
-			prereq: { upgrade: ["biology"], },
+			prereq: { upgrade: ["turtleBiology"], },
 			outcomes: [
                 "Placeholder.",
             ],
@@ -4845,19 +4845,19 @@ SharkGame.HomeActions = {
             helpText: "Convince a turtle to care about their children.",
 		},
 		getTurtleSweeper: {
-			name: "Convince turtle locator",
+			name: "Convince turtle sweeper",
 			effect: {
 				resource: {
-					turtleLocator: 1,
+					turtleSweeper: 1,
 				},
 			},
 			cost: [
 				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "kelp", costFunction: "linear", princeIncrease: 20 ),
+				{ resource: "kelp", costFunction: "linear", priceIncrease: 20 },
 				{ resource: "crystal", costFunction: "linear", priceIncrease: 20 },
 			],
-			max: "turtleLocator",
-			prereq: { upgrade: ["biology"], },
+			max: "turtleSweeper",
+			prereq: { upgrade: ["hyperfixationCommunication"], },
 			outcomes: [
                 "Placeholder.",
             ],
@@ -4866,7 +4866,6 @@ SharkGame.HomeActions = {
             ],
             helpText: "Convince a turtle to pick up a new hobby regarding things on the seafloor.",
 		},
-		
 		transmuteSharkonium: {
             outcomes: [
                 "Transmutation destination!",
@@ -4886,6 +4885,7 @@ SharkGame.HomeActions = {
 		getCrystalMiner: {},
 		
 		getSandDigger: {},
+		
     },
 };
 
@@ -4956,6 +4956,7 @@ SharkGame.HomeActionCategories = {
 			"getSnailBotanist",
 			"getSnailGeologist",
 			"getSnailMalacologist",
+			"getTurtleSweeper",
         ],
     },
 
@@ -4973,6 +4974,7 @@ SharkGame.HomeActionCategories = {
             "getCollective",
             "getSpawner",
             "getBillfishPair",
+			"getTurtleLocator",
         ],
     },
 

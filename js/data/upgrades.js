@@ -4745,7 +4745,7 @@ SharkGame.Upgrades = {
                 upgrades: ["agriculture"],
             },
             effect: {
-                resourceBoost {
+                resourceBoost: {
 					kelp: 2,
 				},
             },
@@ -4818,14 +4818,36 @@ SharkGame.Upgrades = {
             researchedMessage: "We’d secretly hoped that our turtles would be motivated by the snails, but they’re as carefree as ever. At least some turtles seem to have picked up new hobbies.",
             effectDesc: "Turtles can now specialise in seabed sweeping to find rocky things like crystals or clams.",
             cost: {
-                science: 5000,
-                kelp: 2500,
+                science: 7500,
+                kelp: 6000,
+				sand: 10000,
             },
             required: {
                 upgrades: ["sunObservation"],
             },
             effect: {},
-		}
+		},
+		
+		rekindledHope: {
+			name: "Rekindled Hope",
+			desc: "Learning about the turtle’s history seems to have ignited something within the snails.",
+			researchedMessage: "The snails believe that even if there’s no way to revert what has happened to the faded creatures, they still have to try their best to find a solution. The turtles tell them it’s a waste of effort.",
+			effectDesc: "Our scientists are determined to save those who have faded, doubling their productivity.",
+			cost: {
+                science: 10000,
+                clam: 5000,
+            },
+            required: {
+                upgrades: ["biology", "hyperfixationCommunication"],
+            },
+			effect: {
+				incomeMultiplier: {
+					snailBotanist: 2,
+					snailGeologist: 2,
+                    snailMalacologist: 2,
+                },
+			},
+		},
 		
         sharkoniumBiteGear: {
             name: "Sharkonium Bite-Gear",
@@ -4842,7 +4864,6 @@ SharkGame.Upgrades = {
                 upgrades: [],
             },
         },
-		
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",

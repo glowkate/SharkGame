@@ -545,6 +545,11 @@ SharkGame.HomeMessages = {
 				unlock: { totalResource: { turtle: 1 } },
 				message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t “faded”. Their words, not ours.",
 			},
+			{
+				name: "chaotic-turtlehelpless",
+				unlock: { upgrade: ["hyperfixationCommunication",] },
+				message: "The turtles recall a time where they believed the faded sealife could be saved. Their failures led them to be resigned to their fate.",
+			},
         ],
         /*
         {

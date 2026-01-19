@@ -359,7 +359,7 @@ SharkGame.WorldTypes = {
         name: "Chaotic",
         vagueDesc: "Feels overwhelming.",
         desc: "A planet filled with ethereal, everchanging sealife.",
-        shortDesc: "swirling green.",
+        shortDesc: "swirling green",
         foresight: {
             vagueLongDesc: "Waves of bizzare energy radiate from this world.",
             longDesc: "The currents make most sealife phase in and out of reality. Plants and shelled creatures appear to be immune to this effect.",
