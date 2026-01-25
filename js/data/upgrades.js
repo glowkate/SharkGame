@@ -4644,6 +4644,11 @@ SharkGame.Upgrades = {
 			required: {
 				upgrades: ["seabedGeology"],
 			},
+			effect: {
+				incomeMultiplier: {
+					snailGeologist: 2,
+				},
+			},
         },
 		
 		pearlConversion: {
@@ -4730,7 +4735,13 @@ SharkGame.Upgrades = {
             },
         },
 		
-		agriculture: {},
+		agriculture: {
+			effect: {
+                incomeMultiplier: {
+					snailBotanist: 2,
+				},
+            },
+		},
 		
 		sunObservation: {
             name: "Sun Observation",
@@ -4789,7 +4800,7 @@ SharkGame.Upgrades = {
                     snail: 2,
                 },
                 addSnailIncome: {
-                    snailMalacologist: 0.4,
+                    snailMalacologist: 0.02,
                 },
             },
         },
@@ -4801,7 +4812,7 @@ SharkGame.Upgrades = {
             effectDesc: "We can now assign turtles to go rally up any baby turtles that managed to make it into the ocean.",
             cost: {
                 science: 5000,
-                kelp: 2500,
+                kelp: 5000,
             },
             required: {
                 upgrades: ["biology", "sunObservation"],
@@ -4812,33 +4823,46 @@ SharkGame.Upgrades = {
                 },
             },
         },
+		
 		hyperfixationCommunication: {
 			name: "Hyperfixation Communication",
-            desc: "Sometimes, our snails will blab to us about their ‘special interest’ for hours at a time. Maybe they could teach the turtles something new?",
-            researchedMessage: "We’d secretly hoped that our turtles would be motivated by the snails, but they’re as carefree as ever. At least some turtles seem to have picked up new hobbies.",
-            effectDesc: "Turtles can now specialise in seabed sweeping to find rocky things like crystals or clams.",
+            desc: "The snails and turtles don't know eachother too well. We should introduce them.",
+            researchedMessage: "The turtles seemed to enjoy the (mostly one-sided) conversations with the snails. They're letting snails ride on their backs now, just to hear more.",
+            effectDesc: "Turtles can now specialize in snail transportation. This will significantly speed up the snails.",
             cost: {
                 science: 7500,
-                kelp: 6000,
-				sand: 10000,
+                crystal: 60000,
             },
             required: {
                 upgrades: ["sunObservation"],
             },
-            effect: {},
 		},
 		
-		rekindledHope: {
-			name: "Rekindled Hope",
+		turtleHistory: {
+			name: "Turtle History",
+            desc: "So... the turtles have really long lives, have they really just been drifting around all this time?",
+            researchedMessage: "When the fadding began, the turtles did their best to find a solution, but failed. Now they've just accepted things as they are.",
+            effectDesc: "Those tales were sad ones... many people who the turtles cared about were lost to the fadding.",
+            cost: {
+                science: 8000,
+                kelp: 70000,
+            },
+            required: {
+                upgrades: ["sunObservation"],
+            },
+		},
+		
+		unitedDetermination: {
+			name: "United Determination",
 			desc: "Learning about the turtle’s history seems to have ignited something within the snails.",
 			researchedMessage: "The snails believe that even if there’s no way to revert what has happened to the faded creatures, they still have to try their best to find a solution. The turtles tell them it’s a waste of effort.",
 			effectDesc: "Our scientists are determined to save those who have faded, doubling their productivity.",
 			cost: {
                 science: 10000,
-                clam: 5000,
+                clam: 800000,
             },
             required: {
-                upgrades: ["biology", "hyperfixationCommunication"],
+                upgrades: ["biology", "turtleHistory"],
             },
 			effect: {
 				incomeMultiplier: {
@@ -4849,6 +4873,107 @@ SharkGame.Upgrades = {
 			},
 		},
 		
+		exploration: {
+            name: "Exploration",
+            desc: "Carry the snails beyond the home seas to see what can be found!",
+            researchedMessage: "We found large schools of creatures who had faded to the currents. The turtles enjoy having extra space to swim in.",
+            effectDesc: "With more ocean to drift through, the moral of our turtles has increased!",
+            cost: {
+                science: 10000,
+                kelp: 50000,
+            },
+            required: {
+                upgrades: ["sunObservation"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    turtle: 2,
+                },
+            },
+        },
+		engineering: {
+			effect: {
+				incomeMultiplier: {
+                    crystalMiner: 2,
+                    sandDigger: 2,
+                },
+			},
+		},
+        chaosTriangulation: {
+            name: "Chaos Triangulation",
+            desc: "Our top snails claim to have a lead regarding the cause of the fadding, they'd like to be taken somewhere.",
+            researchedMessage: "The place is littered with the dilapidated remains of machines we've never seen before. Apparently the turtles knew of this place the whole time. Some help they were.",
+            effectDesc: "Our scientist snails are hard at work studying the ruins. The rest are working hard to support them.",
+            cost: {
+                science: 50000,
+                crystal: 125000,
+            },
+            required: {
+                upgrades: ["exploration", "unitedDetermination"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snail: 4,
+                },
+				resourceBoost: {
+					science: 4,
+				},
+            },
+        },
+		turtleInterrogation: {
+            name: "Turtle Interrogation",
+            desc: "Okay, so the turtles knew about these ruins all along? Surely they have to know SOMETHING.",
+            researchedMessage: "The turtles told us that this place holds the source of the fadding. Whatever past they had here, it brings about bad memories.",
+            effectDesc: "There is still much to coax out of the turtles about the fadding, but this will have to do for now.",
+            cost: {
+                science: 170000,
+                kelp: 20000,
+            },
+            required: {
+                upgrades: ["chaosTriangulation"],
+            },
+            effect: {},
+        },
+		steepedSharonium: {
+            name: "Steeped Sharkonium",
+            desc: "The material these machines are made of is similar to sharkonium, but different somehow. Investigation is needed.",
+            researchedMessage: "Turns out that sharkonium that's fused here gains unique properties? Something to do with the 'chaos energy' being highly concentrated in this area?",
+            effectDesc: "Supposedly, our sharkonium is better now. I don't know, ask the snails.",
+            cost: {
+                science: 200000,
+                crystal: 10000,
+				sand: 10000,
+            },
+            required: {
+                upgrades: ["chaosTriangulation"],
+				seen: ["sharkonium"],
+            },
+            effect: {
+				incomeMultiplier: {
+                    crystalMiner: 2,
+                    sandDigger: 2,
+                },
+			},
+        },
+		resurfacedHope: {
+            name: "Resurfaced Hope",
+            desc: "The turtles may try to be emotionaly detached from those around them, but we can see the small glimmer of hope within them.",
+            researchedMessage: "The turtles admitted that they wanted to hope again. More and more turtles join the snail's search for a solution.",
+            effectDesc: "With our turtles actually invested in our succsess, their efficiency has skyrocketed.",
+            cost: {
+                science: 200000,
+                kelp: 20000,
+            },
+            required: {
+                upgrades: ["turtleInterrogation"],
+            },
+            effect: {
+				incomeMultiplier: {
+                    turtle: 4,
+					turtleLocator: 4,
+                },
+			},
+        },
         sharkoniumBiteGear: {
             name: "Sharkonium Bite-Gear",
             desc: "The snails eagerly discuss the idea of collecting the faded fish swimming around. They say they just need some time and materials.",
@@ -4857,13 +4982,65 @@ SharkGame.Upgrades = {
             effectDesc:
                 "We’re able to catch the fish floating around! We can’t eat them yet, but it’s a start!",
             cost: {
-				science: 7500,
-				sharkonium: 1000
+				science: 250000,
+				sharkonium: 200000,
             },
             required: {
-                upgrades: [],
+                upgrades: ["steepedSharonium", "resurfacedHope"],
             },
         },
+		
+		chaosStormGear: {
+            name: "Chaos Storm Gear",
+            desc: "With our new material, our turtles believe they could develop gear to reach the center of the chaos energy storm, but it will take a lot of sacrifice.",
+            researchedMessage:
+                "Countless turtles threw their lives to the fading just for a chance at hope... we can't let their sacrifice go to waste.",
+            effectDesc:
+                "Thousands of turtles succummed to the fading, but we've reached the core of the storm.",
+            cost: {
+				science: 250000,
+				sharkonium: 40000,
+				turtle: 10000,
+            },
+            required: {
+                upgrades: ["steepedSharonium"],
+            },
+        },
+		
+		sharkoniumHarnesses: {
+            name: "Sharkonium Harnesses",
+            desc: "Now that we can make gear to resist the fadding, could we use said gear to help the fadded sealife?",
+            researchedMessage:
+                "We've... somewhat succeeded? Whatever we've pulled out of the fadding isn't a singular person anymore. They're afraid. I'm afraid too.",
+            effectDesc:
+                "We can bring the fadded creatures back to reality, but...",
+            cost: {
+                science: 100000,
+                sharkonium: 25000,
+				wisp: 20,
+            },
+            required: {
+                upgrades: ["chaosStormGear"],
+				seen: ["wisp"],
+            },
+        },
+		
+		echoShifting: {
+			name: "Echo Shifting",
+			desc: "The echos shift between several different forms, but behave like sharks. Are those other forms just for show?",
+			researchedMessage:
+                "So, those who we've 'rescued' have always had the ability to change forms at will. They just acted like sharks since I was a shark. Plus, we hadn't asked.",
+            effectDesc:
+                "Our echos can change forms to produce different resources! This is bound to help!",
+			cost: {
+				science: 150000,
+				wisp: 1000,
+			},
+			required: {
+				seen: ["echo"],
+			},
+		},
+		
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",

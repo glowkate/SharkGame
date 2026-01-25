@@ -4832,7 +4832,7 @@ SharkGame.HomeActions = {
 			},
 			cost: [
 				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "kelp", costFunction: "linear", priceIncrease: 40 },
+				{ resource: "kelp", costFunction: "linear", priceIncrease: 60 },
 			],
 			max: "turtleLocator",
 			prereq: { upgrade: ["turtleBiology"], },
@@ -4844,27 +4844,35 @@ SharkGame.HomeActions = {
             ],
             helpText: "Convince a turtle to care about their children.",
 		},
-		getTurtleSweeper: {
-			name: "Convince turtle sweeper",
+		getturtleTransporter: {
+			name: "Organize turtle transporter",
 			effect: {
 				resource: {
-					turtleSweeper: 1,
+					turtleTransporter: 1,
 				},
 			},
 			cost: [
 				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "kelp", costFunction: "linear", priceIncrease: 20 },
-				{ resource: "crystal", costFunction: "linear", priceIncrease: 20 },
+				{ resource: "kelp", costFunction: "linear", priceIncrease: 500 },
+				{ resource: "crystal", costFunction: "linear", priceIncrease: 25 },
 			],
-			max: "turtleSweeper",
+			max: "turtleTransporter",
 			prereq: { upgrade: ["hyperfixationCommunication"], },
 			outcomes: [
-                "Placeholder.",
+                "Route set and ready!",
+				"This should speed things up.",
+				"Turtle equipped and ready to swim.",
+				"I wonder what hyperfixations the snails will blush about to this one.",
+				"A snail is about to experience speeds previously unknown to them."
             ],
 			multiOutcomes: [
-                "Placeholders.",
+                "Ah, the wonders of public transportation!",
+				"Look out for traffic.",
+				"The currents become even more congested.",
+				"We'll need more bus stops at this rate!",
+				"Look two ways before crossing the seabed.",
             ],
-            helpText: "Convince a turtle to pick up a new hobby regarding things on the seafloor.",
+            helpText: "Get a turtle ready to help transport snails around.",
 		},
 		transmuteSharkonium: {
             outcomes: [
@@ -4886,6 +4894,43 @@ SharkGame.HomeActions = {
 		
 		getSandDigger: {},
 		
+		getAutoTransmuter: {},
+		
+		getEcho: {
+			name: "Bind echo",
+			effect: {
+				resource: {
+					echo: 1,
+				},
+			},
+			cost: [
+				{ resource: "wisp", costFunction: "linear", priceIncrease: 10 },
+				{ resource: "sharkonium", costFunction: "constant", priceIncrease: 20 },
+			],
+			max: "echo",
+			prereq: { upgrade: ["sharkoniumHarnesses"], },
+			outcomes: [
+                "An echo returns to their senses.",
+				"They will need some time to adjust to their new minds.",
+				"A singular multitude.",
+				"A... shark joins you?",
+				"A... ray joins you?",
+				"A... crab joins you?",
+				"Potential harnessed.",
+				"Countless voices emerge from the echo.",
+				"They do not understand what they are. We don't understand either.",
+				"A turtle recognizes this one, but they're different now.",
+				"Do they want to be bound?",
+            ],
+			multiOutcomes: [
+                "A multitude of multitudes.",
+				"Their smiling faces are unfamiliar, yet sorrowful.",
+				"A typhoon of possibilities joins you.",
+				"Forever echoing out into infinity.",
+				"Who will they be today?",
+            ],
+            helpText: "Build a harness able to somewhat pull faded sealife back to reality.",
+		},
     },
 };
 
@@ -4919,6 +4964,7 @@ SharkGame.HomeActionCategories = {
             "getBillfish",
 			"getSnail",
 			"getTurtle",
+			"getEcho",
         ],
     },
 
@@ -4956,7 +5002,7 @@ SharkGame.HomeActionCategories = {
 			"getSnailBotanist",
 			"getSnailGeologist",
 			"getSnailMalacologist",
-			"getTurtleSweeper",
+			"getturtleTransporter",
         ],
     },
 

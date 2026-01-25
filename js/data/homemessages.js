@@ -543,12 +543,22 @@ SharkGame.HomeMessages = {
 			{
 				name: "chaotic-turtle",
 				unlock: { totalResource: { turtle: 1 } },
-				message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t “faded”. Their words, not ours.",
+				message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t 'faded'. Their words, not ours.",
 			},
 			{
 				name: "chaotic-turtlehelpless",
 				unlock: { upgrade: ["hyperfixationCommunication",] },
-				message: "The turtles recall a time where they believed the faded sealife could be saved. Their failures led them to be resigned to their fate.",
+				message: "The turtles speak of a visitor who once gave them false hope. They say you're doing the same to the snails.",
+			},
+			{
+				name: "chaotic-ruins",
+				unlock: { upgrade: ["chaosTriangulation",] },
+				message: "Ruined machines lay half-buried in sand, in the distance swirls a massive storm of energy that the turtles say can fade even shelled creatures.",
+			},
+			{
+				name: "chaotic-turtlehope",
+				unlock: { upgrade: ["resurfacedHope",] },
+				message: "The snails remind the turtles of how they once were. They want to believe again, to not mindlessly drift towards oblivion.",
 			},
         ],
         /*

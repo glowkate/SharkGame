@@ -364,7 +364,7 @@ SharkGame.WorldTypes = {
             vagueLongDesc: "Waves of bizzare energy radiate from this world.",
             longDesc: "The currents make most sealife phase in and out of reality. Plants and shelled creatures appear to be immune to this effect.",
             missing: ["fish","shark","ray","crab"],
-            present: ["snail", "turtle", "echo", "wisp"],
+            present: ["snail", "turtle", "wisp"],
             tip: "Harnessing the energy plaguing this world could be the key to fixing it. Flexibility is your greatest asset.",
         },
         entry: "You awake in a bizzare place, the last traces of your memories washed away by an oddly familiar force.",

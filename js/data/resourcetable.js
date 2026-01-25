@@ -1275,7 +1275,7 @@ SharkGame.ResourceTable = {
         color: "#BED8A7", // change when art's done
         desc: "Dedicated to the science of plants.",
         income: {
-            science: 0.05,
+            science: 0.02,
             kelp: 0.2,
         },
         value: 5000,
@@ -1287,7 +1287,7 @@ SharkGame.ResourceTable = {
         color: "#A3CAE4", // change when art's done
         desc: "Endlessly fascinated by rocks.",
         income: {
-            science: 0.05,
+            science: 0.02,
             crystal: 0.5,
         },
         value: 5000,
@@ -1299,7 +1299,7 @@ SharkGame.ResourceTable = {
         color: "#E1B167", // change when art's done
         desc: "The introspective sort.",
         income: {
-            science: 0.05,
+            science: 0.02,
         },
         value: 5000,
     },
@@ -1311,7 +1311,7 @@ SharkGame.ResourceTable = {
         desc: "Travelers along the flow.",
         income: {
             kelp: 1,
-            sand: 2,
+            sand: 1,
         },
         jobs: [
         ],
@@ -1324,29 +1324,31 @@ SharkGame.ResourceTable = {
         color: "#82DB48", // change when art's done
         desc: "Taking responsibility.",
         income: {
-            turtle: 0.1,
+            turtle: 0.04,
         },
         value: 8000,
     },
 
-    turtleSweeper: {
-        name: "turtle sweepers",
-        singleName: "turtle sweeper",
+    turtleTransporter: {
+        name: "turtle transporters",
+        singleName: "turtle transporter",
         color: "#73BA9D", // change when art's done
         desc: "Taking a cursory interest in the seafloor.",
-        income: {
-            clam: 3,
-            crystal: 3,
+        multiply: {
+            snail: 0.01,
         },
         value: 6000,
     },
 
-    echo: { // gains production from toggles
+    echo: { // changes production from toggles
         name: "echos",
         singleName: "echo",
         color: "#9CC6A5", // change when art's done
         desc: "Many, yet one.",
         value: 5000,
+		income: {
+            wisp: 1,
+        },
     },
 
     wisp: {
@@ -1440,6 +1442,11 @@ SharkGame.GeneratorIncomeAffectorsOriginal = {
         multiply: {
             sandDigger: 0.01,
             fishMachine: 0.01,
+        },
+    },
+	turtleTransporter: {
+        multiply: {
+            snail: 0.01,
         },
     },
     // cool tooltip test crab
@@ -1677,7 +1684,7 @@ SharkGame.ResourceCategories = {
             "snailBotanist",
             "snailGeologist",
 			"snailMalacologist",
-            "turtleSweeper",
+            "turtleTransporter",
             // "prospector",
             // "shoveler",
             // "miller",
@@ -1818,7 +1825,7 @@ SharkGame.InternalCategories = {
         resources: ["snail", "snailBotanist", "snailMalacologist", "snailGeologist"],
     },
     turtles: {
-        resources: ["turtle", "turtleLocator", "turtleSweeper"],
+        resources: ["turtle", "turtleLocator", "turtleTransporter"],
     },
     basics: {
         resources: ["essence", "world", "aspectAffect", "specialResourceOne", "specialResourceTwo"],
