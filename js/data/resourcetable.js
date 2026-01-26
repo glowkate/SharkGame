@@ -1347,7 +1347,10 @@ SharkGame.ResourceTable = {
         desc: "Many, yet one.",
         value: 5000,
 		income: {
-            wisp: 1,
+			wisp: 1,
+			sand: 1,
+			crystal: 0,
+			coral: 0,
         },
     },
 
@@ -1505,6 +1508,11 @@ SharkGame.ResourceIncomeAffectorsOriginal = {
     acolyte: {
         multiply: {
             algae: 0.02,
+        },
+    },
+	turtleLocator: {
+        multiply: {
+            snail: 0.01,
         },
     },
     /*     shoveler: {

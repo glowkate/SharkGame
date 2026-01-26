@@ -560,6 +560,11 @@ SharkGame.HomeMessages = {
 				unlock: { upgrade: ["resurfacedHope",] },
 				message: "The snails remind the turtles of how they once were. They want to believe again, to not mindlessly drift towards oblivion.",
 			},
+			{
+				name: "chaotic-echo",
+				unlock: { totalResource: { echo: 1 } },
+				message: "The echos stare at you with many, everchanging faces. The turtles don't see this as the solution they've been looking for.",
+			},
         ],
         /*
         {

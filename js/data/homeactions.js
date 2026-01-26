@@ -4911,6 +4911,8 @@ SharkGame.HomeActions = {
 			prereq: { upgrade: ["sharkoniumHarnesses"], },
 			outcomes: [
                 "An echo returns to their senses.",
+				"Bound an echo.",
+				"Anchored an echo to reality",
 				"They will need some time to adjust to their new minds.",
 				"A singular multitude.",
 				"A... shark joins you?",
@@ -4921,6 +4923,7 @@ SharkGame.HomeActions = {
 				"They do not understand what they are. We don't understand either.",
 				"A turtle recognizes this one, but they're different now.",
 				"Do they want to be bound?",
+				"They thank you and curse you in the same breath.",
             ],
 			multiOutcomes: [
                 "A multitude of multitudes.",
@@ -4931,6 +4934,57 @@ SharkGame.HomeActions = {
             ],
             helpText: "Build a harness able to somewhat pull faded sealife back to reality.",
 		},
+		
+		echoShiftShark: {
+            name: "Shift echos into sharks",
+            effect: {
+                events: ["chaoticEchoShiftShark"],
+            },
+            cost: {},
+            prereq: {
+                upgrade: ["echoShifting"],
+            },
+            outcomes: ["Echos shifted into sharks."],
+            helpText: "Switch echo production to that of sharks.",
+            getSpecialTooltip() {
+                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                return sharktext.boldString(text);
+            },
+        },
+		
+		echoShiftRay: {
+            name: "Shift echos into rays",
+            effect: {
+                events: ["chaoticEchoShiftRay"],
+            },
+            cost: {},
+            prereq: {
+                upgrade: ["echoShifting"],
+            },
+            outcomes: ["Echos shifted into rays."],
+            helpText: "Switch echo production to that of rays.",
+            getSpecialTooltip() {
+                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                return sharktext.boldString(text);
+            },
+        },
+		
+		echoShiftCrab: {
+            name: "Shift echos into crabs",
+            effect: {
+                events: ["chaoticEchoShiftCrab"],
+            },
+            cost: {},
+            prereq: {
+                upgrade: ["echoShifting"],
+            },
+            outcomes: ["Echos shifted into crabs."],
+            helpText: "Switch echo production to that of crabs.",
+            getSpecialTooltip() {
+                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                return sharktext.boldString(text);
+            },
+        },
     },
 };
 
@@ -5044,6 +5098,9 @@ SharkGame.HomeActionCategories = {
             "toggleAutoSmelt",
             "smeltPorite",
             "seagrassToScience",
+			"echoShiftShark",
+			"echoShiftRay",
+			"echoShiftCrab",
         ],
     },
 

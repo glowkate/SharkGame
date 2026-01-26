@@ -4542,7 +4542,6 @@ SharkGame.Upgrades = {
                 seen: ["clam"],
             },
         },
-
         snailAquatences: {
             name: "Snail Aquatences",
             desc: "Our first meeting with the snails was a bit awkward… maybe we should try to reconcile?",
@@ -4561,7 +4560,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-
         kelpCuriosity: {
             name: "Kelp Curiosity",
             desc: "We’ve noticed that some snails stare at the green stuff on the floor in fascination. We should support our new friends' interests.",
@@ -4598,7 +4596,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		
         currentContact: {
             name: "Current Contact",
             desc: "Our botanists insist that there are other physical creatures besides us. Apparently they live high above the seabed.",
@@ -4612,7 +4609,6 @@ SharkGame.Upgrades = {
 				seen: ["kelp"],
             },
         },
-		
         seabedGeology: {
 			name: "Seabed Geology",
 			desc: "Some snails stand in awe as the turtles kick up things from the seabed. Maybe we could encourage those snails like we did with the botanists?",
@@ -4631,7 +4627,6 @@ SharkGame.Upgrades = {
 				},
             },
 		},
-		
         thermalVents: {
 			name: "Thermal Vents",
 			desc: "Our geologists are excited about an area where the rocks are hotter. They want supplies to go out and investigate.",
@@ -4650,7 +4645,6 @@ SharkGame.Upgrades = {
 				},
 			},
         },
-		
 		pearlConversion: {
             name: "Pearl Conversion",
             desc: "We somtimes find these shiny things inside of clams. The lobsters say they can use them?",
@@ -4667,7 +4661,6 @@ SharkGame.Upgrades = {
                 upgrades: ["thermalVents"],
             },
         },
-		
 		crystalContainer: {
             name: "Crystal Containers",
             desc: "Make weird bottle things from the crystals we have. Maybe useful??",
@@ -4686,7 +4679,6 @@ SharkGame.Upgrades = {
                 seen: ["crystal"],
             },
         },
-		
         underwaterChemistry: {
             name: "Underwater Chemistry",
             desc: "With the weird bottles, we can now put things and other things into them and see what happens.",
@@ -4705,7 +4697,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		
 		transmutation: {
             name: "Transmutation",
             desc: "By heating things up and doing science things to them, maybe new things can be made!",
@@ -4720,7 +4711,6 @@ SharkGame.Upgrades = {
                 upgrades: ["thermalVents", "underwaterChemistry"],
             },
 		},
-		
 		automation: {
             name: "Automation",
             desc: "Using sharkonium, we can make things to do things so we don't have to do the things!",
@@ -4734,7 +4724,6 @@ SharkGame.Upgrades = {
                 upgrades: ["transmutation"],
             },
         },
-		
 		agriculture: {
 			effect: {
                 incomeMultiplier: {
@@ -4742,7 +4731,6 @@ SharkGame.Upgrades = {
 				},
             },
 		},
-		
 		sunObservation: {
             name: "Sun Observation",
             desc: "Our turtles periodiclly disappear near the surface of the water. Why? Is it due to that weird glare?",
@@ -4761,7 +4749,6 @@ SharkGame.Upgrades = {
 				},
             },
         },
-		
 		biology: {
             name: "Biology",
             desc: "What are we? What makes us different from the snails and turtles?",
@@ -4781,7 +4768,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		
 		snailBiology: {
             name: "Snail Biology",
             desc: "Our snail studying snails want to learn even more about snails. Might as well help them.",
@@ -4804,7 +4790,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		
 		turtleBiology: {
             name: "Turtle Biology",
             desc: "Where do turtles come from anyways? It seems as if they just appear out of thin air!",
@@ -4823,7 +4808,6 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		
 		hyperfixationCommunication: {
 			name: "Hyperfixation Communication",
             desc: "The snails and turtles don't know eachother too well. We should introduce them.",
@@ -4837,7 +4821,6 @@ SharkGame.Upgrades = {
                 upgrades: ["sunObservation"],
             },
 		},
-		
 		turtleHistory: {
 			name: "Turtle History",
             desc: "So... the turtles have really long lives, have they really just been drifting around all this time?",
@@ -4851,7 +4834,6 @@ SharkGame.Upgrades = {
                 upgrades: ["sunObservation"],
             },
 		},
-		
 		unitedDetermination: {
 			name: "United Determination",
 			desc: "Learning about the turtle’s history seems to have ignited something within the snails.",
@@ -4872,7 +4854,6 @@ SharkGame.Upgrades = {
                 },
 			},
 		},
-		
 		exploration: {
             name: "Exploration",
             desc: "Carry the snails beyond the home seas to see what can be found!",
@@ -4989,7 +4970,6 @@ SharkGame.Upgrades = {
                 upgrades: ["steepedSharonium", "resurfacedHope"],
             },
         },
-		
 		chaosStormGear: {
             name: "Chaos Storm Gear",
             desc: "With our new material, our turtles believe they could develop gear to reach the center of the chaos energy storm, but it will take a lot of sacrifice.",
@@ -5006,7 +4986,6 @@ SharkGame.Upgrades = {
                 upgrades: ["steepedSharonium"],
             },
         },
-		
 		sharkoniumHarnesses: {
             name: "Sharkonium Harnesses",
             desc: "Now that we can make gear to resist the fadding, could we use said gear to help the fadded sealife?",
@@ -5023,8 +5002,8 @@ SharkGame.Upgrades = {
                 upgrades: ["chaosStormGear"],
 				seen: ["wisp"],
             },
+			events: ["chaoticEchoShiftShark"],
         },
-		
 		echoShifting: {
 			name: "Echo Shifting",
 			desc: "The echos shift between several different forms, but behave like sharks. Are those other forms just for show?",
@@ -5040,7 +5019,6 @@ SharkGame.Upgrades = {
 				seen: ["echo"],
 			},
 		},
-		
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",

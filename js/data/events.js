@@ -294,6 +294,41 @@ SharkGame.Events = {
             }
         },
     },
+	chaoticEchoShiftShark: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+			SharkGame.flags.echoShiftShark = true;
+            SharkGame.flags.echoShiftRay = false;
+            SharkGame.flags.echoShiftCrab = false;
+        },
+    },
+	chaoticEchoShiftRay: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+			SharkGame.flags.echoShiftShark = false;
+            SharkGame.flags.echoShiftRay = true;
+            SharkGame.flags.echoShiftCrab = false;
+    },
+	chaoticEchoShiftCrab: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+			SharkGame.flags.echoShiftShark = false;
+            SharkGame.flags.echoShiftRay = false;
+            SharkGame.flags.echoShiftCrab = true;
+        },
+    },
     revealBuyButtons: {
         handlingTime: "beforeTick",
         priority: 0,
