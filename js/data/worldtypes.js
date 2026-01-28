@@ -376,6 +376,7 @@ SharkGame.WorldTypes = {
             "turtles",
             "clam",
 			"kelp",
+			"coral",
             "sharkmachines",
             "essence",
             "echoBeacon",

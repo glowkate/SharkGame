@@ -301,9 +301,25 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
+            const crystal = res.getResource("crystal");
+			const wisp = res.getResource("wisp");
+			const coral = res.getResource("coral");
+			const sand = res.getResource("sand");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+			
 			SharkGame.flags.echoShiftShark = true;
             SharkGame.flags.echoShiftRay = false;
             SharkGame.flags.echoShiftCrab = false;
+			
+			echo.baseIncome = { wisp: 10, sand: 0, crystal: 0, coral: 0 };
+
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+
+			return true;
         },
     },
 	chaoticEchoShiftRay: {
@@ -313,9 +329,26 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
+            const crystal = res.getResource("crystal");
+			const wisp = res.getResource("wisp");
+			const coral = res.getResource("coral");
+			const sand = res.getResource("sand");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+
 			SharkGame.flags.echoShiftShark = false;
             SharkGame.flags.echoShiftRay = true;
             SharkGame.flags.echoShiftCrab = false;
+            
+			echo.baseIncome = { wisp: 2, sand: 10, crystal: 0, coral: 0 };
+
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+
+			return true;
+		},
     },
 	chaoticEchoShiftCrab: {
         handlingTime: "beforeTick",
@@ -324,9 +357,26 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
+            const crystal = res.getResource("crystal");
+			const wisp = res.getResource("wisp");
+			const coral = res.getResource("coral");
+			const sand = res.getResource("sand");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+		
+			
 			SharkGame.flags.echoShiftShark = false;
             SharkGame.flags.echoShiftRay = false;
             SharkGame.flags.echoShiftCrab = true;
+			
+            echo.baseIncome = { wisp: 0, sand: 0, crystal: 2, coral: 1 };
+
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+
+			return true;
         },
     },
     revealBuyButtons: {
