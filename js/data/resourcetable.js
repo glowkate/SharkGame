@@ -1366,10 +1366,10 @@ SharkGame.ResourceTable = {
         name: "wisp cumulators",
         singleName: "wisp cumulator",
         color: "#3EBD6C", // change when art's done
-        desc: "Filters wisps from the ocean currents using crystals.",
+        desc: "Filters wisps from the ocean currents using coral.",
         income: {
             wisp: 400,
-            get crystal() {
+            get coral() {
                 return -30 + 15 * SharkGame.Aspects.mechanicalManifestation.level;
             },
         },

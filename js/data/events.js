@@ -340,7 +340,7 @@ SharkGame.Events = {
             SharkGame.flags.echoShiftRay = true;
             SharkGame.flags.echoShiftCrab = false;
             
-			echo.baseIncome = { wisp: 2, sand: 10, crystal: 0, coral: 0 };
+			echo.baseIncome = { wisp: 2, sand: 10, crystal: 0, coral: 0.1 };
 
             res.reapplyModifiers("echo", "wisp");
             res.reapplyModifiers("echo", "sand");

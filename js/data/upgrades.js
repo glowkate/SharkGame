@@ -5019,6 +5019,57 @@ SharkGame.Upgrades = {
 				seen: ["echo"],
 			},
 		},
+		tuningFork: {
+			name: "Tuning Fork",
+            desc: "Our echos are stuck between what could be and what is. Could we somehow move them closer to the 'is' part?",
+            researchedMessage:
+                "We have created a fork thingy. Our turtles can go around and use them to make our echos more real when needed.",
+            effectDesc:
+                "We can now assign turtle harmonizers to assist our echo friends attune themselves to reality!",
+            cost: {
+                science: 125000,
+				coral: 1000,
+				wisp: 72000,
+            },
+            required: {
+                upgrades: ["sharkoniumHarnesses"],
+				seen: ["coral"],
+            },
+		},
+		wispFiltering: {
+            name: "Wisp Filtering",
+            desc: "So, wisps are just motes of potential, right? Why do we have to get them from only fish?",
+            researchedMessage: "The snails have derived a machine to get wisps by drawing them from the chaos storm!",
+            effectDesc: "We can now create wisp cumulators. They're for cumulating wisps.",
+            cost: {
+                science: 160000,
+                coral: 17500,
+				wisp: 50000,
+            },
+            required: {
+                upgrades: ["engineering"],
+				seen: ["coral"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    crystalMiner: 2,
+                    sandDigger: 2,
+					autoTransmuter: 2,
+                },
+            },
+        },
+		gateStudies: {
+			name: "Gate Studies",
+			desc: "So, we got to the center of the storm. What exactly IS this thing we found?",
+			researchedMessage: "We have reason to believe that this structure was originaly created for transportation. According to the turtles, a conflict from ages past preluded the fadding.",
+            effectDesc: "While made for transportation, this device appears to have been turned into a weapon long ago.",
+			cost: {
+				science: 2500000,
+			},
+			required: {
+				upgrades: ["chaosStormGear"],
+			},
+		},
         recontainChaos: {
             name: "Recontain Chaos",
             desc: "PLACEHOLDER",
