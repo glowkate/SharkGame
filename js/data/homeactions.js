@@ -4654,9 +4654,20 @@ SharkGame.HomeActions = {
             ],
             helpText: "Fetch a clam. Why do we need clams now? Who knows.",
         },
-		
-		pearlConversion: { cost: [ { resource: "clam", costFunction: "constant", priceIncrease: 5 }, ], },
-		
+
+        pearlConversion: { 
+            cost: [
+                {
+                    resource: "clam",
+                    costFunction: "constant",
+                    get priceIncrease() {
+                        if (SharkGame.Upgrades.purchased.includes("highEnergyFusion")) return 1;
+                        return 5;
+                    },
+                },
+            ], 
+        },
+        
         catchWisp: {
             name: "Catch wisp",
             effect: {
@@ -4704,227 +4715,251 @@ SharkGame.HomeActions = {
             ],
             helpText: "Catch an abstract component of a fish.",
         },
-		getSnail: {
-			name: "Recruit sea snail",
-			effect: {
-				resource: {
-					snail: 1,
-				},
-			},
-			cost: [{ resource: "clam", costFunction: "linear", priceIncrease: 5 },],
-			max: "snail",
-			prereq: { upgrade: ["molluskIdentification"], },
-			outcomes: [
+        getSnail: {
+            name: "Recruit sea snail",
+            effect: {
+                resource: {
+                    snail: 1,
+                },
+            },
+            cost: [{ resource: "clam", costFunction: "linear", priceIncrease: 5 },],
+            max: "snail",
+            prereq: { upgrade: ["molluskIdentification"], },
+            outcomes: [
                 "A sea snail joins you.",
-				"A bumble bee snail joins you.",
-				"A banded trochus snail joins you.",
-				"A margarita snail joins you.",
-				"A nassarius snail joins you.",
-				"A super tongan nassarius snail joins you.",
-				"A black devil joins you.",
-				"A nerite snail joins you.",
-				"An appleseed snail joins you.",
-				"A blue top snail joins you.",
-				"A channeled top snail joins you.",
-				"A cerith snail joins you.",
-				"An atlantic moon snail joins you.",
-				"A beatic dwarf olive snail joins you.",
-				"A turban snail joins you.",
-				"A california cone snail joins you.",
-				"An abalone snail joins you.",
-				"A carinate dovesnail joins you.",
-				"A zebra turbo snail joins you.",
-				"An astraea turbo snail joins you.",
-				"A chestnut turbo snail joins you.",
-				"A mexican turbo snail joins you.",
-				"A cats eye turbo snail joins you.",
-				"A crown conch joins you.",
-				"A horse conch joins you.",
-				"A fighting conch joins you.",
-				"An orange lip conch joins you.",
-				"A marsh periwinkle joins you.",
+                "A bumble bee snail joins you.",
+                "A banded trochus snail joins you.",
+                "A margarita snail joins you.",
+                "A nassarius snail joins you.",
+                "A super tongan nassarius snail joins you.",
+                "A black devil joins you.",
+                "A nerite snail joins you.",
+                "An appleseed snail joins you.",
+                "A blue top snail joins you.",
+                "A channeled top snail joins you.",
+                "A cerith snail joins you.",
+                "An atlantic moon snail joins you.",
+                "A beatic dwarf olive snail joins you.",
+                "A turban snail joins you.",
+                "A california cone snail joins you.",
+                "An abalone snail joins you.",
+                "A carinate dovesnail joins you.",
+                "A zebra turbo snail joins you.",
+                "An astraea turbo snail joins you.",
+                "A chestnut turbo snail joins you.",
+                "A mexican turbo snail joins you.",
+                "A cats eye turbo snail joins you.",
+                "A crown conch joins you.",
+                "A horse conch joins you.",
+                "A fighting conch joins you.",
+                "An orange lip conch joins you.",
+                "A marsh periwinkle joins you.",
             ],
-			multiOutcomes: [
+            multiOutcomes: [
                 "Some sea snails join you.",
-				"Time for some mollusk mischief!",
-				"Those were, in fact, not a cluster of boulders, but snails!",
-				"An abalone of sea snails!",
-				"Snails! More, more snails!",
+                "Time for some mollusk mischief!",
+                "Those were, in fact, not a cluster of boulders, but snails!",
+                "An abalone of sea snails!",
+                "Snails! More, more snails!",
             ],
             helpText: "Figure out which of these shells are actually snails.",
-		},
-		getTurtle: {
-			name: "Recruit sea turtle",
-			effect: {
-				resource: {
-					turtle: 1,
-				},
-			},
-			cost: [{ resource: "kelp", costFunction: "linear", priceIncrease: 15 },],
-			max: "turtle",
-			prereq: { upgrade: ["currentContact"], },
-			outcomes: [
+        },
+        getTurtle: {
+            name: "Recruit sea turtle",
+            effect: {
+                resource: {
+                    turtle: 1,
+                },
+            },
+            cost: [{ resource: "kelp", costFunction: "linear", priceIncrease: 15 },],
+            max: "turtle",
+            prereq: { upgrade: ["currentContact"], },
+            outcomes: [
                 "A sea turtle joins you.",
-				"A turtle joins you.",
-				"A leatherback sea turtle joins you.",
-				"A loggerhead sea turtle joins you.",
-				"A green sea turtle joins you.",
-				"A flatback sea turtle joins you.",
-				"A hawksbill sea turtle joins you.",
-				"An olive ridley sea turtle joins you.",
-				"A kemp's ridley sea turtle joins you.",
-				"Recruited a sea turtle.",
-				"Recruited a tortoise.",
+                "A turtle joins you.",
+                "A leatherback sea turtle joins you.",
+                "A loggerhead sea turtle joins you.",
+                "A green sea turtle joins you.",
+                "A flatback sea turtle joins you.",
+                "A hawksbill sea turtle joins you.",
+                "An olive ridley sea turtle joins you.",
+                "A kemp's ridley sea turtle joins you.",
+                "Recruited a sea turtle.",
+                "Recruited a tortoise.",
             ],
-			multiOutcomes: [
+            multiOutcomes: [
                 "Some sea turtles join you.",
-				"Some turtles have drifted in!",
-				"Our turtles could carry the whole ocean floor upon their shells!",
-				"Is it turtle time? I think it's turtle time.",
-				"A bale of turtles!",
+                "Some turtles have drifted in!",
+                "Our turtles could carry the whole ocean floor upon their shells!",
+                "Is it turtle time? I think it's turtle time.",
+                "A bale of turtles!",
             ],
             helpText: "Convince a turtle to do something other then aimless wandering.",
-		},
-		
-		//snail jobs
-		getSnailBotanist: {
-			name: "Encourage snail botanist",
-			effect: {
-				resource: {
-					snailBotanist: 1,
-				},
-			},
-			cost: [
-				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "clam", costFunction: "linear", priceIncrease: 15 },
-			],
-			max: "snailBotanist",
-			prereq: { upgrade: ["kelpCuriosity"], },
-			outcomes: [
-                "A snail discovers a new obsession. For kelp.",
-				"Surely kelp can't be THIS interesting, right?",
-				"Once you get them talking, they just don't stop...",
-				"What do the snails get out of this?",
-				"Surely there's science in this.",
-				"The mysteries of the kelp shall be untangled!",
-				"You don't understand what's so interesting about kelp, but you're happy for the snails.",
-				"Their passion for kelp never fails to impress you.",
+        },
+        
+        //snail jobs
+        getSnailBotanist: {
+            name: "Encourage snail botanist",
+            effect: {
+                resource: {
+                    snailBotanist: 1,
+                },
+            },
+            cost: [
+                { resource: "snail", costFunction: "constant", priceIncrease: 1 },
+                { resource: "clam", costFunction: "linear", priceIncrease: 15 },
             ],
-			multiOutcomes: [
+            max: "snailBotanist",
+            prereq: { upgrade: ["kelpCuriosity"], },
+            outcomes: [
+                "A snail discovers a new obsession. For kelp.",
+                "Surely kelp can't be THIS interesting, right?",
+                "Once you get them talking, they just don't stop...",
+                "What do the snails get out of this?",
+                "Surely there's science in this.",
+                "The mysteries of the kelp shall be untangled!",
+                "You don't understand what's so interesting about kelp, but you're happy for the snails.",
+                "Their passion for kelp never fails to impress you.",
+            ],
+            multiOutcomes: [
                 "Kelp kelp kelp kelp.",
-				"How do so many snails care about this stuff?",
-				"An army of snails descends upon the kelp.",
-				"Trails of snail slime cover our piles of kelp.",
-				"They shall march upon the kelp with gusto.",
-				"Our snails shall blot out the kelp!",
+                "How do so many snails care about this stuff?",
+                "An army of snails descends upon the kelp.",
+                "Trails of snail slime cover our piles of kelp.",
+                "They shall march upon the kelp with gusto.",
+                "Our snails shall blot out the kelp!",
             ],
             helpText: "Encourage a snail to explore their interest in kelp.",
-		},
-		
-		getSnailGeologist: {
-			name: "Encourage snail geologist",
-			effect: {
-				resource: {
-					snailGeologist: 1,
-				},
-			},
-			cost: [
-				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "sand", costFunction: "linear", priceIncrease: 10 },
-			],
-			max: "snailGeologist",
-			prereq: { upgrade: ["seabedGeology"], },
-			outcomes: [
-                "A snail eagerly pulls out their rock collection and gets to work.",
-				"This one will be a real rock star, you're sure of it!",
-				"A pair of tiny eyes peer through a crystal.",
-				"Geologist trained and ready to research.",
-				"A snail to study stones!",
+        },
+        
+        getSnailGeologist: {
+            name: "Encourage snail geologist",
+            effect: {
+                resource: {
+                    snailGeologist: 1,
+                },
+            },
+            cost: [
+                { resource: "snail", costFunction: "constant", priceIncrease: 1 },
+                { resource: "sand", costFunction: "linear", priceIncrease: 10 },
             ],
-			multiOutcomes: [
+            max: "snailGeologist",
+            prereq: { upgrade: ["seabedGeology"], },
+            outcomes: [
+                "A snail eagerly pulls out their rock collection and gets to work.",
+                "This one will be a real rock star, you're sure of it!",
+                "A pair of tiny eyes peer through a crystal.",
+                "Geologist trained and ready to research.",
+                "A snail to study stones!",
+            ],
+            multiOutcomes: [
                 "This type of science rocks.",
-				"They're already conversing with eachother about the different types of sand.",
-				"Have you heard about all the different kinds of crystals? Would you like to?",
-				"Did you know that sand is just a bunch of really, really small rocks?",
+                "They're already conversing with eachother about the different types of sand.",
+                "Have you heard about all the different kinds of crystals? Would you like to?",
+                "Did you know that sand is just a bunch of really, really small rocks?",
             ],
             helpText: "Help a snail express themselves through the science of rocks.",
-		},
-		
-		getSnailMalacologist: {
-			name: "Encourage snail malacologist",
-			effect: {
-				resource: {
-					snailMalacologist: 1,
-				},
-			},
-			cost: [
-				{ resource: "snail", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "crystal", costFunction: "linear", priceIncrease: 10 },
-			],
-			max: "snailMalacologist",
-			prereq: { upgrade: ["biology"], },
-			outcomes: [
+        },
+
+        getSnailMalacologist: {
+            name: "Encourage snail malacologist",
+            effect: {
+                resource: {
+                    snailMalacologist: 1,
+                },
+            },
+            cost: [
+                { resource: "snail", costFunction: "constant", priceIncrease: 1 },
+                { resource: "crystal", costFunction: "linear", priceIncrease: 10 },
+            ],
+            max: "snailMalacologist",
+            prereq: { upgrade: ["biology"], },
+            outcomes: [
                 "Placeholder.",
             ],
-			multiOutcomes: [
+            multiOutcomes: [
                 "Placeholders.",
             ],
             helpText: "Help a snail find their inner self.",
-		},
-		
-		//turtle jobs
-		getTurtleLocator: {
-			name: "Assign turtle locator",
-			effect: {
-				resource: {
-					turtleLocator: 1,
-				},
-			},
-			cost: [
-				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "kelp", costFunction: "linear", priceIncrease: 60 },
-			],
-			max: "turtleLocator",
-			prereq: { upgrade: ["turtleBiology"], },
-			outcomes: [
+        },
+        
+        //turtle jobs
+        getTurtleLocator: {
+            name: "Assign turtle locator",
+            effect: {
+                resource: {
+                    turtleLocator: 1,
+                },
+            },
+            cost: [
+                { resource: "turtle", costFunction: "constant", priceIncrease: 1 },
+                { resource: "kelp", costFunction: "linear", priceIncrease: 60 },
+            ],
+            max: "turtleLocator",
+            prereq: { upgrade: ["turtleBiology"], },
+            outcomes: [
                 "Placeholder.",
             ],
-			multiOutcomes: [
+            multiOutcomes: [
                 "Placeholders.",
             ],
             helpText: "Convince a turtle to care about their children.",
-		},
-		getturtleTransporter: {
-			name: "Organize turtle transporter",
-			effect: {
-				resource: {
-					turtleTransporter: 1,
-				},
-			},
-			cost: [
-				{ resource: "turtle", costFunction: "constant", priceIncrease: 1 },
-				{ resource: "kelp", costFunction: "linear", priceIncrease: 500 },
-				{ resource: "crystal", costFunction: "linear", priceIncrease: 25 },
-			],
-			max: "turtleTransporter",
-			prereq: { upgrade: ["hyperfixationCommunication"], },
-			outcomes: [
-                "Route set and ready!",
-				"This should speed things up.",
-				"Turtle equipped and ready to swim.",
-				"I wonder what hyperfixations the snails will blush about to this one.",
-				"A snail is about to experience speeds previously unknown to them."
+        },
+        getTurtleTransporter: {
+            name: "Organize turtle transporter",
+            effect: {
+                resource: {
+                    turtleTransporter: 1,
+                },
+            },
+            cost: [
+                { resource: "turtle", costFunction: "constant", priceIncrease: 1 },
+                { resource: "kelp", costFunction: "linear", priceIncrease: 500 },
+                { resource: "crystal", costFunction: "linear", priceIncrease: 25 },
             ],
-			multiOutcomes: [
+            max: "turtleTransporter",
+            prereq: { upgrade: ["hyperfixationCommunication"], },
+            outcomes: [
+                "Route set and ready!",
+                "This should speed things up.",
+                "Turtle equipped and ready to swim.",
+                "I wonder what hyperfixations the snails will blush about to this one.",
+                "A snail is about to experience speeds previously unknown to them."
+            ],
+            multiOutcomes: [
                 "Ah, the wonders of public transportation!",
-				"Look out for traffic.",
-				"The currents become even more congested.",
-				"We'll need more bus stops at this rate!",
-				"Look two ways before crossing the seabed.",
+                "Look out for traffic.",
+                "The currents become even more congested.",
+                "We'll need more bus stops at this rate!",
+                "Look two ways before crossing the seabed.",
             ],
             helpText: "Get a turtle ready to help transport snails around.",
-		},
-		transmuteSharkonium: {
+        },
+        getTurtleHarmonizer: {
+            name: "Train turtle harmonizer",
+            effect: {
+                    resource: {
+                    turtleHarmonizer: 1,
+                },
+            },
+            cost: [
+                { resource: "turtle", costFunction: "constant", priceIncrease: 1 },
+                { resource: "kelp", costFunction: "linear", priceIncrease: 250 },
+                { resource: "coral", costFunction: "linear", priceIncrease: 500 },
+            ],
+            max: "turtleHarmonizer",
+            prereq: { upgrade: ["tuningForks"], },
+            outcomes: [
+                "PLACEHOLDER",
+            ],
+            multiOutcomes: [
+                "PLACEHOLDER",
+            ],
+            helpText: "Train a turtle in the ways of music.",
+        },
+        
+        
+        transmuteSharkonium: {
             outcomes: [
                 "Transmutation destination!",
                 "Transmutation rejuvenation!",
@@ -4939,75 +4974,79 @@ SharkGame.HomeActions = {
                 "The foundation of a modern sh- uh... snail frenzy!",
             ],
         },
-		
-		getCrystalMiner: {},
-		
-		getSandDigger: {},
-		
-		getAutoTransmuter: {},
-		
-		getWispCumulator: {
-			name: "Build wisp cumulator",
-			effect: {
-				resource: {
-					wispCumulator: 1,
-				},
-			},
-			cost: [
-				{ resource: "sharkonium", costFunction: "linear", priceIncrease: 50 },
-				{ resource: "coral", costFunction: "linear", priceIncrease: 5 },
-			],
-			max: "wispCumulator",
-			prereq: { upgrade: ["wispFiltering"], },
-			outcomes: [
+        
+        getCrystalMiner: {},
+        
+        getSandDigger: {},
+        
+        getAutoTransmuter: {},
+        
+        getWispCumulator: {
+            name: "Build wisp cumulator",
+            effect: {
+                resource: {
+                    wispCumulator: 1,
+                },
+            },
+            cost: [
+                { resource: "sharkonium", costFunction: "linear", priceIncrease: 50 },
+                { resource: "sand", costFunction: "linear", 
+                    get priceIncrease() {
+                        return 800 - 400 * SharkGame.Aspects.amorphousAssembly.level;
+                    },
+                },
+            ],
+            max: "wispCumulator",
+            prereq: { upgrade: ["wispFiltering"], },
+            outcomes: [
                 "Placeholder.",
             ],
-			multiOutcomes: [
+            multiOutcomes: [
                 "Placeholders.",
             ],
             helpText: "Build a machine to filter wisps from the chaos storm.",
-		},
-		
-		getEcho: {
-			name: "Bind echo",
-			effect: {
-				resource: {
-					echo: 1,
-				},
-			},
-			cost: [
-				{ resource: "wisp", costFunction: "linear", priceIncrease: 10 },
-				{ resource: "sharkonium", costFunction: "constant", priceIncrease: 20 },
-			],
-			max: "echo",
-			prereq: { upgrade: ["sharkoniumHarnesses"], },
-			outcomes: [
-                "An echo returns to their senses.",
-				"Bound an echo.",
-				"Anchored an echo to reality",
-				"They will need some time to adjust to their new minds.",
-				"A singular multitude.",
-				"A... shark joins you?",
-				"A... ray joins you?",
-				"A... crab joins you?",
-				"Potential harnessed.",
-				"Countless voices emerge from the echo.",
-				"They do not understand what they are. We don't understand either.",
-				"A turtle recognizes this one, but they're different now.",
-				"Do they want to be bound?",
-				"They thank you and curse you in the same breath.",
+        },
+        
+        getEcho: {
+            name: "Bind echo",
+            effect: {
+                resource: {
+                    echo: 1,
+                },
+            },
+            cost: [
+                { resource: "wisp", costFunction: "linear", priceIncrease: 5 },
+                { resource: "sharkonium", costFunction: "constant", priceIncrease: 100 },
             ],
-			multiOutcomes: [
+            max: "echo",
+            prereq: { upgrade: ["sharkoniumHarnesses"], },
+            outcomes: [
+                "An echo returns to their senses.",
+                "Bound an echo.",
+                "Anchored an echo to reality",
+                "They will need some time to adjust to their new minds.",
+                "A singular multitude.",
+                "A... shark joins you?",
+                "A... ray joins you?",
+                "A... crab joins you?",
+                "Potential harnessed.",
+                "Countless voices emerge from the echo.",
+                "They do not understand what they are. We don't understand either.",
+                "A turtle recognizes this one, but they're different now.",
+                "Do they want to be bound?",
+                "They thank you and curse you in the same breath.",
+            ],
+            multiOutcomes: [
                 "A multitude of multitudes.",
-				"Their smiling faces are unfamiliar, yet sorrowful.",
-				"A typhoon of possibilities joins you.",
-				"Forever echoing out into infinity.",
-				"Who will they be today?",
+                "Their smiling faces are unfamiliar, yet sorrowful.",
+                "A typhoon of possibilities joins you.",
+                "Forever echoing out into infinity.",
+                "Who will they be today?",
             ],
             helpText: "Build a harness able to somewhat pull faded sealife back to reality.",
-		},
-		
-		echoShiftShark: {
+        },
+        
+        echoShiftShark: {
             name: "Shift echos into sharks",
             effect: {
                 events: ["chaoticEchoShiftShark"],
@@ -5023,8 +5062,8 @@ SharkGame.HomeActions = {
                 return sharktext.boldString(text);
             },
         },
-		
-		echoShiftRay: {
+        
+        echoShiftRay: {
             name: "Shift echos into rays",
             effect: {
                 events: ["chaoticEchoShiftRay"],
@@ -5040,8 +5079,8 @@ SharkGame.HomeActions = {
                 return sharktext.boldString(text);
             },
         },
-		
-		echoShiftCrab: {
+        
+        echoShiftCrab: {
             name: "Shift echos into crabs",
             effect: {
                 events: ["chaoticEchoShiftCrab"],
@@ -5088,9 +5127,9 @@ SharkGame.HomeActionCategories = {
             "getSquid",
             "getUrchin",
             "getBillfish",
-			"getSnail",
-			"getTurtle",
-			"getEcho",
+            "getSnail",
+            "getTurtle",
+            "getEcho",
         ],
     },
 
@@ -5125,10 +5164,11 @@ SharkGame.HomeActionCategories = {
             "getBillfishExplorer",
             "getBillfishMechanic",
             "getStormgoer",
-			"getSnailBotanist",
-			"getSnailGeologist",
-			"getSnailMalacologist",
-			"getturtleTransporter",
+            "getSnailBotanist",
+            "getSnailGeologist",
+            "getSnailMalacologist",
+            "getTurtleTransporter",
+            "getTurtleHarmonizer",
         ],
     },
 
@@ -5146,7 +5186,7 @@ SharkGame.HomeActionCategories = {
             "getCollective",
             "getSpawner",
             "getBillfishPair",
-			"getTurtleLocator",
+            "getTurtleLocator",
         ],
     },
 
@@ -5170,9 +5210,9 @@ SharkGame.HomeActionCategories = {
             "toggleAutoSmelt",
             "smeltPorite",
             "seagrassToScience",
-			"echoShiftShark",
-			"echoShiftRay",
-			"echoShiftCrab",
+            "echoShiftShark",
+            "echoShiftRay",
+            "echoShiftCrab",
         ],
     },
 
@@ -5187,6 +5227,7 @@ SharkGame.HomeActionCategories = {
             // "getCrusher",
             // "getPulverizer",
             "getHeater",
+            "getWispCumulator",
         ],
     },
 

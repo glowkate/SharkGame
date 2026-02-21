@@ -4590,7 +4590,7 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["kelpCuriosity"],
             },
-			effect: {
+            effect: {
                 resourceBoost: {
                     science: 2,
                 },
@@ -4606,46 +4606,46 @@ SharkGame.Upgrades = {
             },
             required: {
                 upgrades: ["kelpCuriosity"],
-				seen: ["kelp"],
+                seen: ["kelp"],
             },
         },
         seabedGeology: {
-			name: "Seabed Geology",
-			desc: "Some snails stand in awe as the turtles kick up things from the seabed. Maybe we could encourage those snails like we did with the botanists?",
-			reserchedMessage: "Turns out that some snails are, like, REALLY into rocks. They were even able to find some shiny rocks. Good for them.",
-			effectDesc: "Our new understanding of the seabed helps our turtle friends kick up more stuff. Also, some snails have expressed interest in geology.",
-			cost: {
-				sand: 400,
-			},
-			required: { 
-				upgrades: ["currentContact"],
-				seen: ["turtle"],
-			},
-			effect: {
-                incomeMultiplier: {
-					turtle: 2,
-				},
+            name: "Seabed Geology",
+            desc: "Some snails stand in awe as the turtles kick up things from the seabed. Maybe we could encourage those snails like we did with the botanists?",
+            reserchedMessage: "Turns out that some snails are, like, REALLY into rocks. They were even able to find some shiny rocks. Good for them.",
+            effectDesc: "Our new understanding of the seabed helps our turtle friends kick up more stuff. Also, some snails have expressed interest in geology.",
+            cost: {
+                sand: 400,
             },
-		},
+            required: { 
+                upgrades: ["currentContact"],
+                seen: ["turtle"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    turtle: 2,
+                },
+            },
+        },
         thermalVents: {
-			name: "Thermal Vents",
-			desc: "Our geologists are excited about an area where the rocks are hotter. They want supplies to go out and investigate.",
-			reserchedMessage: "The snails found an endless well of heat! Also, the turtles told us that \"faded\" creatures tend to congregate towards heat.",
-			effectDesc: "Well we can’t really do much with it at the moment, but we found a large well of heat. Surely it’ll be helpful later.",
+            name: "Thermal Vents",
+            desc: "Our geologists are excited about an area where the rocks are hotter. They want supplies to go out and investigate.",
+            reserchedMessage: "The snails found an endless well of heat! Also, the turtles told us that \"faded\" creatures tend to congregate towards heat.",
+            effectDesc: "Well we can’t really do much with it at the moment, but we found a large well of heat. Surely it’ll be helpful later.",
             cost: {
                 science: 750,
                 sand: 1000,
             },
-			required: {
-				upgrades: ["seabedGeology"],
-			},
-			effect: {
-				incomeMultiplier: {
-					snailGeologist: 2,
-				},
-			},
+            required: {
+                upgrades: ["seabedGeology"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snailGeologist: 2,
+                },
+            },
         },
-		pearlConversion: {
+        pearlConversion: {
             name: "Pearl Conversion",
             desc: "We somtimes find these shiny things inside of clams. The lobsters say they can use them?",
             researchedMessage:
@@ -4661,7 +4661,7 @@ SharkGame.Upgrades = {
                 upgrades: ["thermalVents"],
             },
         },
-		crystalContainer: {
+        crystalContainer: {
             name: "Crystal Containers",
             desc: "Make weird bottle things from the crystals we have. Maybe useful??",
             researchedMessage: "Well, things can go into these containers that aren't water. This makes science easier!",
@@ -4675,7 +4675,7 @@ SharkGame.Upgrades = {
                     science: 2,
                 },
             },
-			required: {
+            required: {
                 seen: ["crystal"],
             },
         },
@@ -4697,7 +4697,7 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		transmutation: {
+        transmutation: {
             name: "Transmutation",
             desc: "By heating things up and doing science things to them, maybe new things can be made!",
             researchedMessage: "A new form of material has been discovered! Our geologists named it sharkonium in honour of those who inspired them.",
@@ -4710,8 +4710,8 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["thermalVents", "underwaterChemistry"],
             },
-		},
-		automation: {
+        },
+        automation: {
             name: "Automation",
             desc: "Using sharkonium, we can make things to do things so we don't have to do the things!",
             researchedMessage: "Now we don't have to do all the work, machines can do it for us! Future!!",
@@ -4724,14 +4724,14 @@ SharkGame.Upgrades = {
                 upgrades: ["transmutation"],
             },
         },
-		agriculture: {
-			effect: {
+        agriculture: {
+            effect: {
                 incomeMultiplier: {
-					snailBotanist: 2,
-				},
+                    snailBotanist: 2,
+                },
             },
-		},
-		sunObservation: {
+        },
+        sunObservation: {
             name: "Sun Observation",
             desc: "Our turtles periodiclly disappear near the surface of the water. Why? Is it due to that weird glare?",
             researchedMessage: "Snail science has discovered the sun! Apparently it has nothing to do with the turtle's disappearences, but our botanists are thrilled!",
@@ -4745,11 +4745,11 @@ SharkGame.Upgrades = {
             },
             effect: {
                 resourceBoost: {
-					kelp: 2,
-				},
+                    kelp: 2,
+                },
             },
         },
-		biology: {
+        biology: {
             name: "Biology",
             desc: "What are we? What makes us different from the snails and turtles?",
             researchedMessage: "While the turtles were dismissive of our findings regarding our shark-ness, some snails seem to now be interested in their own biology.",
@@ -4764,11 +4764,11 @@ SharkGame.Upgrades = {
             effect: {
                 incomeMultiplier: {
                     snail: 2,
-					turtle: 2,
+                    turtle: 2,
                 },
             },
         },
-		snailBiology: {
+        snailBiology: {
             name: "Snail Biology",
             desc: "Our snail studying snails want to learn even more about snails. Might as well help them.",
             researchedMessage: "The malacologists eagerly reported their findings regarding the inner working of snails. We didn't understand any of it, but their research seems to be producing more snails.",
@@ -4782,7 +4782,7 @@ SharkGame.Upgrades = {
                 seen: ["snailMalacologist"],
             },
             effect: {
-				incomeMultiplier: {
+                incomeMultiplier: {
                     snail: 2,
                 },
                 addSnailIncome: {
@@ -4790,7 +4790,7 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		turtleBiology: {
+        turtleBiology: {
             name: "Turtle Biology",
             desc: "Where do turtles come from anyways? It seems as if they just appear out of thin air!",
             researchedMessage: "Apparently when turtles just abandon their eggs somewhere near the surface of the water! How can they be that carefree about their young?",
@@ -4803,13 +4803,13 @@ SharkGame.Upgrades = {
                 upgrades: ["biology", "sunObservation"],
             },
             effect: {
-				incomeMultiplier: {
+                incomeMultiplier: {
                     turtle: 2,
                 },
             },
         },
-		hyperfixationCommunication: {
-			name: "Hyperfixation Communication",
+        hyperfixationCommunication: {
+            name: "Hyperfixation Communication",
             desc: "The snails and turtles don't know eachother too well. We should introduce them.",
             researchedMessage: "The turtles seemed to enjoy the (mostly one-sided) conversations with the snails. They're letting snails ride on their backs now, just to hear more.",
             effectDesc: "Turtles can now specialize in snail transportation. This will significantly speed up the snails.",
@@ -4820,9 +4820,9 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["sunObservation"],
             },
-		},
-		turtleHistory: {
-			name: "Turtle History",
+        },
+        turtleHistory: {
+            name: "Turtle History",
             desc: "So... the turtles have really long lives, have they really just been drifting around all this time?",
             researchedMessage: "When the fadding began, the turtles did their best to find a solution, but failed. Now they've just accepted things as they are.",
             effectDesc: "Those tales were sad ones... many people who the turtles cared about were lost to the fadding.",
@@ -4833,28 +4833,28 @@ SharkGame.Upgrades = {
             required: {
                 upgrades: ["sunObservation"],
             },
-		},
-		unitedDetermination: {
-			name: "United Determination",
-			desc: "Learning about the turtle’s history seems to have ignited something within the snails.",
-			researchedMessage: "The snails believe that even if there’s no way to revert what has happened to the faded creatures, they still have to try their best to find a solution. The turtles tell them it’s a waste of effort.",
-			effectDesc: "Our scientists are determined to save those who have faded, doubling their productivity.",
-			cost: {
+        },
+        unitedDetermination: {
+            name: "United Determination",
+            desc: "Learning about the turtle’s history seems to have ignited something within the snails.",
+            researchedMessage: "The snails believe that even if there’s no way to revert what has happened to the faded creatures, they still have to try their best to find a solution. The turtles tell them it’s a waste of effort.",
+            effectDesc: "Our scientists are determined to save those who have faded, doubling their productivity.",
+            cost: {
                 science: 10000,
                 clam: 800000,
             },
             required: {
                 upgrades: ["biology", "turtleHistory"],
             },
-			effect: {
-				incomeMultiplier: {
-					snailBotanist: 2,
-					snailGeologist: 2,
+            effect: {
+                incomeMultiplier: {
+                    snailBotanist: 2,
+                    snailGeologist: 2,
                     snailMalacologist: 2,
                 },
-			},
-		},
-		exploration: {
+            },
+        },
+        exploration: {
             name: "Exploration",
             desc: "Carry the snails beyond the home seas to see what can be found!",
             researchedMessage: "We found large schools of creatures who had faded to the currents. The turtles enjoy having extra space to swim in.",
@@ -4872,14 +4872,14 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		engineering: {
-			effect: {
-				incomeMultiplier: {
+        engineering: {
+            effect: {
+                incomeMultiplier: {
                     crystalMiner: 2,
                     sandDigger: 2,
                 },
-			},
-		},
+            },
+        },
         chaosTriangulation: {
             name: "Chaos Triangulation",
             desc: "Our top snails claim to have a lead regarding the cause of the fadding, they'd like to be taken somewhere.",
@@ -4896,12 +4896,12 @@ SharkGame.Upgrades = {
                 incomeMultiplier: {
                     snail: 4,
                 },
-				resourceBoost: {
-					science: 4,
-				},
+                resourceBoost: {
+                    science: 4,
+                },
             },
         },
-		turtleInterrogation: {
+        turtleInterrogation: {
             name: "Turtle Interrogation",
             desc: "Okay, so the turtles knew about these ruins all along? Surely they have to know SOMETHING.",
             researchedMessage: "The turtles told us that this place holds the source of the fadding. Whatever past they had here, it brings about bad memories.",
@@ -4915,7 +4915,7 @@ SharkGame.Upgrades = {
             },
             effect: {},
         },
-		steepedSharonium: {
+        steepedSharonium: {
             name: "Steeped Sharkonium",
             desc: "The material these machines are made of is similar to sharkonium, but different somehow. Investigation is needed.",
             researchedMessage: "Turns out that sharkonium that's fused here gains unique properties? Something to do with the 'chaos energy' being highly concentrated in this area?",
@@ -4923,20 +4923,20 @@ SharkGame.Upgrades = {
             cost: {
                 science: 200000,
                 crystal: 10000,
-				sand: 10000,
+                sand: 10000,
             },
             required: {
                 upgrades: ["chaosTriangulation"],
-				seen: ["sharkonium"],
+                seen: ["sharkonium"],
             },
             effect: {
-				incomeMultiplier: {
+                incomeMultiplier: {
                     crystalMiner: 2,
                     sandDigger: 2,
                 },
-			},
+            },
         },
-		resurfacedHope: {
+        resurfacedHope: {
             name: "Resurfaced Hope",
             desc: "The turtles may try to be emotionaly detached from those around them, but we can see the small glimmer of hope within them.",
             researchedMessage: "The turtles admitted that they wanted to hope again. More and more turtles join the snail's search for a solution.",
@@ -4949,11 +4949,11 @@ SharkGame.Upgrades = {
                 upgrades: ["turtleInterrogation"],
             },
             effect: {
-				incomeMultiplier: {
+                incomeMultiplier: {
                     turtle: 4,
-					turtleLocator: 4,
+                    turtleLocator: 4,
                 },
-			},
+            },
         },
         sharkoniumBiteGear: {
             name: "Sharkonium Bite-Gear",
@@ -4963,14 +4963,14 @@ SharkGame.Upgrades = {
             effectDesc:
                 "We’re able to catch the fish floating around! We can’t eat them yet, but it’s a start!",
             cost: {
-				science: 250000,
-				sharkonium: 200000,
+                science: 250000,
+                sharkonium: 200000,
             },
             required: {
                 upgrades: ["steepedSharonium", "resurfacedHope"],
             },
         },
-		chaosStormGear: {
+        chaosStormGear: {
             name: "Chaos Storm Gear",
             desc: "With our new material, our turtles believe they could develop gear to reach the center of the chaos energy storm, but it will take a lot of sacrifice.",
             researchedMessage:
@@ -4978,15 +4978,15 @@ SharkGame.Upgrades = {
             effectDesc:
                 "Thousands of turtles succummed to the fading, but we've reached the core of the storm.",
             cost: {
-				science: 250000,
-				sharkonium: 40000,
-				turtle: 10000,
+                science: 300000,
+                sharkonium: 40000,
+                turtle: 10000,
             },
             required: {
                 upgrades: ["steepedSharonium"],
             },
         },
-		sharkoniumHarnesses: {
+        sharkoniumHarnesses: {
             name: "Sharkonium Harnesses",
             desc: "Now that we can make gear to resist the fadding, could we use said gear to help the fadded sealife?",
             researchedMessage:
@@ -4994,91 +4994,173 @@ SharkGame.Upgrades = {
             effectDesc:
                 "We can bring the fadded creatures back to reality, but...",
             cost: {
-                science: 100000,
+                science: 150000,
                 sharkonium: 25000,
-				wisp: 20,
+                wisp: 20,
             },
             required: {
                 upgrades: ["chaosStormGear"],
-				seen: ["wisp"],
+                seen: ["wisp"],
             },
-			events: ["chaoticEchoShiftShark"],
+            events: ["chaoticEchoShiftShark"],
         },
-		echoShifting: {
-			name: "Echo Shifting",
-			desc: "The echos shift between several different forms, but behave like sharks. Are those other forms just for show?",
-			researchedMessage:
+        echoShifting: {
+            name: "Echo Shifting",
+            desc: "The echos shift between several different forms, but behave like sharks. Are those other forms just for show?",
+            researchedMessage:
                 "So, those who we've 'rescued' have always had the ability to change forms at will. They just acted like sharks since I was a shark. Plus, we hadn't asked.",
             effectDesc:
                 "Our echos can change forms to produce different resources! This is bound to help!",
-			cost: {
-				science: 150000,
-				wisp: 1000,
-			},
-			required: {
-				seen: ["echo"],
-			},
-		},
-		tuningFork: {
-			name: "Tuning Fork",
+            cost: {
+                science: 750000,
+                wisp: 1000,
+            },
+            required: {
+                seen: ["echo"],
+                upgrades: ["sharkoniumHarnesses"],
+            },
+        },
+        reorientation: {
+            name: "Reorientation",
+            desc: "Our echos are still trying to reorient themselves after having been in a state between reality for years. We should help.",
+            researchedMessage: "We filled the echos in on everything. They seem less afraid, but some are still struggling to cope with the way their bodies work now.",
+            effectDesc: "Having a better understanding of what's happened to them has helped our echos to become more productive.",
+            cost: {
+                wisp: 10000,
+            },
+            required: {
+                seen: ["echo"],
+                upgrades: ["sharkoniumHarnesses"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    echo: 2,
+                },
+            },
+        },
+        tuningForks: {
+            name: "Tuning Forks",
             desc: "Our echos are stuck between what could be and what is. Could we somehow move them closer to the 'is' part?",
             researchedMessage:
                 "We have created a fork thingy. Our turtles can go around and use them to make our echos more real when needed.",
             effectDesc:
                 "We can now assign turtle harmonizers to assist our echo friends attune themselves to reality!",
             cost: {
-                science: 125000,
-				coral: 1000,
-				wisp: 72000,
+                science: 1250000,
+                coral: 50000,
+                wisp: 72000,
             },
             required: {
                 upgrades: ["sharkoniumHarnesses"],
-				seen: ["coral"],
+                seen: ["coral"],
             },
-		},
-		wispFiltering: {
+        },
+        wispFiltering: {
             name: "Wisp Filtering",
             desc: "So, wisps are just motes of potential, right? Why do we have to get them from only fish?",
             researchedMessage: "The snails have derived a machine to get wisps by drawing them from the chaos storm!",
             effectDesc: "We can now create wisp cumulators. They're for cumulating wisps.",
             cost: {
-                science: 160000,
-                coral: 17500,
-				wisp: 50000,
+                science: 1500000,
+                coral: 10000,
+                wisp: 50000,
             },
             required: {
                 upgrades: ["engineering"],
-				seen: ["coral"],
+                seen: ["coral"],
+            },
+        },
+        coralCategorization: {
+            name: "Coral Categorization",
+            desc: "Our echos found this 'coral' stuff. We weren't aware of this before. Is it a plant? A weird rock? A snail?",
+            researchedMessage: "Our botanists insist that coral aren't plants. Our geologists insist that coral aren't rocks. The malacologists refuse to comment about coral's snail-ness.",
+            effectDesc: "Well, we know more about coral, mainly that they're a bunch of really small animals. Their exoskeleton seemed to somewhat resist the fadding. Somewhat.",
+            cost: {
+                science: 1000000,
+                coral: 1000,
+            },
+            required: {
+                upgrades: ["echoShifting"],
+                seen: ["coral"],
             },
             effect: {
-                incomeMultiplier: {
-                    crystalMiner: 2,
-                    sandDigger: 2,
-					autoTransmuter: 2,
+                resourceBoost: {
+                    coral: 2,
                 },
             },
         },
-		gateStudies: {
-			name: "Gate Studies",
-			desc: "So, we got to the center of the storm. What exactly IS this thing we found?",
-			researchedMessage: "We have reason to believe that this structure was originaly created for transportation. According to the turtles, a conflict from ages past preluded the fadding.",
+        gateStudies: {
+            name: "Gate Studies",
+            desc: "So, we got to the center of the storm. What exactly IS this thing we found?",
+            researchedMessage: "We have reason to believe that this structure was originaly created for transportation. According to the turtles, a conflict from ages past preluded the fadding.",
             effectDesc: "While made for transportation, this device appears to have been turned into a weapon long ago.",
-			cost: {
-				science: 2500000,
-			},
-			required: {
-				upgrades: ["chaosStormGear"],
-			},
-		},
-        recontainChaos: {
-            name: "Recontain Chaos",
-            desc: "PLACEHOLDER",
-            researchedMessage: "PLACEHOLDER",
-            effectDesc: "PLACEHOLDER",
             cost: {
-                wisp: 8e12,
+                science: 10000000,
             },
             required: {
+                upgrades: ["chaosStormGear"],
+            },
+        },
+        gateRepairBiofuel: {
+            name: "Gate Repair: Biofuel",
+            desc: "Currently, the gate is being powered by some kind of feedback loop involving chaos energy. We'll need to find a less destructive fuel source.",
+            researchedMessage: "Making kelp based fuel took longer then expected, due to the snails being worried about something called CO2. Our botanists insist they can 're-capture' the CO2 by growing more kelp.",
+            effectDesc: "As it turns out, kelp based biofuel powers machines better then whatever we had been using before!",
+            cost: {
+                science: 20000000,
+                kelp: 500000000,
+            },
+            required: {
+                upgrades: ["gateStudies"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snailBotanist: 8,
+                    wispCumulator: 2,
+                    crystalMiner: 2,
+                    sandDigger: 2,
+                    autoTransmuter: 2,
+                },
+            },
+        },
+        gateRepairCrystalFocus: {
+            name: "Gate Repair: Crystal Focus",
+            desc: "The focusing device used to direct the chaos energy has been ripped out. Let's make a new, hopefully better one!",
+            researchedMessage: "The geologists struggled to get juuuust the right cut on their new focus. Turns out the issue was residual snail slime lingering on the focus prototypes.",
+            effectDesc: "We may of wasted a lot of crystals, but these leftover focuses can be reused in clam fusion!",
+            cost: {
+                science: 10000000,
+                crystal: 1000000000,
+            },
+            required: {
+                upgrades: ["gateStudies"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    snailGeologist: 4,
+                },
+                customEffect(background) {
+                    return `${sharktext.getResourceName("clam", false, 2, background)} to ${sharktext.getResourceName(
+                        "crystal",
+                        false,
+                        2,
+                        background,
+                    )} conversion effectiveness ×5`;
+                },
+            },
+        },
+        recontainChaos: {
+            name: "Recontain Chaos",
+            desc: "As long as this weapon is active, the fadding will never stop.",
+            researchedMessage: "With the gate's repair, the chaos storm has begun to dissipate. The frenzy watches on in awe. We did it, we really did it.",
+            effectDesc: "We restored the device to its original purpose. Perhaps now the world can begin to heal.",
+            cost: {
+                science: 20000000000,
+                wisp: 8000000000,
+            },
+            required: {
+                upgrades: ["gateRepairBiofuel"],
+                seen: ["echo"],
             },
         },
     },

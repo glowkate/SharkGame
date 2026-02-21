@@ -530,41 +530,46 @@ SharkGame.HomeMessages = {
                 unlock: { totalResource: { fakeFish: 3 } },
                 message: "You spot some weird rock things moving in the distance. If you can’t catch any fish, maybe you can at least catch… those.",
             },
-			{
+            {
                 name: "chaotic-snail",
                 unlock: { totalResource: { snail: 1 } },
                 message: "The snails are eager to please, but retreat into their shells at the slightest hint of danger. They do their best to smile.",
             },
-			{
+            {
                 name: "chaotic-snailbotanist",
                 unlock: { totalResource: { snailBotanist: 1 } },
                 message: "The botanists eagerly chatter about all things kelp. They talk about sightings of non-snail creatures eating kelp.",
             },
-			{
-				name: "chaotic-turtle",
-				unlock: { totalResource: { turtle: 1 } },
-				message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t 'faded'. Their words, not ours.",
-			},
-			{
-				name: "chaotic-turtlehelpless",
-				unlock: { upgrade: ["hyperfixationCommunication",] },
-				message: "The turtles speak of a visitor who once gave them false hope. They say you're doing the same to the snails.",
-			},
-			{
-				name: "chaotic-ruins",
-				unlock: { upgrade: ["chaosTriangulation",] },
-				message: "Ruined machines lay half-buried in sand, in the distance swirls a massive storm of energy that the turtles say can fade even shelled creatures.",
-			},
-			{
-				name: "chaotic-turtlehope",
-				unlock: { upgrade: ["resurfacedHope",] },
-				message: "The snails remind the turtles of how they once were. They want to believe again, to not mindlessly drift towards oblivion.",
-			},
-			{
-				name: "chaotic-echo",
-				unlock: { totalResource: { echo: 1 } },
-				message: "The echos stare at you with many, everchanging faces. The turtles don't see this as the solution they've been looking for.",
-			},
+            {
+                name: "chaotic-turtle",
+                unlock: { totalResource: { turtle: 1 } },
+                message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t 'faded'. Their words, not ours.",
+            },
+            {
+                name: "chaotic-turtlehelpless",
+                unlock: { upgrade: ["hyperfixationCommunication",] },
+                message: "The turtles speak of a visitor who once gave them false hope. They say you're doing the same to the snails.",
+            },
+            {
+                name: "chaotic-ruins",
+                unlock: { upgrade: ["chaosTriangulation",] },
+                message: "Ruined machines lay half-buried in sand, in the distance swirls a massive storm of energy that the turtles say can fade even shelled creatures.",
+            },
+            {
+                name: "chaotic-turtlehope",
+                unlock: { upgrade: ["resurfacedHope",] },
+                message: "The snails remind the turtles of how they once were. They want to believe again, to not mindlessly drift towards oblivion.",
+            },
+            {
+                name: "chaotic-echo",
+                unlock: { totalResource: { echo: 1 } },
+                message: "The echos stare at you with many, everchanging faces. The turtles don't see this as the solution they've been looking for.",
+            },
+            {
+                name: "chaotic-gate",
+                unlock: { upgrade: ["recontainChaos",] },
+                message: "The gate has been restored. A turtle swims up to you, thanking you and the snails for not giving up. You're unsure how to respond.",
+            },
         ],
         /*
         {

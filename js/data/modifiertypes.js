@@ -383,7 +383,7 @@ SharkGame.ModifierTypes = {
                     return input;
                 },
             },
-			addSnailIncome: {
+            addSnailIncome: {
                 defaultValue: 0,
                 apply(current, degree, resource) {
                     if (!SharkGame.ResourceMap.get(resource).baseIncome) {
