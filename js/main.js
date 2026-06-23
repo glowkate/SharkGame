@@ -271,7 +271,7 @@ SharkGame.Main = {
             `New Frontiers v ${SharkGame.VERSION} - ${SharkGame.VERSION_NAME}<br/>\
 Mod of v ${SharkGame.ORIGINAL_VERSION}`,
         );
-        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/dev", (data) => {
+        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/alpha", (data) => {
             SharkGame.COMMIT_SHA = data.sha;
         });
         log.clearMessages(false);
@@ -709,7 +709,7 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`,
     },
 
     checkForUpdate() {
-        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/dev", (data) => {
+        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/alpha", (data) => {
             if (data.sha !== SharkGame.COMMIT_SHA) {
                 $("#updateGameBox")
                     .html(
