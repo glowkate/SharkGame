@@ -1930,7 +1930,7 @@ SharkGame.Sprites = {
     "actions/fakeCatchFish": {
         frame: {
             x: 300,
-            y: 0,
+            y: 50,
             w: 50,
             h: 50,
         },
