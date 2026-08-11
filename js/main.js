@@ -271,7 +271,7 @@ SharkGame.Main = {
             `New Frontiers v ${SharkGame.VERSION} - ${SharkGame.VERSION_NAME}<br/>\
 Mod of v ${SharkGame.ORIGINAL_VERSION}`,
         );
-        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/dev", (data) => {
+        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/alpha", (data) => {
             SharkGame.COMMIT_SHA = data.sha;
         });
         log.clearMessages(false);
@@ -504,7 +504,6 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`,
             SharkGame.persistentFlags.currentPausedTime = 0;
 
             // populate save data object
-            let saveString = "";
             const saveData = {
                 version: SharkGame.VERSION,
                 resources: {},
@@ -538,7 +537,7 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`,
             saveData.keybinds = _.cloneDeep(SharkGame.Keybinds.keybinds);
 
             saveData.saveVersion = SharkGame.Save.saveUpdaters.length - 1;
-            saveString = ascii85.encode(pako.deflate(JSON.stringify(saveData), { to: "string" }));
+            const saveString = ascii85.encode(pako.deflate(JSON.stringify(saveData), { to: "string" }));
 
             SharkGame.Save.importData(saveString);
 
@@ -709,7 +708,7 @@ Mod of v ${SharkGame.ORIGINAL_VERSION}`,
     },
 
     checkForUpdate() {
-        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/dev", (data) => {
+        $.getJSON("https://api.github.com/repos/Toby222/SharkGame/commits/alpha", (data) => {
             if (data.sha !== SharkGame.COMMIT_SHA) {
                 $("#updateGameBox")
                     .html(
@@ -909,6 +908,9 @@ SharkGame.Button = {
 };
 
 SharkGame.Changelog = {
+    "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20260623a": [
+        "Fix some sprites having the wrong size and rotation",
+    ],
     "<a href='https://github.com/Toby222/SharkGame'>New Frontiers</a> patch 20250630a": [
         "Fix broken progression of Abandoned Ocean",
     ],
