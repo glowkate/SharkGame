@@ -379,17 +379,18 @@ SharkGame.WorldTypes = {
             "coral",
             "sharkmachines",
             "essence",
-            "wispCumulator",
+            //"wispCumulator",
             "basicmaterials",
             "fakeFish",
             "world",
             "aspectAffect",
         ],
         absentResources: ["fish"],
+		modifiers: [{ type: "multiplier", modifier: "planetaryResourceBoost", resource: "science", amount: 0.5 }],
         gateRequirements: {
             upgrades: ["recontainChaos"],
         },
-        par: 50, //Adjust later
+        par: 45,
     },
     stone: {
         name: "Stone",

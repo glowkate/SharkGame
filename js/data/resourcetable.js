@@ -1272,7 +1272,7 @@ SharkGame.ResourceTable = {
     snailBotanist: {
         name: "snail botanists",
         singleName: "snail botanist",
-        color: "#398262", // change when art's done
+        color: "#398262",
         desc: "Dedicated to the science of plants.",
         income: {
             science: 0.02,
@@ -1284,10 +1284,9 @@ SharkGame.ResourceTable = {
     snailGeologist: {
         name: "snail geologists",
         singleName: "snail geologist",
-        color: "#716D7A", // change when art's done
+        color: "#716D7A",
         desc: "Endlessly fascinated by rocks.",
         income: {
-            //science: 0.02,
             crystal: 0.5,
         },
         value: 5000,
@@ -1296,7 +1295,7 @@ SharkGame.ResourceTable = {
     snailMalacologist: {
         name: "snail malacologists",
         singleName: "snail malacologist",
-        color: "#E1B167", // change when art's done
+        color: "#E1B167",
         desc: "The introspective sort.",
         income: {
             science: 0.02,
@@ -1324,7 +1323,7 @@ SharkGame.ResourceTable = {
     turtleLocator: {
         name: "turtle locators",
         singleName: "turtle locator",
-        color: "#82DB48", // change when art's done
+        color: "#82DB48",
         desc: "Taking responsibility.",
         income: {
             turtle: 0.02,
@@ -1335,7 +1334,7 @@ SharkGame.ResourceTable = {
     turtleTransporter: {
         name: "turtle transporters",
         singleName: "turtle transporter",
-        color: "#D3D671", // change when art's done
+        color: "#D3D671",
         desc: "Letting the snails catch a ride.",
         multiply: {
             snail: 0.01,
@@ -1357,7 +1356,7 @@ SharkGame.ResourceTable = {
     echo: { // changes production from toggles
         name: "echos",
         singleName: "echo",
-        color: "#9CC6A5", // change when art's done
+        color: "#9CC6A5",
         desc: "Many, yet one.",
         value: 5000,
         income: {
@@ -1376,6 +1375,7 @@ SharkGame.ResourceTable = {
         value: 2,
     },
 
+	/*
     wispCumulator: {
         name: "wisp cumulators",
         singleName: "wisp cumulator",
@@ -1388,7 +1388,7 @@ SharkGame.ResourceTable = {
             },
         },
         value: 70000,
-    },
+    },*/
 };
 
 SharkGame.GeneratorIncomeAffectorsOriginal = {
@@ -1729,7 +1729,7 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
-            "wispCumulator",
+            //"wispCumulator", Depricated
             // "coalescer",
             // "crusher",
             // "pulverizer",
@@ -1753,7 +1753,7 @@ SharkGame.ResourceCategories = {
     hidden: {
         name: "Hidden",
         disposeMessage: ["Bad player! Stop it!"],
-        resources: ["world", "sacrifice", "aspectAffect", "specialResourceOne", "specialResourceTwo"],
+        resources: ["world", "sacrifice", "aspectAffect", "specialResourceOne", "specialResourceTwo", "fakeFish",],
     },
 };
 

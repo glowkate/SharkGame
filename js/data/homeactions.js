@@ -4590,6 +4590,9 @@ SharkGame.HomeActions = {
         },
     },
     chaotic: {
+		
+		debugbutton: {},
+		
         fakeCatchFish: {
             name: "Catch fish",
             effect: {
@@ -4875,10 +4878,18 @@ SharkGame.HomeActions = {
             max: "snailMalacologist",
             prereq: { upgrade: ["biology"], },
             outcomes: [
-                "Placeholder.",
+                "It's like introspection, but scientific!",
+				"A snail begins eagerly chattering about the different shapes of shells.",
+				"A snail comes out of its shell to begin researching what happens inside its shell.",
+				"I suppose this will help us?",
+				"Snail science! About snails!",
             ],
             multiOutcomes: [
-                "Placeholders.",
+                "Snails studying snails studying snails.",
+				"Just how much is there to learn about snails?",
+				"We're going to have an overabundance of 'Cool Snail Facts' before long.",
+				"What makes a snail, a snail?",
+				"The Snailoboros grows.",
             ],
             helpText: "Help a snail find their inner self.",
         },
@@ -4998,6 +5009,7 @@ SharkGame.HomeActions = {
         
         getAutoTransmuter: {},
         
+		/*
         getWispCumulator: {
             name: "Build wisp cumulator",
             effect: {
@@ -5022,7 +5034,7 @@ SharkGame.HomeActions = {
                 "Placeholders.",
             ],
             helpText: "Build a machine to filter wisps from the chaos storm.",
-        },
+        },*/
         
         getEcho: {
             name: "Bind echo",
@@ -5244,7 +5256,7 @@ SharkGame.HomeActionCategories = {
             // "getCrusher",
             // "getPulverizer",
             "getHeater",
-            "getWispCumulator",
+            //"getWispCumulator", Depreicated
         ],
     },
 
