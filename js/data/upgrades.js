@@ -4625,6 +4625,9 @@ SharkGame.Upgrades = {
                 incomeMultiplier: {
                     turtle: 2,
                 },
+				addScienceIncome: {
+                    snailGeologist: 0.02,
+                },
             },
         },
         thermalVents: {
@@ -4647,7 +4650,7 @@ SharkGame.Upgrades = {
         },
         pearlConversion: {
             name: "Pearl Conversion",
-            desc: "We somtimes find these shiny things inside of clams. The lobsters say they can use them?",
+            desc: "We somtimes find these shiny things inside of clams. Is there a way to use them?",
             researchedMessage:
                 "Well, we can transmute what are called 'pearls' into crystals now, though we also need the rest of the clam, too. (yes, the entire clam)",
             effectDesc:
@@ -4908,7 +4911,7 @@ SharkGame.Upgrades = {
             effectDesc: "There is still much to coax out of the turtles about the fadding, but this will have to do for now.",
             cost: {
                 science: 170000,
-                kelp: 20000,
+                kelp: 200000,
             },
             required: {
                 upgrades: ["chaosTriangulation"],
@@ -4942,8 +4945,8 @@ SharkGame.Upgrades = {
             researchedMessage: "The turtles admitted that they wanted to hope again. More and more turtles join the snail's search for a solution.",
             effectDesc: "With our turtles actually invested in our succsess, their efficiency has skyrocketed.",
             cost: {
-                science: 200000,
-                kelp: 20000,
+                science: 100000,
+                kelp: 200000,
             },
             required: {
                 upgrades: ["turtleInterrogation"],
@@ -4951,7 +4954,7 @@ SharkGame.Upgrades = {
             effect: {
                 incomeMultiplier: {
                     turtle: 4,
-                    turtleLocator: 4,
+                    turtleLocator: 2,
                 },
             },
         },
@@ -4963,27 +4966,27 @@ SharkGame.Upgrades = {
             effectDesc:
                 "We’re able to catch the fish floating around! We can’t eat them yet, but it’s a start!",
             cost: {
-                science: 250000,
+                science: 500000,
                 sharkonium: 200000,
             },
             required: {
-                upgrades: ["steepedSharonium", "resurfacedHope"],
+                upgrades: ["chaosStormGear"],
             },
         },
         chaosStormGear: {
-            name: "Chaos Storm Gear",
+            name: "Chaos Storm-Gear",
             desc: "With our new material, our turtles believe they could develop gear to reach the center of the chaos energy storm, but it will take a lot of sacrifice.",
             researchedMessage:
                 "Countless turtles threw their lives to the fading just for a chance at hope... we can't let their sacrifice go to waste.",
             effectDesc:
                 "Thousands of turtles succummed to the fading, but we've reached the core of the storm.",
             cost: {
-                science: 300000,
+                science: 400000,
                 sharkonium: 40000,
-                turtle: 10000,
+                turtle: 2000,
             },
             required: {
-                upgrades: ["steepedSharonium"],
+                upgrades: ["steepedSharonium", "resurfacedHope"],
             },
         },
         sharkoniumHarnesses: {
@@ -5055,7 +5058,7 @@ SharkGame.Upgrades = {
                 seen: ["coral"],
             },
         },
-        wispFiltering: {
+        /*wispFiltering: {
             name: "Wisp Filtering",
             desc: "So, wisps are just motes of potential, right? Why do we have to get them from only fish?",
             researchedMessage: "The snails have derived a machine to get wisps by drawing them from the chaos storm!",
@@ -5069,7 +5072,7 @@ SharkGame.Upgrades = {
                 upgrades: ["engineering"],
                 seen: ["coral"],
             },
-        },
+        },*/
         coralCategorization: {
             name: "Coral Categorization",
             desc: "Our echos found this 'coral' stuff. We weren't aware of this before. Is it a plant? A weird rock? A snail?",
@@ -5101,6 +5104,67 @@ SharkGame.Upgrades = {
                 upgrades: ["chaosStormGear"],
             },
         },
+		otherworldManifestation: {
+            name: "Otherworld Connection",
+            desc: "Echos have been shifting into things that used to exist. Could they also shift into things that don't exist?",
+            researchedMessage: "The most the echos have been able to manage are slight variations on their current forms. Still, this may prove useful in the future.",
+            effectDesc: "Echos can modify their existing set of forms. This may be of use if further explored.",
+            cost: {
+                science: 4000000,
+				wisp: 750000,
+            },
+            required: {
+                upgrades: ["echoShifting", "tuningForks"],
+            },
+        },
+		lobsterClawedShark: {
+            name: "Clawed Shark Forms",
+            desc: "Harness the imprint of ambitious potential within the surrounding current to improve our echo's shark forms.",
+            researchedMessage:
+                "Our echos' shark forms have a pair of crab-like claws now which they use to collect clams. They're carefree, but don't seem to know why.",
+            effectDesc:
+                "While in their shark form, echos now use a pair of claws to collect clams.",
+            cost: {
+                wisp: 1000000,
+				clam: 200000000,
+            },
+            required: {
+                upgrades: ["otherworldManifestation"],
+            },
+            events: ["chaoticEnhanceSharkShift"],
+        },
+		dolphinFinnedRay: {
+            name: "Finned Ray Forms",
+            desc: "Harness the imprint of prideful showboating within the surrounding current to improve our echo's ray forms.",
+            researchedMessage:
+                "Ray shaped echos now have a fin on the top of their head, along with what they call a blowhole. They're also now obsessed with coral for some reason.",
+            effectDesc:
+                "Echos who've shifted into rays collect coral now. They've also developed a massive ego and keep pestering us to look at their coral sculptures.",
+            cost: {
+                sand: 2000000,
+				coral: 50000,
+            },
+            required: {
+                upgrades: ["otherworldManifestation"],
+            },
+            events: ["chaoticEnhanceRayShift"],
+        },
+		urchinSpikedCrab: {
+            name: "Spiked Crab Forms",
+            desc: "Harness the imprint of singleminded desire within the surrounding current to improve our echo's crab forms.",
+            researchedMessage:
+                "When our echos are crabs, they also get spikes on their body. Their intellect drops sharply, but they also collect kelp along with crystals and coral.",
+            effectDesc:
+                "Our echo's now collect kelp while in crab form. They also have spikes, but don't seem to use them for anything.",
+            cost: {
+                crystal: 50000000,
+				kelp: 20000000,
+            },
+            required: {
+                upgrades: ["otherworldManifestation"],
+            },
+            events: ["chaoticEnhanceCrabShift"],
+        },
         gateRepairBiofuel: {
             name: "Gate Repair: Biofuel",
             desc: "Currently, the gate is being powered by some kind of feedback loop involving chaos energy. We'll need to find a less destructive fuel source.",
@@ -5116,7 +5180,7 @@ SharkGame.Upgrades = {
             effect: {
                 incomeMultiplier: {
                     snailBotanist: 8,
-                    wispCumulator: 2,
+                    //wispCumulator: 2,
                     crystalMiner: 2,
                     sandDigger: 2,
                     autoTransmuter: 2,
@@ -5149,18 +5213,37 @@ SharkGame.Upgrades = {
                 },
             },
         },
-        recontainChaos: {
-            name: "Recontain Chaos",
-            desc: "As long as this weapon is active, the fadding will never stop.",
-            researchedMessage: "With the gate's repair, the chaos storm has begun to dissipate. The frenzy watches on in awe. We did it, we really did it.",
-            effectDesc: "We restored the device to its original purpose. Perhaps now the world can begin to heal.",
+		gateRepairCoralCoils: {
+            name: "Gate Repair: Coral Coils",
+            desc: "There are these bizzare components made of coral and sand that have been ripped out of the gate. They're probably important.",
+            researchedMessage: "Meters upon meters of glass coated coral have been installed in order to direct and contain chaos energy. We made too much, so the rest is being used to improve the echo's harnesses!",
+            effectDesc: "We've implemented our extra coral 'wires' in our echo harness design, boosting its effectiveness.",
             cost: {
-                science: 20000000000,
-                wisp: 8000000000,
+                coral: 500000000,
+				sand: 1000000000,
             },
             required: {
-                upgrades: ["gateRepairBiofuel"],
-                seen: ["echo"],
+                upgrades: ["gateStudies"],
+				seen: ["coral"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    echo: 8,
+                },
+            },
+        },
+        recontainChaos: {
+            name: "Recontain Chaos",
+            desc: "The gate no longer produces chaos energy, but there's still an abundance of it in the surrounding current. Maybe we can send the energy back through the gate.",
+            researchedMessage: "The gate hums to life, drawing in the surrounding chaos energy. The storm has begun to dissipate. The frenzy watches on in awe. We did it, we really did it.",
+            effectDesc: "We activated the gate, slowly absorbing any remaining chaos energy. Perhaps now the world can begin to heal.",
+            cost: {
+                science: 2000000000,
+                wisp: 500000000000,
+            },
+            required: {
+                upgrades: ["gateRepairBiofuel", "gateRepairCoralCoils", "gateRepairCrystalFocus"],
+                seen: ["wisp"],
             },
         },
     },

@@ -1287,7 +1287,7 @@ SharkGame.ResourceTable = {
         color: "#716D7A", // change when art's done
         desc: "Endlessly fascinated by rocks.",
         income: {
-            science: 0.02,
+            //science: 0.02,
             crystal: 0.5,
         },
         value: 5000,
@@ -1311,7 +1311,7 @@ SharkGame.ResourceTable = {
         desc: "Travelers along the flow.",
         income: {
             kelp: 1,
-            sand: 1,
+            sand: 0.75,
         },
         jobs: [
             "turtleLocator",
@@ -1327,7 +1327,7 @@ SharkGame.ResourceTable = {
         color: "#82DB48", // change when art's done
         desc: "Taking responsibility.",
         income: {
-            turtle: 0.04,
+            turtle: 0.02,
         },
         value: 8000,
     },

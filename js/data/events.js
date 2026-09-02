@@ -305,6 +305,8 @@ SharkGame.Events = {
             const wisp = res.getResource("wisp");
             const coral = res.getResource("coral");
             const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
             
             const echo = SharkGame.ResourceMap.get("echo");
             
@@ -312,12 +314,18 @@ SharkGame.Events = {
             SharkGame.flags.echoShiftRay = false;
             SharkGame.flags.echoShiftCrab = false;
             
-            echo.baseIncome = { wisp: 10, sand: 0, crystal: 0, coral: 0 };
+			if(SharkGame.flags.enhancedSharkShift){
+				echo.baseIncome = { wisp: 10, sand: 0, crystal: 0, coral: 0, clam: 200, kelp: 0 };
+			} else {
+				echo.baseIncome = { wisp: 10, sand: 0, crystal: 0, coral: 0, clam: 0, kelp: 0 };
+			}
 
             res.reapplyModifiers("echo", "wisp");
             res.reapplyModifiers("echo", "sand");
             res.reapplyModifiers("echo", "crystal");
             res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
 
             return true;
         },
@@ -333,6 +341,8 @@ SharkGame.Events = {
             const wisp = res.getResource("wisp");
             const coral = res.getResource("coral");
             const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
             
             const echo = SharkGame.ResourceMap.get("echo");
 
@@ -340,12 +350,18 @@ SharkGame.Events = {
             SharkGame.flags.echoShiftRay = true;
             SharkGame.flags.echoShiftCrab = false;
             
-            echo.baseIncome = { wisp: 2, sand: 10, crystal: 0, coral: 0.1 };
+			if(SharkGame.flags.enhancedRayShift){
+				echo.baseIncome = { wisp: 2, sand: 100, crystal: 0, coral: 20, clam: 0, kelp: 0 };
+			} else {
+				echo.baseIncome = { wisp: 2, sand: 100, crystal: 0, coral: 0, clam: 0, kelp: 0 };
+			}
 
             res.reapplyModifiers("echo", "wisp");
             res.reapplyModifiers("echo", "sand");
             res.reapplyModifiers("echo", "crystal");
             res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
 
             return true;
         },
@@ -361,6 +377,8 @@ SharkGame.Events = {
             const wisp = res.getResource("wisp");
             const coral = res.getResource("coral");
             const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
             
             const echo = SharkGame.ResourceMap.get("echo");
         
@@ -369,12 +387,117 @@ SharkGame.Events = {
             SharkGame.flags.echoShiftRay = false;
             SharkGame.flags.echoShiftCrab = true;
             
-            echo.baseIncome = { wisp: 0, sand: 0, crystal: 2, coral: 1 };
-
+			if(SharkGame.flags.enhancedCrabShift){
+				echo.baseIncome = { wisp: 0, sand: 0, crystal: 2, coral: 1, clam: 0, kelp: 20 };
+			} else {
+				echo.baseIncome = { wisp: 0, sand: 0, crystal: 2, coral: 1, clam: 0, kelp: 0 };
+			}
+			
             res.reapplyModifiers("echo", "wisp");
             res.reapplyModifiers("echo", "sand");
             res.reapplyModifiers("echo", "crystal");
             res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
+
+            return true;
+        },
+    },
+	chaoticEnhanceSharkShift: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+            const crystal = res.getResource("crystal");
+            const wisp = res.getResource("wisp");
+            const coral = res.getResource("coral");
+            const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+        
+            
+            SharkGame.flags.enhancedSharkShift = true;
+            
+			if(SharkGame.flags.echoShiftShark){
+				echo.baseIncome = { wisp: 10, sand: 0, crystal: 0, coral: 0, clam: 200, kelp: 0 };
+			}
+			
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
+
+            return true;
+        },
+    },
+	chaoticEnhanceRayShift: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+            const crystal = res.getResource("crystal");
+            const wisp = res.getResource("wisp");
+            const coral = res.getResource("coral");
+            const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+        
+            
+            SharkGame.flags.enhancedRayShift = true;
+            
+			if(SharkGame.flags.echoShiftRay){
+				echo.baseIncome = { wisp: 2, sand: 100, crystal: 0, coral: 20, clam: 0, kelp: 0 };
+			}
+			
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
+
+            return true;
+        },
+    },
+	chaoticEnhanceCrabShift: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+            const crystal = res.getResource("crystal");
+            const wisp = res.getResource("wisp");
+            const coral = res.getResource("coral");
+            const sand = res.getResource("sand");
+	        const clam = res.getResource("clam");
+            const kelp = res.getResource("kelp");
+			
+            const echo = SharkGame.ResourceMap.get("echo");
+        
+            
+            SharkGame.flags.enhancedCrabShift = true;
+            
+			if(SharkGame.flags.echoShiftCrab){
+				echo.baseIncome = { wisp: 0, sand: 0, crystal: 2, coral: 1, clam: 0, kelp: 20 }
+			}
+			
+            res.reapplyModifiers("echo", "wisp");
+            res.reapplyModifiers("echo", "sand");
+            res.reapplyModifiers("echo", "crystal");
+            res.reapplyModifiers("echo", "coral");
+            res.reapplyModifiers("echo", "clam");
+            res.reapplyModifiers("echo", "kelp");
 
             return true;
         },
