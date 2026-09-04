@@ -1343,7 +1343,7 @@ SharkGame.Gateway.Messages = {
         ],
         chaotic: [
             "Do you wonder why you remained corporeal?",
-            "Did you recognise any of the echos many faces?",
+            "Did you recognise any of the echos' many faces?",
             "Will you one day surrender to the current, just as the turtles did?",
             "The snails always had the potential, they just needed your support.",
             "You too, are a creature of potential.",

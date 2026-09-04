@@ -1374,6 +1374,7 @@ SharkGame.ResourceTable = {
         desc: "A heavily diluted form of essence.",
         value: 2,
     },
+<<<<<<< HEAD
 
     /*
     wispCumulator: {
@@ -1389,6 +1390,8 @@ SharkGame.ResourceTable = {
         },
         value: 70000,
     }, */
+=======
+>>>>>>> 7946ace (Added changes requested by Toby222)
 };
 
 SharkGame.GeneratorIncomeAffectorsOriginal = {
@@ -1729,7 +1732,10 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
+<<<<<<< HEAD
             // "wispCumulator", Depricated
+=======
+>>>>>>> 7946ace (Added changes requested by Toby222)
             // "coalescer",
             // "crusher",
             // "pulverizer",
