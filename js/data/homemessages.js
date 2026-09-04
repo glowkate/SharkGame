@@ -547,17 +547,17 @@ SharkGame.HomeMessages = {
             },
             {
                 name: "chaotic-turtlehelpless",
-                unlock: { upgrade: ["hyperfixationCommunication",] },
+                unlock: { upgrade: ["hyperfixationCommunication"] },
                 message: "The turtles speak of a visitor who once gave them false hope. They say you're doing the same to the snails.",
             },
             {
                 name: "chaotic-ruins",
-                unlock: { upgrade: ["chaosTriangulation",] },
+                unlock: { upgrade: ["chaosTriangulation"] },
                 message: "Ruined machines lay half-buried in sand, in the distance swirls a massive storm of energy that the turtles say can fade even shelled creatures.",
             },
             {
                 name: "chaotic-turtlehope",
-                unlock: { upgrade: ["resurfacedHope",] },
+                unlock: { upgrade: ["resurfacedHope"] },
                 message: "The snails remind the turtles of how they once were. They want to believe again, to not mindlessly drift towards oblivion.",
             },
             {
@@ -565,19 +565,19 @@ SharkGame.HomeMessages = {
                 unlock: { totalResource: { echo: 1 } },
                 message: "The echos stare at you with many, everchanging faces. The turtles don't see this as the solution they've been looking for.",
             },
-			{
+            {
                 name: "chaotic-needs-repair",
-                unlock: { upgrade: [ "gateStudies", ] },
+                unlock: { upgrade: ["gateStudies"] },
                 message: "Once a transportation device, it was sabotaged and turned into a weapon. If it's to be stopped, several components need to be repaired.",
             },
-			{
+            {
                 name: "chaotic-needs-repair",
-                unlock: { upgrade: [ "gateRepairBiofuel", "gateRepairCrystalFocus", "gateRepairCoralCoils", ] },
+                unlock: { upgrade: ["gateRepairBiofuel", "gateRepairCrystalFocus", "gateRepairCoralCoils"] },
                 message: "Chaos energy no longer spills out from the gate, but it still flows thick through the ocean current. It needs somewhere to go.",
             },
             {
                 name: "chaotic-gate",
-                unlock: { upgrade: ["recontainChaos",] },
+                unlock: { upgrade: ["recontainChaos"] },
                 message: "The gate hums to life, slowly syphoning the lingering chaos energy from the water. A turtle swims up to you, thanking you and the snails for not giving up. You're unsure how to respond.",
             },
         ],

@@ -4576,7 +4576,7 @@ SharkGame.Upgrades = {
             },
         },
 
-        statsDiscovery: { required: { upgrades: ["kelpCuriosity"], } },
+        statsDiscovery: { required: { upgrades: ["kelpCuriosity"] } },
 
         notekeeping: {
             name: "Notekeeping",
@@ -4617,7 +4617,7 @@ SharkGame.Upgrades = {
             cost: {
                 sand: 400,
             },
-            required: { 
+            required: {
                 upgrades: ["currentContact"],
                 seen: ["turtle"],
             },
@@ -4625,7 +4625,7 @@ SharkGame.Upgrades = {
                 incomeMultiplier: {
                     turtle: 2,
                 },
-				addScienceIncome: {
+                addScienceIncome: {
                     snailGeologist: 0.02,
                 },
             },
@@ -5058,7 +5058,7 @@ SharkGame.Upgrades = {
                 seen: ["coral"],
             },
         },
-        /*wispFiltering: {
+        /* wispFiltering: {
             name: "Wisp Filtering",
             desc: "So, wisps are just motes of potential, right? Why do we have to get them from only fish?",
             researchedMessage: "The snails have derived a machine to get wisps by drawing them from the chaos storm!",
@@ -5072,7 +5072,7 @@ SharkGame.Upgrades = {
                 upgrades: ["engineering"],
                 seen: ["coral"],
             },
-        },*/
+        }, */
         coralCategorization: {
             name: "Coral Categorization",
             desc: "Our echos found this 'coral' stuff. We weren't aware of this before. Is it a plant? A weird rock? A snail?",
@@ -5104,20 +5104,20 @@ SharkGame.Upgrades = {
                 upgrades: ["chaosStormGear"],
             },
         },
-		otherworldManifestation: {
+        otherworldManifestation: {
             name: "Otherworld Connection",
             desc: "Echos have been shifting into things that used to exist. Could they also shift into things that don't exist?",
             researchedMessage: "The most the echos have been able to manage are slight variations on their current forms. Still, this may prove useful in the future.",
             effectDesc: "Echos can modify their existing set of forms. This may be of use if further explored.",
             cost: {
                 science: 4000000,
-				wisp: 750000,
+                wisp: 750000,
             },
             required: {
                 upgrades: ["echoShifting", "tuningForks"],
             },
         },
-		lobsterClawedShark: {
+        lobsterClawedShark: {
             name: "Clawed Shark Forms",
             desc: "Harness the imprint of ambitious potential within the surrounding current to improve our echo's shark forms.",
             researchedMessage:
@@ -5126,14 +5126,14 @@ SharkGame.Upgrades = {
                 "While in their shark form, echos now use a pair of claws to collect clams.",
             cost: {
                 wisp: 1000000,
-				clam: 200000000,
+                clam: 200000000,
             },
             required: {
                 upgrades: ["otherworldManifestation"],
             },
             events: ["chaoticEnhanceSharkShift"],
         },
-		dolphinFinnedRay: {
+        dolphinFinnedRay: {
             name: "Finned Ray Forms",
             desc: "Harness the imprint of prideful showboating within the surrounding current to improve our echo's ray forms.",
             researchedMessage:
@@ -5142,14 +5142,14 @@ SharkGame.Upgrades = {
                 "Echos who've shifted into rays collect coral now. They've also developed a massive ego and keep pestering us to look at their coral sculptures.",
             cost: {
                 sand: 2000000,
-				coral: 50000,
+                coral: 50000,
             },
             required: {
                 upgrades: ["otherworldManifestation"],
             },
             events: ["chaoticEnhanceRayShift"],
         },
-		urchinSpikedCrab: {
+        urchinSpikedCrab: {
             name: "Spiked Crab Forms",
             desc: "Harness the imprint of singleminded desire within the surrounding current to improve our echo's crab forms.",
             researchedMessage:
@@ -5158,7 +5158,7 @@ SharkGame.Upgrades = {
                 "Our echo's now collect kelp while in crab form. They also have spikes, but don't seem to use them for anything.",
             cost: {
                 crystal: 50000000,
-				kelp: 20000000,
+                kelp: 20000000,
             },
             required: {
                 upgrades: ["otherworldManifestation"],
@@ -5180,7 +5180,7 @@ SharkGame.Upgrades = {
             effect: {
                 incomeMultiplier: {
                     snailBotanist: 8,
-                    //wispCumulator: 2,
+                    // wispCumulator: 2,
                     crystalMiner: 2,
                     sandDigger: 2,
                     autoTransmuter: 2,
@@ -5213,18 +5213,18 @@ SharkGame.Upgrades = {
                 },
             },
         },
-		gateRepairCoralCoils: {
+        gateRepairCoralCoils: {
             name: "Gate Repair: Coral Coils",
             desc: "There are these bizzare components made of coral and sand that have been ripped out of the gate. They're probably important.",
             researchedMessage: "Meters upon meters of glass coated coral have been installed in order to direct and contain chaos energy. We made too much, so the rest is being used to improve the echo's harnesses!",
             effectDesc: "We've implemented our extra coral 'wires' in our echo harness design, boosting its effectiveness.",
             cost: {
                 coral: 500000000,
-				sand: 1000000000,
+                sand: 1000000000,
             },
             required: {
                 upgrades: ["gateStudies"],
-				seen: ["coral"],
+                seen: ["coral"],
             },
             effect: {
                 incomeMultiplier: {

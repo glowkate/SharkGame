@@ -1375,7 +1375,7 @@ SharkGame.ResourceTable = {
         value: 2,
     },
 
-	/*
+    /*
     wispCumulator: {
         name: "wisp cumulators",
         singleName: "wisp cumulator",
@@ -1388,7 +1388,7 @@ SharkGame.ResourceTable = {
             },
         },
         value: 70000,
-    },*/
+    }, */
 };
 
 SharkGame.GeneratorIncomeAffectorsOriginal = {
@@ -1729,7 +1729,7 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
-            //"wispCumulator", Depricated
+            // "wispCumulator", Depricated
             // "coalescer",
             // "crusher",
             // "pulverizer",
@@ -1753,7 +1753,7 @@ SharkGame.ResourceCategories = {
     hidden: {
         name: "Hidden",
         disposeMessage: ["Bad player! Stop it!"],
-        resources: ["world", "sacrifice", "aspectAffect", "specialResourceOne", "specialResourceTwo", "fakeFish",],
+        resources: ["world", "sacrifice", "aspectAffect", "specialResourceOne", "specialResourceTwo", "fakeFish"],
     },
 };
 

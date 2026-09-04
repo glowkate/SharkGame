@@ -413,7 +413,7 @@ SharkGame.ModifierTypes = {
                     return input;
                 },
             },
-			addScienceIncome: {
+            addScienceIncome: {
                 defaultValue: 0,
                 apply(current, degree, resource) {
                     if (!SharkGame.ResourceMap.get(resource).baseIncome) {

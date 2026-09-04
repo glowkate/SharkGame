@@ -4590,14 +4590,14 @@ SharkGame.HomeActions = {
         },
     },
     chaotic: {
-		
-		debugbutton: {},
-		
+
+        debugbutton: {},
+
         fakeCatchFish: {
             name: "Catch fish",
             effect: {
                 resource: {
-                    get fakeFish(){
+                    get fakeFish() {
                         return 1;
                     },
                 },
@@ -4658,7 +4658,7 @@ SharkGame.HomeActions = {
             helpText: "Fetch a clam. Why do we need clams now? Who knows.",
         },
 
-        pearlConversion: { 
+        pearlConversion: {
             cost: [
                 {
                     resource: "clam",
@@ -4668,9 +4668,9 @@ SharkGame.HomeActions = {
                         return 5;
                     },
                 },
-            ], 
+            ],
         },
-        
+
         catchWisp: {
             name: "Catch wisp",
             effect: {
@@ -4682,7 +4682,7 @@ SharkGame.HomeActions = {
             },
             cost: {},
             prereq: {
-                upgrade: ["sharkoniumBiteGear"]
+                upgrade: ["sharkoniumBiteGear"],
             },
             outcomes: [
                 "Caught what used to be a fish.",
@@ -4725,9 +4725,9 @@ SharkGame.HomeActions = {
                     snail: 1,
                 },
             },
-            cost: [{ resource: "clam", costFunction: "linear", priceIncrease: 5 },],
+            cost: [{ resource: "clam", costFunction: "linear", priceIncrease: 5 }],
             max: "snail",
-            prereq: { upgrade: ["molluskIdentification"], },
+            prereq: { upgrade: ["molluskIdentification"] },
             outcomes: [
                 "A sea snail joins you.",
                 "A bumble bee snail joins you.",
@@ -4774,9 +4774,9 @@ SharkGame.HomeActions = {
                     turtle: 1,
                 },
             },
-            cost: [{ resource: "kelp", costFunction: "linear", priceIncrease: 20 },],
+            cost: [{ resource: "kelp", costFunction: "linear", priceIncrease: 20 }],
             max: "turtle",
-            prereq: { upgrade: ["currentContact"], },
+            prereq: { upgrade: ["currentContact"] },
             outcomes: [
                 "A sea turtle joins you.",
                 "A turtle joins you.",
@@ -4799,8 +4799,8 @@ SharkGame.HomeActions = {
             ],
             helpText: "Convince a turtle to do something other then aimless wandering.",
         },
-        
-        //snail jobs
+
+        // snail jobs
         getSnailBotanist: {
             name: "Encourage snail botanist",
             effect: {
@@ -4813,7 +4813,7 @@ SharkGame.HomeActions = {
                 { resource: "clam", costFunction: "linear", priceIncrease: 15 },
             ],
             max: "snailBotanist",
-            prereq: { upgrade: ["kelpCuriosity"], },
+            prereq: { upgrade: ["kelpCuriosity"] },
             outcomes: [
                 "A snail discovers a new obsession. For kelp.",
                 "Surely kelp can't be THIS interesting, right?",
@@ -4834,7 +4834,7 @@ SharkGame.HomeActions = {
             ],
             helpText: "Encourage a snail to explore their interest in kelp.",
         },
-        
+
         getSnailGeologist: {
             name: "Encourage snail geologist",
             effect: {
@@ -4847,7 +4847,7 @@ SharkGame.HomeActions = {
                 { resource: "sand", costFunction: "linear", priceIncrease: 10 },
             ],
             max: "snailGeologist",
-            prereq: { upgrade: ["seabedGeology"], },
+            prereq: { upgrade: ["seabedGeology"] },
             outcomes: [
                 "A snail eagerly pulls out their rock collection and gets to work.",
                 "This one will be a real rock star, you're sure of it!",
@@ -4876,25 +4876,25 @@ SharkGame.HomeActions = {
                 { resource: "crystal", costFunction: "linear", priceIncrease: 10 },
             ],
             max: "snailMalacologist",
-            prereq: { upgrade: ["biology"], },
+            prereq: { upgrade: ["biology"] },
             outcomes: [
                 "It's like introspection, but scientific!",
-				"A snail begins eagerly chattering about the different shapes of shells.",
-				"A snail comes out of its shell to begin researching what happens inside its shell.",
-				"I suppose this will help us?",
-				"Snail science! About snails!",
+                "A snail begins eagerly chattering about the different shapes of shells.",
+                "A snail comes out of its shell to begin researching what happens inside its shell.",
+                "I suppose this will help us?",
+                "Snail science! About snails!",
             ],
             multiOutcomes: [
                 "Snails studying snails studying snails.",
-				"Just how much is there to learn about snails?",
-				"We're going to have an overabundance of 'Cool Snail Facts' before long.",
-				"What makes a snail, a snail?",
-				"The Snailoboros grows.",
+                "Just how much is there to learn about snails?",
+                "We're going to have an overabundance of 'Cool Snail Facts' before long.",
+                "What makes a snail, a snail?",
+                "The Snailoboros grows.",
             ],
             helpText: "Help a snail find their inner self.",
         },
-        
-        //turtle jobs
+
+        // turtle jobs
         getTurtleLocator: {
             name: "Assign turtle locator",
             effect: {
@@ -4907,21 +4907,21 @@ SharkGame.HomeActions = {
                 { resource: "kelp", costFunction: "linear", priceIncrease: 100 },
             ],
             max: "turtleLocator",
-            prereq: { upgrade: ["turtleBiology"], },
+            prereq: { upgrade: ["turtleBiology"] },
             outcomes: [
                 "About time you cared about your young.",
-				"A turtle is off to find their (hopefully alive) child!",
-				"A turtle is off to be the father they never had!",
-				"A reluctant turtle goes off to face the consequences of their actions.",
-				"A turtle is off to be the mother they never had!",
-				"Dad's finally comming home with the kelp.",
+                "A turtle is off to find their (hopefully alive) child!",
+                "A turtle is off to be the father they never had!",
+                "A reluctant turtle goes off to face the consequences of their actions.",
+                "A turtle is off to be the mother they never had!",
+                "Dad's finally comming home with the kelp.",
             ],
             multiOutcomes: [
-				"Swarms of turtles travel against the current in search of their children.",
-				"A group of turtles ponder over kelp maps, locating the beaches where their eggs were laid.",
-				"Why does this process have to be this complicated anyways?",
-				"The baby turtles found don't seem annoyed about their abandonment. You don't understand why.",
-				"None of them are winning parent of the year, that's for sure.",
+                "Swarms of turtles travel against the current in search of their children.",
+                "A group of turtles ponder over kelp maps, locating the beaches where their eggs were laid.",
+                "Why does this process have to be this complicated anyways?",
+                "The baby turtles found don't seem annoyed about their abandonment. You don't understand why.",
+                "None of them are winning parent of the year, that's for sure.",
             ],
             helpText: "Convince a turtle to care about their children.",
         },
@@ -4938,13 +4938,13 @@ SharkGame.HomeActions = {
                 { resource: "crystal", costFunction: "linear", priceIncrease: 25 },
             ],
             max: "turtleTransporter",
-            prereq: { upgrade: ["hyperfixationCommunication"], },
+            prereq: { upgrade: ["hyperfixationCommunication"] },
             outcomes: [
                 "Route set and ready!",
                 "This should speed things up.",
                 "Turtle equipped and ready to swim.",
                 "I wonder what hyperfixations the snails will blush about to this one.",
-                "A snail is about to experience speeds previously unknown to them."
+                "A snail is about to experience speeds previously unknown to them.",
             ],
             multiOutcomes: [
                 "Ah, the wonders of public transportation!",
@@ -4958,7 +4958,7 @@ SharkGame.HomeActions = {
         getTurtleHarmonizer: {
             name: "Train turtle harmonizer",
             effect: {
-                    resource: {
+                resource: {
                     turtleHarmonizer: 1,
                 },
             },
@@ -4968,25 +4968,24 @@ SharkGame.HomeActions = {
                 { resource: "coral", costFunction: "linear", priceIncrease: 100 },
             ],
             max: "turtleHarmonizer",
-            prereq: { upgrade: ["tuningForks"], },
+            prereq: { upgrade: ["tuningForks"] },
             outcomes: [
                 "Turtle: harmonized.",
-				"Harmonizer ready to harmonize.",
-				"Tunning turtle, now traveling.",
-				"Oh, that one might be tone deaf.",
-				"Trained and ready to sing!",
+                "Harmonizer ready to harmonize.",
+                "Tunning turtle, now traveling.",
+                "Oh, that one might be tone deaf.",
+                "Trained and ready to sing!",
             ],
             multiOutcomes: [
                 "Why did we give them coral helmets again?",
-				"Music courses have been completed.",
-				"The ocean is awash with positive vibrations.",
-				"The sound of humming permeates the ocean.",
-				"The ocean's alive with the sound of music!"
+                "Music courses have been completed.",
+                "The ocean is awash with positive vibrations.",
+                "The sound of humming permeates the ocean.",
+                "The ocean's alive with the sound of music!",
             ],
             helpText: "Train a turtle in the ways of music.",
         },
-        
-        
+
         transmuteSharkonium: {
             outcomes: [
                 "Transmutation destination!",
@@ -5002,14 +5001,14 @@ SharkGame.HomeActions = {
                 "The foundation of a modern sh- uh... snail frenzy!",
             ],
         },
-        
+
         getCrystalMiner: {},
-        
+
         getSandDigger: {},
-        
+
         getAutoTransmuter: {},
-        
-		/*
+
+        /*
         getWispCumulator: {
             name: "Build wisp cumulator",
             effect: {
@@ -5019,7 +5018,7 @@ SharkGame.HomeActions = {
             },
             cost: [
                 { resource: "sharkonium", costFunction: "linear", priceIncrease: 50 },
-                { resource: "sand", costFunction: "linear", 
+                { resource: "sand", costFunction: "linear",
                     get priceIncrease() {
                         return 800 - 400 * SharkGame.Aspects.amorphousAssembly.level;
                     },
@@ -5034,8 +5033,8 @@ SharkGame.HomeActions = {
                 "Placeholders.",
             ],
             helpText: "Build a machine to filter wisps from the chaos storm.",
-        },*/
-        
+        }, */
+
         getEcho: {
             name: "Bind echo",
             effect: {
@@ -5048,7 +5047,7 @@ SharkGame.HomeActions = {
                 { resource: "sharkonium", costFunction: "constant", priceIncrease: 100 },
             ],
             max: "echo",
-            prereq: { upgrade: ["sharkoniumHarnesses"], },
+            prereq: { upgrade: ["sharkoniumHarnesses"] },
             outcomes: [
                 "An echo returns to their senses.",
                 "Bound an echo.",
@@ -5074,7 +5073,7 @@ SharkGame.HomeActions = {
             ],
             helpText: "Build a harness able to somewhat pull faded sealife back to reality.",
         },
-        
+
         echoShiftShark: {
             name: "Shift echos into sharks",
             effect: {
@@ -5087,11 +5086,11 @@ SharkGame.HomeActions = {
             outcomes: ["Echos shifted into sharks."],
             helpText: "Switch echo production to that of sharks.",
             getSpecialTooltip() {
-                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                const text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
                 return sharktext.boldString(text);
             },
         },
-        
+
         echoShiftRay: {
             name: "Shift echos into rays",
             effect: {
@@ -5104,11 +5103,11 @@ SharkGame.HomeActions = {
             outcomes: ["Echos shifted into rays."],
             helpText: "Switch echo production to that of rays.",
             getSpecialTooltip() {
-                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                const text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
                 return sharktext.boldString(text);
             },
         },
-        
+
         echoShiftCrab: {
             name: "Shift echos into crabs",
             effect: {
@@ -5121,7 +5120,7 @@ SharkGame.HomeActions = {
             outcomes: ["Echos shifted into crabs."],
             helpText: "Switch echo production to that of crabs.",
             getSpecialTooltip() {
-                let text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
+                const text = `CURRENT ECHO FORM: ${SharkGame.flags.echoShiftShark ? "SHARK" : SharkGame.flags.echoShiftRay ? "RAY" : "CRAB"}`;
                 return sharktext.boldString(text);
             },
         },
@@ -5256,7 +5255,7 @@ SharkGame.HomeActionCategories = {
             // "getCrusher",
             // "getPulverizer",
             "getHeater",
-            //"getWispCumulator", Depreicated
+            // "getWispCumulator", Depreicated
         ],
     },
 
