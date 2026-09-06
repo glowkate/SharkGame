@@ -1374,24 +1374,6 @@ SharkGame.ResourceTable = {
         desc: "A heavily diluted form of essence.",
         value: 2,
     },
-<<<<<<< HEAD
-
-    /*
-    wispCumulator: {
-        name: "wisp cumulators",
-        singleName: "wisp cumulator",
-        color: "#3EBD6C", // change when art's done
-        desc: "Filters wisps from the ocean currents using sand.",
-        income: {
-            wisp: 50,
-            get sand() {
-                return -500 + 250 * SharkGame.Aspects.mechanicalManifestation.level;
-            },
-        },
-        value: 70000,
-    }, */
-=======
->>>>>>> 7946ace (Added changes requested by Toby222)
 };
 
 SharkGame.GeneratorIncomeAffectorsOriginal = {
@@ -1732,10 +1714,6 @@ SharkGame.ResourceCategories = {
             "clamScavenger",
             "seabedStripper",
             "calciniumConverter",
-<<<<<<< HEAD
-            // "wispCumulator", Depricated
-=======
->>>>>>> 7946ace (Added changes requested by Toby222)
             // "coalescer",
             // "crusher",
             // "pulverizer",

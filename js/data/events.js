@@ -301,13 +301,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.echoShiftShark = true;
@@ -337,13 +330,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.echoShiftShark = false;
@@ -373,13 +359,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.echoShiftShark = false;
@@ -409,13 +388,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.enhancedSharkShift = true;
@@ -441,13 +413,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.enhancedRayShift = true;
@@ -473,13 +438,6 @@ SharkGame.Events = {
             return "remove";
         },
         trigger() {
-            const crystal = res.getResource("crystal");
-            const wisp = res.getResource("wisp");
-            const coral = res.getResource("coral");
-            const sand = res.getResource("sand");
-            const clam = res.getResource("clam");
-            const kelp = res.getResource("kelp");
-
             const echo = SharkGame.ResourceMap.get("echo");
 
             SharkGame.flags.enhancedCrabShift = true;
