@@ -4857,7 +4857,7 @@ SharkGame.HomeActions = {
             ],
             multiOutcomes: [
                 "This type of science rocks.",
-                "They're already conversing with eachother about the different types of sand.",
+                "They're already conversing with each other about the different types of sand.",
                 "Have you heard about all the different kinds of crystals? Would you like to?",
                 "Did you know that sand is just a bunch of really, really small rocks?",
             ],

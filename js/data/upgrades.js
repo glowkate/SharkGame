@@ -2637,7 +2637,7 @@ SharkGame.Upgrades = {
             name: "Calcinium Cybernetics",
             desc: "Robot tools are great and all, but they're pretty dumb on their own. We could do better if we learned to control them.",
             researchedMessage:
-                "A bundle of crumpled blueprints and a few morally dubious experiments later, brains can now interface with calcinium machines. Future!",
+                "A bundle of crumpled blueprints and a few moralely dubious experiments later, brains can now interface with calcinium machines. Future!",
             effectDesc:
                 "Clam scavengers are twice as effective and seabed strippers are four times as effective. Also, we can make calcinium converters??",
             cost: {
@@ -4736,8 +4736,8 @@ SharkGame.Upgrades = {
         },
         sunObservation: {
             name: "Sun Observation",
-            desc: "Our turtles periodiclly disappear near the surface of the water. Why? Is it due to that weird glare?",
-            researchedMessage: "Snail science has discovered the sun! Apparently it has nothing to do with the turtle's disappearences, but our botanists are thrilled!",
+            desc: "Our turtles periodically disappear near the surface of the water. Why? Is it due to that weird glare?",
+            researchedMessage: "Snail science has discovered the sun! Apparently it has nothing to do with the turtle's disappearances, but our botanists are thrilled!",
             effectDesc:
                 "Our methods of gaining kelp are twice as effective. What is a sun? We can see a sun, but where is it really? And what is it made of?",
             cost: {
@@ -4813,7 +4813,7 @@ SharkGame.Upgrades = {
         },
         hyperfixationCommunication: {
             name: "Hyperfixation Communication",
-            desc: "The snails and turtles don't know eachother too well. We should introduce them.",
+            desc: "The snails and turtles don't know each other too well. We should introduce them.",
             researchedMessage: "The turtles seemed to enjoy the (mostly one-sided) conversations with the snails. They're letting snails ride on their backs now, just to hear more.",
             effectDesc: "Turtles can now specialize in snail transportation. This will significantly speed up the snails.",
             cost: {
@@ -4827,8 +4827,8 @@ SharkGame.Upgrades = {
         turtleHistory: {
             name: "Turtle History",
             desc: "So... the turtles have really long lives, have they really just been drifting around all this time?",
-            researchedMessage: "When the fadding began, the turtles did their best to find a solution, but failed. Now they've just accepted things as they are.",
-            effectDesc: "Those tales were sad ones... many people who the turtles cared about were lost to the fadding.",
+            researchedMessage: "When the fading began, the turtles did their best to find a solution, but failed. Now they've just accepted things as they are.",
+            effectDesc: "Those tales were sad ones... many people who the turtles cared about were lost to the fading.",
             cost: {
                 science: 8000,
                 kelp: 70000,
@@ -4861,7 +4861,7 @@ SharkGame.Upgrades = {
             name: "Exploration",
             desc: "Carry the snails beyond the home seas to see what can be found!",
             researchedMessage: "We found large schools of creatures who had faded to the currents. The turtles enjoy having extra space to swim in.",
-            effectDesc: "With more ocean to drift through, the moral of our turtles has increased!",
+            effectDesc: "With more ocean to drift through, the morale of our turtles has increased!",
             cost: {
                 science: 10000,
                 kelp: 50000,
@@ -4885,7 +4885,7 @@ SharkGame.Upgrades = {
         },
         chaosTriangulation: {
             name: "Chaos Triangulation",
-            desc: "Our top snails claim to have a lead regarding the cause of the fadding, they'd like to be taken somewhere.",
+            desc: "Our top snails claim to have a lead regarding the cause of the fading, they'd like to be taken somewhere.",
             researchedMessage: "The place is littered with the dilapidated remains of machines we've never seen before. Apparently the turtles knew of this place the whole time. Some help they were.",
             effectDesc: "Our scientist snails are hard at work studying the ruins. The rest are working hard to support them.",
             cost: {
@@ -4907,8 +4907,8 @@ SharkGame.Upgrades = {
         turtleInterrogation: {
             name: "Turtle Interrogation",
             desc: "Okay, so the turtles knew about these ruins all along? Surely they have to know SOMETHING.",
-            researchedMessage: "The turtles told us that this place holds the source of the fadding. Whatever past they had here, it brings about bad memories.",
-            effectDesc: "There is still much to coax out of the turtles about the fadding, but this will have to do for now.",
+            researchedMessage: "The turtles told us that this place holds the source of the fading. Whatever past they had here, it brings about bad memories.",
+            effectDesc: "There is still much to coax out of the turtles about the fading, but this will have to do for now.",
             cost: {
                 science: 170000,
                 kelp: 200000,
@@ -4943,7 +4943,7 @@ SharkGame.Upgrades = {
             name: "Resurfaced Hope",
             desc: "The turtles may try to be emotionaly detached from those around them, but we can see the small glimmer of hope within them.",
             researchedMessage: "The turtles admitted that they wanted to hope again. More and more turtles join the snail's search for a solution.",
-            effectDesc: "With our turtles actually invested in our succsess, their efficiency has skyrocketed.",
+            effectDesc: "With our turtles actually invested in our success, their efficiency has skyrocketed.",
             cost: {
                 science: 100000,
                 kelp: 200000,
@@ -4979,7 +4979,7 @@ SharkGame.Upgrades = {
             researchedMessage:
                 "Countless turtles threw their lives to the fading just for a chance at hope... we can't let their sacrifice go to waste.",
             effectDesc:
-                "Thousands of turtles succummed to the fading, but we've reached the core of the storm.",
+                "Thousands of turtles succumbed to the fading, but we've reached the core of the storm.",
             cost: {
                 science: 400000,
                 sharkonium: 40000,
@@ -4991,9 +4991,9 @@ SharkGame.Upgrades = {
         },
         sharkoniumHarnesses: {
             name: "Sharkonium Harnesses",
-            desc: "Now that we can make gear to resist the fadding, could we use said gear to help the fadded sealife?",
+            desc: "Now that we can make gear to resist the fading, could we use said gear to help the fadded sealife?",
             researchedMessage:
-                "We've... somewhat succeeded? Whatever we've pulled out of the fadding isn't a singular person anymore. They're afraid. I'm afraid too.",
+                "We've... somewhat succeeded? Whatever we've pulled out of the fading isn't a singular person anymore. They're afraid. I'm afraid too.",
             effectDesc:
                 "We can bring the fadded creatures back to reality, but...",
             cost: {
@@ -5077,7 +5077,7 @@ SharkGame.Upgrades = {
             name: "Coral Categorization",
             desc: "Our echos found this 'coral' stuff. We weren't aware of this before. Is it a plant? A weird rock? A snail?",
             researchedMessage: "Our botanists insist that coral aren't plants. Our geologists insist that coral aren't rocks. The malacologists refuse to comment about coral's snail-ness.",
-            effectDesc: "Well, we know more about coral, mainly that they're a bunch of really small animals. Their exoskeleton seemed to somewhat resist the fadding. Somewhat.",
+            effectDesc: "Well, we know more about coral, mainly that they're a bunch of really small animals. Their exoskeleton seemed to somewhat resist the fading. Somewhat.",
             cost: {
                 science: 1000000,
                 coral: 1000,
@@ -5095,7 +5095,7 @@ SharkGame.Upgrades = {
         gateStudies: {
             name: "Gate Studies",
             desc: "So, we got to the center of the storm. What exactly IS this thing we found?",
-            researchedMessage: "We have reason to believe that this structure was originaly created for transportation. According to the turtles, a conflict from ages past preluded the fadding.",
+            researchedMessage: "We have reason to believe that this structure was originaly created for transportation. According to the turtles, a conflict from ages past preluded the fading.",
             effectDesc: "While made for transportation, this device appears to have been turned into a weapon long ago.",
             cost: {
                 science: 10000000,
