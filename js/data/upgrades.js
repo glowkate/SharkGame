@@ -4778,7 +4778,7 @@ SharkGame.Upgrades = {
             effectDesc: "The science of snails now results in more snails. Hurrah!",
             cost: {
                 science: 2500,
-                clam: 500,
+                clam: 10000,
             },
             required: {
                 upgrades: ["biology"],

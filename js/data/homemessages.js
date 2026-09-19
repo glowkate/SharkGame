@@ -543,7 +543,7 @@ SharkGame.HomeMessages = {
             {
                 name: "chaotic-turtle",
                 unlock: { totalResource: { turtle: 1 } },
-                message: "The turtles drift wherever the current takes them. They seem surprised to see a shelless creature who hasn’t 'faded'. Their words, not ours.",
+                message: "The turtles drift wherever the current takes them. They seem surprised to see a shell-less creature who hasn’t 'faded'. Their words, not ours.",
             },
             {
                 name: "chaotic-turtlehelpless",
@@ -571,14 +571,14 @@ SharkGame.HomeMessages = {
                 message: "Once a transportation device, it was sabotaged and turned into a weapon. If it's to be stopped, several components need to be repaired.",
             },
             {
-                name: "chaotic-needs-repair",
+                name: "chaotic-repaired",
                 unlock: { upgrade: ["gateRepairBiofuel", "gateRepairCrystalFocus", "gateRepairCoralCoils"] },
                 message: "Chaos energy no longer spills out from the gate, but it still flows thick through the ocean current. It needs somewhere to go.",
             },
             {
                 name: "chaotic-gate",
                 unlock: { upgrade: ["recontainChaos"] },
-                message: "The gate hums to life, slowly syphoning the lingering chaos energy from the water. A turtle swims up to you, thanking you and the snails for not giving up. You're unsure how to respond.",
+                message: "The gate hums to life, slowly siphoning the lingering chaos energy from the water. A turtle swims up to you, thanking you and the snails for not giving up. You're unsure how to respond.",
             },
         ],
         /*
