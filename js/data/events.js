@@ -294,6 +294,16 @@ SharkGame.Events = {
             }
         },
     },
+    chaoticClamsGotten: {
+        handlingTime: "beforeTick",
+        priority: 0,
+        getAction() {
+            return "remove";
+        },
+        trigger() {
+            SharkGame.flags.chaoticGotClam = true;
+        },
+    },
     chaoticEchoShiftShark: {
         handlingTime: "beforeTick",
         priority: 0,

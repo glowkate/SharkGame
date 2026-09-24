@@ -4603,7 +4603,9 @@ SharkGame.HomeActions = {
                 },
             },
             removedBy: {
-                otherActions: ["getClam"],
+                custom() {
+                    return SharkGame.flags.chaoticGotClam;
+                },
             },
             cost: {},
             prereq: {},
@@ -4621,6 +4623,7 @@ SharkGame.HomeActions = {
         getClam: {
             name: "Get clam",
             effect: {
+                events: ["chaoticClamsGotten"],
                 resource: {
                     get clam() {
                         return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
@@ -5007,33 +5010,6 @@ SharkGame.HomeActions = {
         getSandDigger: {},
 
         getAutoTransmuter: {},
-
-        /*
-        getWispCumulator: {
-            name: "Build wisp cumulator",
-            effect: {
-                resource: {
-                    wispCumulator: 1,
-                },
-            },
-            cost: [
-                { resource: "sharkonium", costFunction: "linear", priceIncrease: 50 },
-                { resource: "sand", costFunction: "linear",
-                    get priceIncrease() {
-                        return 800 - 400 * SharkGame.Aspects.amorphousAssembly.level;
-                    },
-                },
-            ],
-            max: "wispCumulator",
-            prereq: { upgrade: ["wispFiltering"], },
-            outcomes: [
-                "Placeholder.",
-            ],
-            multiOutcomes: [
-                "Placeholders.",
-            ],
-            helpText: "Build a machine to filter wisps from the chaos storm.",
-        }, */
 
         getEcho: {
             name: "Bind echo",

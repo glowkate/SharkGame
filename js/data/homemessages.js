@@ -527,7 +527,11 @@ SharkGame.HomeMessages = {
             },
             {
                 name: "chaotic-findclam",
-                unlock: { totalResource: { fakeFish: 3 } },
+                unlock: {
+                    custom() {
+                        return SharkGame.flags.chaoticGotClam;
+                    },
+                },
                 message: "You spot some weird rock things moving in the distance. If you can’t catch any fish, maybe you can at least catch… those.",
             },
             {
