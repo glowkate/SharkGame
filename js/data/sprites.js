@@ -77,14 +77,6 @@ SharkGame.Sprites = {
             y: 0,
             w: 50,
             h: 50,
-            "actions/fakeCatchFish": {
-                frame: {
-                    x: 300,
-                    y: 0,
-                    w: 50,
-                    h: 50,
-                },
-            },
         },
     },
     "actions/catchFish": {
@@ -2011,14 +2003,6 @@ SharkGame.Sprites = {
         frame: {
             x: 550,
             y: 100,
-            w: 50,
-            h: 50,
-        },
-    },
-    "actions/fakeCatchFish": {
-        frame: {
-            x: 300,
-            y: 50,
             w: 50,
             h: 50,
         },

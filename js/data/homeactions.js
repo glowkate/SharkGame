@@ -4593,7 +4593,7 @@ SharkGame.HomeActions = {
 
         debugbutton: {},
 
-        fakeCatchFish: {
+        catchFish: {
             name: "Catch fish",
             effect: {
                 resource: {
