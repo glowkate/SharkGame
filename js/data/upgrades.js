@@ -4612,7 +4612,7 @@ SharkGame.Upgrades = {
         seabedGeology: {
             name: "Seabed Geology",
             desc: "Some snails stand in awe as the turtles kick up things from the seabed. Maybe we could encourage those snails like we did with the botanists?",
-            reserchedMessage: "Turns out that some snails are, like, REALLY into rocks. They were even able to find some shiny rocks. Good for them.",
+            researchedMessage: "Turns out that some snails are, like, REALLY into rocks. They were even able to find some shiny rocks. Good for them.",
             effectDesc: "Our new understanding of the seabed helps our turtle friends kick up more stuff. Also, some snails have expressed interest in geology.",
             cost: {
                 sand: 400,
@@ -5011,7 +5011,7 @@ SharkGame.Upgrades = {
             name: "Echo Shifting",
             desc: "The echos shift between several different forms, but behave like sharks. Are those other forms just for show?",
             researchedMessage:
-                "So, those who we've 'rescued' have always had the ability to change forms at will. They just acted like sharks since I was a shark. Plus, we hadn't asked.",
+                "So, those who we've 'rescued' have always had the ability to change forms at will. They just acted like sharks since you were a shark. Plus, we hadn't asked.",
             effectDesc:
                 "Our echos can change forms to produce different resources! This is bound to help!",
             cost: {
