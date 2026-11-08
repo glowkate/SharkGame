@@ -373,6 +373,30 @@ SharkGame.Aspects = {
             tree.handleClickedAspect(this);
         },
     },
+    establishedInfastructure: {
+        posX: 720,
+        posY: 570,
+        width: 40,
+        height: 40,
+
+        max: 10,
+        level: 0,
+        name: "Established Infastructure",
+        description: "With unity comes reduced redundancy. So said the octopuses.",
+        getCost(level) {
+            return 8 + 4 * level;
+        },
+        getEffect(level) {
+            return "Machines making artificial materials produce <strong>" + level / 10 + "%</strong> additional materials per machine.";
+        },
+        getUnlocked() {
+            return gateway.completedWorlds.includes("marine") ? "" : "Complete the Marine worldtype to unlock this aspect.";
+        },
+        prerequisites: ["mechanicalManifestation"],
+        clicked(_event) {
+            tree.handleClickedAspect(this);
+        },
+    },
     thePlan: {
         posX: 550,
         posY: 375,

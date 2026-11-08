@@ -419,7 +419,13 @@ SharkGame.ResourceTable = {
             get sand() {
                 return -250 + 125 * SharkGame.Aspects.mechanicalManifestation.level;
             },
-            sharkonium: 20,
+            get sharkonium() {
+                if (SharkGame.Aspects.establishedInfastructure.level) {
+                    const transmuterAmount = res.getResource("autoTransmuter");
+                    return (20 + 20 * 0.001 * SharkGame.Aspects.establishedInfastructure.level * transmuterAmount);
+                }
+                return 20;
+            },
         },
         value: 155000, // 100 crystal 200 sharkonium (15500)
     },
@@ -529,7 +535,13 @@ SharkGame.ResourceTable = {
             get clam() {
                 return -1200 + 600 * SharkGame.Aspects.mechanicalManifestation.level;
             },
-            calcinium: 120,
+            get calcinium() {
+                if (SharkGame.Aspects.establishedInfastructure.level) {
+                    const transmuterAmount = res.getResource("calciniumConverter");
+                    return (120 + 120 * 0.001 * SharkGame.Aspects.establishedInfastructure.level * transmuterAmount);
+                }
+                return 120;
+            },
         },
         value: 1500,
     },
@@ -810,12 +822,18 @@ SharkGame.ResourceTable = {
         desc: "Restless machines.",
         color: "#9AEBCF",
         income: {
-            delphinium: 15,
             get coral() {
                 return -150 + 75 * SharkGame.Aspects.mechanicalManifestation.level;
             },
             get crystal() {
                 return -50 + 25 * SharkGame.Aspects.mechanicalManifestation.level;
+            },
+            get delphinium() {
+                if (SharkGame.Aspects.establishedInfastructure.level) {
+                    const transmuterAmount = res.getResource("tirelessCrafter");
+                    return (15 + 15 * 0.001 * SharkGame.Aspects.establishedInfastructure.level * transmuterAmount);
+                }
+                return 15;
             },
         },
         value: 50000,
@@ -980,12 +998,18 @@ SharkGame.ResourceTable = {
         desc: "Directive: biological enhancement.",
         color: "#76614C",
         income: {
-            spronge: 45,
             get sponge() {
                 return -75 + 32.5 * SharkGame.Aspects.mechanicalManifestation.level;
             },
             get junk() {
                 return -225 + 112.5 * SharkGame.Aspects.mechanicalManifestation.level;
+            },
+			get spronge() {
+                if (SharkGame.Aspects.establishedInfastructure.level) {
+                    const transmuterAmount = res.getResource("sprongeSmelter");
+                    return (45 + 45 * 0.001 * SharkGame.Aspects.establishedInfastructure.level * transmuterAmount);
+                }
+                return 45;
             },
             tar: 0.04,
         },

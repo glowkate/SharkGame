@@ -554,6 +554,18 @@ SharkGame.Events = {
             } else {
                 res.reapplyModifiers("aspectAffect", "crystal");
             }
+            if (res.getResource("autoTransmuter") > 0) {
+                res.reapplyModifiers("autoTransmuter", "sharkonium");
+            }
+            if (res.getResource("calciniumConverter") > 0) {
+                res.reapplyModifiers("calciniumConverter", "calcinium");
+            }
+            if (res.getResource("tirelessCrafter") > 0) {
+                res.reapplyModifiers("tirelessCrafter", "delphinium");
+            }
+            if (res.getResource("sprongeSmelter") > 0) {
+                res.reapplyModifiers("sprongeSmelter", "spronge");
+            }
             return true;
         },
     },
