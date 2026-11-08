@@ -1004,7 +1004,7 @@ SharkGame.ResourceTable = {
             get junk() {
                 return -225 + 112.5 * SharkGame.Aspects.mechanicalManifestation.level;
             },
-			get spronge() {
+            get spronge() {
                 if (SharkGame.Aspects.establishedInfastructure.level) {
                     const transmuterAmount = res.getResource("sprongeSmelter");
                     return (45 + 45 * 0.001 * SharkGame.Aspects.establishedInfastructure.level * transmuterAmount);
