@@ -3079,7 +3079,7 @@ SharkGame.HomeActions = {
             },
             cost: [
                 { resource: "crab", costFunction: "constant", priceIncrease: 1 },
-                { resource: "seagrass", costFunction: "linear", priceIncrease: 8 },
+                { resource: "driftwood", costFunction: "linear", priceIncrease: 2 },
                 // { resource: "coral", costFunction: "linear", priceIncrease: 4 },
             ],
             max: "stabilizer",
@@ -3087,7 +3087,7 @@ SharkGame.HomeActions = {
                 resource: {
                     crab: 1,
                     // coral: 4,
-                    seagrass: 2,
+                    driftwood: 5,
                 },
                 upgrade: ["agriculture"],
             },
@@ -3103,7 +3103,7 @@ SharkGame.HomeActions = {
                 "Area One's status: on the job!",
                 "Be brave, crabs, and be proud!",
             ],
-            helpText: "Provide a crab with seagrass to plant.",
+            helpText: "Craft tools for a crab to plant seagrass with.",
         },
         getBrood: {
             name: "Form crab brood",
@@ -3485,12 +3485,12 @@ SharkGame.HomeActions = {
                 },
             },
             cost: [
-                { resource: "seagrass", costFunction: "constant", priceIncrease: 25 },
-                { resource: "sand", costFunction: "linear", priceIncrease: 50 },
+                { resource: "seagrass", costFunction: "constant", priceIncrease: 10 },
+                { resource: "sand", costFunction: "linear", priceIncrease: 25 },
             ],
             max: "seagrassFarm",
             prereq: {
-                upgrade: ["agriculture"],
+                upgrade: ["strategicStabilization"],
             },
             outcomes: [
                 "Seagrass farm constructed, seagrass barn raised.",

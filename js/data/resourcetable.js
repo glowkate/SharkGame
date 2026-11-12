@@ -314,6 +314,19 @@ SharkGame.ResourceTable = {
         singleName: "seagrass",
         desc: "Little plants.", // set this
         color: "#5AC766", // set this
+		income: {
+            get roughSand(){
+				if (world.worldType == "shore"){
+					return -0.01;
+				}
+				return 0;
+			},
+			get sand(){
+				if (world.worldType == "shore"){
+					return 0.01;
+				}
+			},
+        },
         value: 10, // set this
     },
 
@@ -902,8 +915,8 @@ SharkGame.ResourceTable = {
         desc: "Supporting a loosely-strung world.",
         income: {
             // coral: 0.5,
-            seagrass: 0.5,
-            sand: 0.00005,
+            seagrass: 0.2,
+            sand: 0.05,
         },
         value: 4000,
     },
@@ -914,7 +927,8 @@ SharkGame.ResourceTable = {
         color: "#4E3900",
         desc: "The liberated prey.",
         income: {
-            driftwood: 0.01,
+            driftwood: 0.2,
+			roughSand: 0.1
         },
         jobs: ["burrow", "mentor"],
         value: 1000,
@@ -1119,16 +1133,15 @@ SharkGame.ResourceTable = {
             shark: -0.001,
             // ray: -0.001,
             crab: -0.001,
-            mudskipper: -0.001,
-            nurse: -0.001,
-            scientist: -0.001,
-            maker: -0.001,
-            laser: -0.001,
-            brood: -0.001,
+            mudskipper: -0.002,
+            nurse: -0.0001,
+            scientist: -0.0001,
+            maker: -0.0001,
+            laser: -0.0001,
+            brood: -0.0001,
             stabilizer: -0.001,
-            burrow: -0.001,
+            burrow: -0.0002,
             mentor: -0.001,
-            seagrassFarm: -0.0001,
             fishMachine: -0.001,
             crystalMiner: -0.001,
             autoTransmuter: -0.001,

@@ -383,8 +383,8 @@ SharkGame.ModifierTypes = {
                     return input;
                 },
             },
-            addSnailIncome: {                
-				defaultValue: 0,
+            addSnailIncome: {
+                defaultValue: 0,
                 apply(current, degree, resource) {
                     if (!SharkGame.ResourceMap.get(resource).baseIncome) {
                         SharkGame.ResourceMap.get(resource).baseIncome = {};
@@ -399,7 +399,7 @@ SharkGame.ModifierTypes = {
                 },
                 effectDescription(degree, resource, background) {
                     return `Add ${degree} ${sharktext.getResourceName("snail", false, false, background)}/s to ${sharktext.getResourceName(
-				        resource,
+                        resource,
                         false,
                         69,
                         background,
@@ -443,8 +443,6 @@ SharkGame.ModifierTypes = {
                     return input;
                 },
             },
-        },
-    },
             addIntelIncome: {
                 defaultValue: 0,
                 apply(current, degree, resource) {
